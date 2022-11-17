@@ -1,317 +1,329 @@
 # Player
 
+A player is a [Pawn](CAPI_Pawn.md).
+
+Most of these functions require the playerID as the first parameter.
+You can retrieve it using `GetLocalPlayerId()`
+.
+
+---
+
 ## Functions
-
-### `AttachToGrappleAnchor(...)`
-
-### `GetCurrentRegion(...)`
-
-### `TakeCameraPicture(...)`
-
-### `GetBeautifierFirstMaxAngleLimits(...)`
-
-### `SetHighAltitude(...)`
-
-### `AirStrikeActivate(...)`
-
-### `SetPlayerTriggerRumble(...)`
-
-### `SetPlayerFOV(...)`
-
-### `GetWorldSpeed(...)`
-
-### `UpdatePlayerInCaptureState(...)`
-
-### `WithdrawPlayerMoney(...)`
-
-### `SetEnableVehicleRadios(...)`
-
-### `VisionModeStartDrunk(...)`
-
-### `EnableAnimalLooting(...)`
-
-### `LockPlayerActionMap(...)`
-
-### `SetSprinting(...)`
-
-### `StopPlayAnim(...)`
-
-### `SetWorldSpeed(...)`
-
-### `PushPlayerActionMap(...)`
-
-### `GetCurrentCyclesNumber(...)`
-
-### `SetFlashlightEnableOnJIP(...)`
-
-### `GetPlayerMedPackCount(...)`
-
-### `StartPlayAnim(...)`
-
-### `HuntingVisionStop(...)`
-
-### `SetSwimLookPitchLimits(...)`
-
-### `SetPositionOnLadder(...)`
-
-### `TeleportPlayerOnLadder(...)`
-
-### `VisionModeStartBliss(...)`
-
-### `SetAbilityUpgradable(...)`
-
-### `IsRadioTowerSequenceActive(...)`
-
-### `SetHudReticleAlpha(...)`
-
-### `SetWaterDivingEnable(...)`
-
-### `SetInExoticMinigame(...)`
-
-### `GivePlayerXP(...)`
-
-### `GivePlayerReward(...)`
-
-### `SwitchCamera(...)`
-
-### `ApplyDisplacement(...)`
-
-### `RemoveAllSpawnedGadgets(...)`
-
-### `SetCanSprint(...)`
-
-### `IsUsingLadder(...)`
-
-### `StopPostFX(...)`
-
-### `GiveAmmoToPlayer(...)`
-
-### `ForceSetPlayerInRidingEntity(...)`
-
-### `SetOxygenLevel(...)`
-
-### `GetQuickLaunchPlayerIdRef(...)`
-
-### `GetMovementSensitivity(...)`
-
-### `VisionModeStartScopolamineLow(...)`
-
-### `GetPlayerAmmoIsEmpty(...)`
-
-### `SetPlayerLookAnglesFromAngles(...)`
-
-### `GetCurrentInventoryKey(...)`
-
-### `SetPlayerAimAnglesFromAngles(...)`
-
-### `SetQuickLaunchPlayerIdRef(...)`
-
-### `AirStrikeEnableCharge(...)`
-
-### `SetFlashlightEnable(...)`
-
-### `ApplySlidingSpeed(...)`
-
-### `GiveAmmoClipsToPlayer(...)`
-
-### `PopPlayerActionMap(...)`
-
-### `ModifyModelTypeOfLocalPlayer(...)`
-
-### `SetLandingDamageEnabled(player, bool enabled)`
-
-### `UpdateDeviceToTrack(...)`
-
-### `ResetHudReticleAlpha(...)`
-
-### `ForceSetPlayerInVehicle(...)`
-
-### `SetCanCatchOnFire(...)`
-
-### `SetIgnorePlayerSignal(...)`
-
-### `ForceSetPlayerInCapture(...)`
-
-### `SetLockRadios(...)`
-
-### `FillAmmoForAmmoType(...)`
-
-### `UpdateMovement(...)`
-
-### `RemovePlayerActionMap(...)`
-
-### `CameraShakeAndGamePadRumble(...)`
-
-### `DetachPlayer(...)`
-
-### `LockInputPriority(...)`
-
-### `GetFlashlightArchetype(...)`
-
-### `StartPostFX(...)`
-
-### `SetPostFXIntensity(...)`
-
-### `ClearAllWeaponAttachments(...)`
-
-### `SetCurrentSPActivity(...)`
-
-### `SetPlayerMoney(player, number ammount)`
-
-### `AdjustCameraZoomNow(...)`
-
-### `SetIronSight(...)`
-
-### `CompleteRaceGame(...)`
-
-### `AddPlayerMoney(...)`
-
-### `VisionModeStartScopolamineMedium(...)`
-
-### `IsTrialPlayer(...)`
-
-### `ResetInputs(...)`
-
-### `UnsetCurrentSPActivity(...)`
-
-### `LockInputPriorityByStringID(...)`
-
-### `GetCurrentRegionFaction(...)`
-
-### `ReleaseInputPriorityByStringID(...)`
-
-### `FishingForceBite(...)`
-
-### `SetPlayerLookAngles(...)`
-
-### `SetFlashlightArchetype(...)`
-
-### `UnlockPlayerActionMap(...)`
-
-### `GetPlayerLookAngles(...)`
-
-### `AddReinforcementTokens(...)`
-
-### `GetPlayerMoney(...)`
-
-### `AttachPlayer(...)`
-
-### `FishingForceLineBreak(...)`
-
-### `SetPlayerActionMap(...)`
-
-### `IsSignalPressed(...)`
-
-### `SetPlayerAimAngles(...)`
-
-### `BlendAndRestoreFOV(...)`
-
-### `VerifyInputPriorityByStringID(...)`
-
-### `HuntingVisionStart(...)`
-
-### `SetEffectiveCameraPositionOffset(...)`
-
-### `AdjustBinocularZoomNow(...)`
-
-### `ChangeGrappleArchetype(...)`
-
-### `SetRadioTrackOnPlayerVehicle(...)`
-
-### `EnablePlantLooting(...)`
-
-### `DrawGadget(...)`
-
-### `RemoveDeviceToTrack(...)`
-
-### `SwitchPlayerPawn(...)`
-
-### `IsInAir(...)`
 
 ### `AddArmor(...)`
 
-### `VisionModeStartSuppression(...)`
+### `AddBoolFact(...)`
+
+### `AddPlayerMoney(...)`
+
+### `AddReinforcementTokens(...)`
 
 ### `AddWeaponAttachment(...)`
 
-### `SafeHouseAlarmDisabledFeedback(...)`
+### `AdjustBinocularZoomNow(...)`
 
-### `SelectThrowGadget(...)`
+### `AdjustCameraZoomNow(...)`
+
+### `AirStrikeActivate(...)`
+
+### `AirStrikeAddTokens(...)`
+
+### `AirStrikeEnableCharge(...)`
+
+### `ApplyDisplacement(...)`
+
+### `ApplySlidingSpeed(...)`
+
+### `AttachPlayer(...)`
+
+### `AttachToGrappleAnchor(...)`
+
+### `BlendAndRestoreFOV(...)`
+
+### `CameraShakeAndGamePadRumble(...)`
+
+### `ChangeGrappleArchetype(...)`
+
+### `ClearAllWeaponAttachments(...)`
+
+### `CompleteRaceGame(...)`
 
 ### `DeleteInventory(...)`
 
-### `SetMovementSensitivity(...)`
-
-### `GetBeautifierFirstMinAngleLimits(...)`
-
-### `UpdateRaceGameTimer(...)`
-
-### `SetPropagandaEnabled(...)`
-
-### `ReleaseInputPriority(...)`
-
-### `SetPlayerPadRumble(...)`
-
-### `IsBeautifierFirstYawLimited(...)`
-
-### `ForceSetPlayerInCapturedOnChair(...)`
+### `DetachPlayer(...)`
 
 ### `DrawArrow(...)`
 
-### `VerifyInputPriority(...)`
+### `DrawGadget(...)`
+
+### `DropHealingInteractionPriority(...)`
+
+### `EnableAnimalLooting(...)`
+
+### `EnablePlantLooting(...)`
+
+### `FillAmmoForAmmoType(...)`
+
+### `FinishAnimationCycle(...)`
+
+### `FishingForceBite(...)`
+
+### `FishingForceLineBreak(...)`
+
+### `ForceSetPlayerInCapture(...)`
+
+### `ForceSetPlayerInCapturedOnChair(...)`
+
+### `ForceSetPlayerInCaptureState(...)`
 
 ### `ForceSetPlayerInGround(...)`
+
+### `ForceSetPlayerInRidingEntity(...)`
+
+### `ForceSetPlayerInVehicle(...)`
+
+### `GetBeautifierFirstMaxAngleLimits(...)`
+
+### `GetBeautifierFirstMinAngleLimits(...)`
+
+### `GetCurrentCyclesNumber(...)`
+
+### `GetCurrentInventoryKey(...)`
+
+### `GetCurrentRegion(...)`
+
+### `GetCurrentRegionFaction(...)`
+
+### `GetDesiredPlayerLookAngles(...)`
+
+### `GetFlashlightArchetype(...)`
+
+### `GetHighestPriorityInteraction(...)`
+
+### `GetMovementSensitivity(...)`
+
+### `GetPlayerAmmoIsEmpty(...)`
+
+### `GetPlayerFOV(...)`
+
+### `GetPlayerLookAngles(...)`
+
+### `GetPlayerMedPackCount(...)`
+
+### `GetPlayerMoney(...)`
+
+### `GetPlayerNearFOV(...)`
+
+### `GetQuickLaunchPlayerIdRef(...)`
+
+### `GetWorldSpeed(...)`
+
+### `GiveAmmoClipsToPlayer(...)`
+
+### `GiveAmmoToPlayer(...)`
+
+### `GivePlayerOutpostXPBonus(...)`
+
+### `GivePlayerReward(...)`
+
+### `GivePlayerXP(...)`
+
+### `HuntingVisionStart(...)`
+
+### `HuntingVisionStop(...)`
+
+### `IsBeautifierFirstYawLimited(...)`
+
+### `IsInAir(...)`
 
 ### `IsPlayerInGodMode()`
 
 Returns true if the player is in god mode.
 
-### `GetHighestPriorityInteraction(...)`
+### `IsRadioTowerSequenceActive(...)`
 
-### `FinishAnimationCycle(...)`
+### `IsSignalPressed(...)`
 
-### `DropHealingInteractionPriority(...)`
+### `IsTrialPlayer(...)`
 
-### `SwitchInventory(...)`
+### `IsUsingLadder(...)`
 
-### `UpdatePlayerInCapture(...)`
+### `LockInputPriority(...)`
 
-### `VisionModeStop(...)`
+### `LockInputPriorityByStringID(...)`
 
-### `GetPlayerNearFOV(...)`
+### `LockPlayerActionMap(...)`
 
-### `GetDesiredPlayerLookAngles(...)`
+### `ModifyModelTypeOfLocalPlayer(...)`
 
-### `SetStalkMode(...)`
+### `PopPlayerActionMap(...)`
 
-### `SetExtremeZoomCamera(...)`
+### `PushPlayerActionMap(...)`
 
-### `GivePlayerOutpostXPBonus(...)`
+### `ReleaseInputPriority(...)`
 
-### `AirStrikeAddTokens(...)`
+### `ReleaseInputPriorityByStringID(...)`
 
-### `SetCloseUpCamera(...)`
+### `RemoveAllSpawnedGadgets(...)`
 
-### `SetJumping(...)`
+### `RemoveDeviceToTrack(...)`
 
-### `GetPlayerFOV(...)`
+### `RemovePlayerActionMap(...)`
 
-### `VisionModeStartCustomIntoxication(...)`
+### `ResetHudReticleAlpha(...)`
 
-### `SetCanGainXP(...)`
-
-### `VisionModeStartScopolamineHeavy(...)`
-
-### `SetPlayerNearFOV(...)`
-
-### `ForceSetPlayerInCaptureState(...)`
+### `ResetInputs(...)`
 
 ### `RestoreDefaultGrappleArchetype(...)`
 
+### `SafeHouseAlarmDisabledFeedback(...)`
+
+### `SelectThrowGadget(...)`
+
+### `SetAbilityUpgradable(...)`
+
 ### `SetAlwaysSliding(...)`
 
-### `VisionModeStartHigh(...)`
+### `SetCanCatchOnFire(...)`
+
+### `SetCanGainXP(...)`
+
+### `SetCanSprint(...)`
+
+### `SetCloseUpCamera(...)`
+
+### `SetCurrentSPActivity(...)`
 
 ### `SetDivingPostFXAllowed(...)`
 
-### `AddBoolFact(...)`
+### `SetEffectiveCameraPositionOffset(...)`
+
+### `SetEnableVehicleRadios(...)`
+
+### `SetExtremeZoomCamera(...)`
+
+### `SetFlashlightArchetype(...)`
+
+### `SetFlashlightEnable(...)`
+
+### `SetFlashlightEnableOnJIP(...)`
+
+### `SetHighAltitude(...)`
+
+### `SetHudReticleAlpha(...)`
+
+### `SetIgnorePlayerSignal(...)`
+
+### `SetInExoticMinigame(...)`
+
+### `SetIronSight(...)`
+
+### `SetJumping(...)`
+
+### `SetLandingDamageEnabled(player, bool enabled)`
+
+### `SetLockRadios(...)`
+
+### `SetMovementSensitivity(playerID, sensitivity)`
+
+Sets the player's movement sensitivity.
+
+### `SetOxygenLevel(...)`
+
+### `SetPlayerActionMap(...)`
+
+### `SetPlayerAimAngles(...)`
+
+### `SetPlayerAimAnglesFromAngles(...)`
+
+### `SetPlayerFOV(...)`
+
+### `SetPlayerLookAngles(...)`
+
+### `SetPlayerLookAnglesFromAngles(...)`
+
+### `SetPlayerMoney(playerID, ammount)`
+
+Sets the player's money to the specified amount.
+
+### `SetPlayerNearFOV(...)`
+
+### `SetPlayerPadRumble(...)`
+
+### `SetPlayerTriggerRumble(...)`
+
+### `SetPositionOnLadder(...)`
+
+### `SetPostFXIntensity(...)`
+
+### `SetPropagandaEnabled(...)`
+
+### `SetQuickLaunchPlayerIdRef(...)`
+
+### `SetRadioTrackOnPlayerVehicle(...)`
+
+### `SetSprinting(...)`
+
+### `SetStalkMode(...)`
+
+### `SetSwimLookPitchLimits(...)`
+
+### `SetWaterDivingEnable(...)`
+
+### `SetWorldSpeed(...)`
+
+### `StartPlayAnim(...)`
+
+### `StartPostFX(...)`
+
+### `StopPlayAnim(...)`
+
+### `StopPostFX(...)`
+
+### `SwitchCamera(...)`
+
+### `SwitchInventory(...)`
+
+### `SwitchPlayerPawn(...)`
+
+### `TakeCameraPicture(...)`
+
+### `TeleportPlayerOnLadder(...)`
+
+### `UnlockPlayerActionMap(...)`
+
+### `UnsetCurrentSPActivity(...)`
+
+### `UpdateDeviceToTrack(...)`
+
+### `UpdateMovement(...)`
+
+### `UpdatePlayerInCapture(...)`
+
+### `UpdatePlayerInCaptureState(...)`
+
+### `UpdateRaceGameTimer(...)`
+
+### `VerifyInputPriority(...)`
+
+### `VerifyInputPriorityByStringID(...)`
+
+### `VisionModeStartBliss(...)`
+
+### `VisionModeStartCustomIntoxication(...)`
+
+### `VisionModeStartDrunk(...)`
+
+### `VisionModeStartHigh(...)`
+
+### `VisionModeStartScopolamineHeavy(...)`
+
+### `VisionModeStartScopolamineLow(...)`
+
+### `VisionModeStartScopolamineMedium(...)`
+
+### `VisionModeStartSuppression(...)`
+
+### `VisionModeStop(...)`
+
+### `WithdrawPlayerMoney(...)`

@@ -2,1728 +2,2599 @@
 
 ## Functions
 
-### `SafeHouseDeactivateMissionBlockOnUnlock(...)`
 
-### `IsCarriable(...)`
 
-### `DisplayCharacterTitleCard(...)`
 
-### `ShowVehicleChallengeQuestStart(...)`
 
-### `HasEntitiesAround(...)`
 
-### `DisplayHostageQuestUIMsg(...)`
 
-### `SetOverrideSunDirection(...)`
 
-### `RemoveSpawnAIScriptCallback(...)`
 
-### `SetShadowOverride(...)`
 
-### `DampIIR(...)`
 
-### `GetRegionalHeatLevel(...)`
 
-### `SetStormTexture(...)`
 
-### `tonumber(...)`
 
-### `RemoveOverrideMoonDirection(...)`
 
-### `CreateGroup(...)`
 
-### `SetCanUnfog(...)`
 
-### `DTestAutoPlayerSetShouldShoot(...)`
 
-### `BroadcastDominoMessage(...)`
 
-### `OpenAvatarCreationMenu(...)`
 
-### `StopMusicTrigger(...)`
 
-### `StopMonitoringPositionReachability(...)`
 
-### `GetInvalidParticleHdl(...)`
 
-### `SetRegionalHeatLevel(...)`
 
-### `GetHeroOffroadMilitary(...)`
 
-### `GetGroupInStateMemberCount(...)`
 
-### `ForceEntityPhotographable(...)`
 
-### `IsSafeHouseUnlocked(...)`
 
-### `ForceSaveCharacter(...)`
 
-### `UseContextualActionWithIndex(...)`
 
-### `ResetFogOfWar(...)`
 
-### `PauseGame(...)`
 
-### `IsPoisonCloudBurning(...)`
 
-### `ChangeLastSaveSpawnPoint(...)`
 
-### `PreloadBinkVideo(...)`
 
-### `DTestGetCommandLineArgument(...)`
 
-### `RemoveCustomLeash(...)`
 
-### `DTestStart(...)`
 
-### `ApplyModifierWithPriority(...)`
 
-### `IsLockedContentUnlockedOnEntity(...)`
 
-### `ForceLivingPlayersToIdle(...)`
 
-### `GetCurrentGameModeName(...)`
 
-### `CancelPhoneCallOnGroupWithRequester(...)`
 
-### `ForceOpenFreezer(...)`
 
-### `IsOpenWorldConditionUnlocked(...)`
 
-### `collectgarbage(...)`
 
-### `SetCurrentRace(...)`
 
-### `ResetSoundSwitchValue(...)`
 
-### `GetBestTalkerInGroupWithFilterPC(...)`
 
-### `GetFactionFromArmy(...)`
 
-### `GetDemoType(...)`
 
-### `TeleportPawnGroup(...)`
 
-### `RemoveScriptedWeatherPresetOverride(...)`
 
-### `SetBreakableAsNotDamageable(...)`
 
-### `SetGlobalHeatValue(...)`
 
-### `CDominoDelayManager_GetInstance(...)`
 
-### `GetSunPitch(...)`
 
-### `SetScriptedWeatherPresetOverride(...)`
 
-### `SetLocalFogVolumeRGBPhaseG(...)`
 
-### `GetEntitiesInGroup(...)`
 
-### `ShowDialogBox(...)`
 
-### `ClearCurrentRace(...)`
 
-### `IsPackageMounted(...)`
 
-### `RemoveAllPlayerFX(...)`
 
-### `SpawnAI(...)`
 
-### `DTestAutoPlayerSetShouldKillAllAroundMultiagent(...)`
 
-### `gcinfo(...)`
 
-### `ForceRespawnPlayers(...)`
 
-### `RemoveWindOverride(...)`
 
-### `AddAgentsToGroups(...)`
 
-### `EnableGFHSystem(...)`
 
-### `FindAndRemoveVehiclesInRadius(...)`
 
-### `StopContextualAction(...)`
 
-### `IsAnyPlayerAlive(...)`
 
-### `GetSpecialVersionType(...)`
 
-### `SetSoundSwitchValueOnClient(...)`
 
-### `IsValidSpawnPointId(...)`
 
-### `GetTriggerComponentContacts(...)`
 
-### `HeroVehicleIsEquippedForPlayer(...)`
 
-### `SendEntitiesEvent(...)`
 
-### `ForceUIInteractionOnEntity(...)`
 
-### `DTestTakeScreenshotWithHUDMultiagent(...)`
 
-### `GetHeroEquipmentRam(...)`
 
-### `IsSafeHouseAlarmActivated(...)`
 
-### `TraceConnection(...)`
 
-### `LogConsoleRetail(...)`
 
-### `ApplyModifier(...)`
 
-### `SetMetaBreakableEnabled(...)`
 
-### `SetPOIComplete(...)`
 
-### `GetGlobalHeatLevel(...)`
 
-### `GetHeatSensitiveObjectCriticalProgress(...)`
 
-### `RemoveFogOverride(...)`
 
-### `GetHeroEquipmentCountermeasure(...)`
 
-### `PopUpEndOfGame(...)`
 
-### `DTestGetAgentCount(...)`
 
-### `SetShadowDegradationLevel(...)`
 
-### `IsPlayerSetupOnQuicklaunchDisabled(...)`
 
-### `OpenWorldSetUnlockAllMenu(...)`
 
-### `SpawnAIRequestGroup(...)`
 
-### `GetLocalPlayerId(...)`
 
-### `GetShadowDegradationLevel(...)`
 
-### `PopUIMode(...)`
 
-### `GetShortestDiffVec3(...)`
 
-### `xpcall(...)`
 
-### `GetAnglesFromDir(...)`
 
-### `DisplayActBreakUI(...)`
 
-### `GetSkipAssaultsIntro(...)`
 
-### `DisplayCinematicLogo(...)`
 
-### `SetSavedGlobal(...)`
 
-### `ToggleContextualActionState(...)`
 
-### `ShouldSkipPlaygo(...)`
 
-### `DTestStartBenchmarkTracking(...)`
 
-### `RegisterNamedTimer(...)`
 
-### `UnlockAllSafeHouses(...)`
 
-### `next(...)`
 
-### `SetEntityAsLeashTeleportReference(...)`
 
-### `HasSilencedWeapon(...)`
 
-### `GetOpenWorldDemonicMaskCollected(...)`
 
-### `RemoveSpawnAIRequestGroupScriptCallback(...)`
 
-### `UnregisterDominoInputListenerSignal(playerID, signal, string)`
 
-### `IsParticleLooping(...)`
 
-### `DisplayKeyEventBox_Legacy(...)`
 
-### `DrawDebugCircle(...)`
 
-### `LongRangeWeaponStopLaunching(...)`
 
-### `TeleportMultiPlayerWithLoadingScreen(...)`
 
-### `SetBreakableState(...)`
 
-### `CensorRadioStation(...)`
 
-### `StopMusic(...)`
 
-### `SpawnDominoEntity(...)`
 
-### `DisplayCustomUIMsg(...)`
 
-### `IsInEditor(...)`
 
-### `SetLedgeIsActive(...)`
 
-### `DisableInputSignalEvent(...)`
 
-### `StartMonitoringPositionReachability(...)`
 
-### `GetGlobalString(...)`
 
-### `SendPlayerBaseTrackingEvent(...)`
 
-### `SetPhoneCallExclusivity(...)`
 
-### `DrawDebugSphere(...)`
 
-### `DisplayOutpostLiberatedUI(...)`
 
-### `DTestAutoPlayerAimEntityMultiagent(...)`
 
-### `SetHeatProgressOfEntity(...)`
 
-### `LockRadioStationSwitching(...)`
 
-### `StartFlameJet(...)`
 
-### `IsRpgItemFilterEquipped(...)`
 
-### `GetSavedGlobal(...)`
 
-### `IsPoisonCloudEmitting(...)`
 
-### `SetSoundSwitchValue(...)`
 
-### `TriggerLightning(...)`
 
-### `HeroVehicleCanEquipForPlayer(...)`
 
-### `tostring(...)`
 
-### `RequestPhoneCallOnGroup(...)`
 
-### `DestroySpecificGameplay(...)`
 
-### `UnregisterNamedTimer(...)`
 
-### `SpawnEntityFromArchetype_Legacy(...)`
 
-### `DTestGetSectorID(...)`
 
-### `UpdateParticleMatrix(...)`
 
-### `assert(...)`
 
-### `DTestMakeTextArtefactWithTagMultiagent(...)`
 
-### `UnApplyModifier(...)`
 
-### `OnOperationIntroFinished(...)`
 
-### `DisplayQuestSuccessOnEntity(...)`
 
-### `load(...)`
 
-### `DTestCreateIssue(...)`
 
-### `AreAllPawnsReady(...)`
 
-### `BeginMaterialDynamicEffect(...)`
 
-### `DTestSetSpawnPoint(...)`
 
-### `FlushAllHudUpdates(...)`
 
-### `CreateCustomLeash(...)`
 
-### `IsValidPlayerGroup(...)`
 
-### `SetIgnoreSkillLock(...)`
 
-### `GetFactionNameFromId(...)`
 
-### `PlayMusicTriggerOnClient(...)`
 
-### `RegisterAsPathID(...)`
 
-### `DTestExecuteConsoleCommandMultiagent(...)`
 
-### `UpdateObjectiveTimer(...)`
 
-### `SetAlarmState(...)`
 
-### `CanExecuteDebugCommands(...)`
 
-### `SetMissionBlockLayerStateById(...)`
 
-### `SetVehicleAsLeashTeleportAnchor(...)`
 
-### `RemoveFactionTrustLevel(...)`
 
-### `SetAllowFrontTakedown(...)`
 
-### `DisplayLootLostMessage_DLC(...)`
 
-### `SetSessionLocked(...)`
 
-### `DTestGetNearestAI(...)`
 
-### `GetMissionBlockIndexForActivityID(...)`
 
-### `StopMusicExternalState(...)`
 
-### `StartCelebrationFromDominoWithTextAndPrompt(...)`
 
-### `HideObjectiveTimer_Temp(...)`
 
-### `GetSoundID(...)`
 
-### `CreateUniqueGroup(...)`
 
-### `DisplayTutorialBoxKOM(...)`
 
-### `SendDominoFireEvent(...)`
 
-### `DTestStartMultiagent(...)`
 
-### `IsOpenWorldEnabled(...)`
 
-### `GetPrefabsSpawnedByActivity(...)`
 
-### `ipairs(...)`
 
-### `PauseObjectiveTimer_Temp(...)`
 
-### `DTestSetSurfaceWaypoint(...)`
 
-### `DTestGetCurrentStim(...)`
 
-### `RegisterNamedTimerCallback(...)`
 
-### `OnOperationFinished(...)`
 
-### `GetRandomPointInCircle(...)`
 
-### `OverrideShopMenu(...)`
 
-### `InjectExoticDrugComponentOnPlayer(...)`
 
-### `DrawDebugBox(...)`
 
-### `ModifyVisibilityOfPlayersOnJIP(...)`
 
-### `GetQTEResult(...)`
 
-### `DestroyParticle(...)`
 
-### `SendGSFGenericEvent(...)`
 
-### `IsInCombat(...)`
 
-### `DisableEncounterSpawnGroups(...)`
 
-### `SetFishingRegionsEnabledWithinArea(...)`
 
-### `GetClosestSafeHouse(...)`
 
-### `SetOnlyGlobalAmbient(...)`
 
-### `DeleteAllArrowPickups(...)`
 
-### `DTestAutoPlayerDropEntityToFollowMultiagent(...)`
 
-### `SetAssaultSpecOpsProgress(...)`
 
-### `DTestSetSpawnPointDirectMultiagent(...)`
 
-### `CDominoTickManager_GetInstance(...)`
 
-### `SetConditionalZoneDBIDState(...)`
 
-### `SetMotionBlurOverride(...)`
 
-### `CDominoWaterLevelManager_GetInstance(...)`
 
-### `BeginTimedSlowMotion(...)`
 
-### `CGOStateMachineScriptCallbackSystem_GetInstance(...)`
 
-### `DTestSetSpawnPointMultiagent(...)`
 
-### `DisablePhotographabilityOfEntity(...)`
 
-### `DTestSetPlayerCameraAnglesFromEntity(...)`
 
-### `SetRankOfCurrentQuest(...)`
 
-### `UnregisterSoundMarkerListener(...)`
 
-### `QuitToMainMenu(...)`
 
-### `GetRotatedVector(...)`
 
-### `GetStringFromOasisId(...)`
 
-### `StopAllBinkVideosOnEntity(...)`
 
-### `CylinderCheck(...)`
 
-### `SetProceduralMotionState(...)`
 
-### `loadstring(...)`
 
-### `SetAlternateLoadingScreen(...)`
 
-### `IsNudityAllowed(...)`
 
-### `GetHeroEquipmentArmor(...)`
 
-### `RegisterGenericEntityPreconditionListener(...)`
 
-### `IsTutorialMaxDisplayNumberReached(...)`
 
-### `FindAndRemoveEntitiesOutOfRange(...)`
 
-### `GetRegionalHeatValueFromPos(...)`
 
-### `DrawFixedTextToScreen(...)`
 
-### `RegisterEntityPreconditionListener(...)`
 
-### `EnableInputSignalEvent(...)`
 
-### `RepositionPlayerLoots(...)`
 
-### `LongRangeWeaponProxyLaunchSingleProjectileAt(...)`
 
-### `CreateCRCNoCase(...)`
 
-### `IsPoisonLeakEmitterExhausted(...)`
 
-### `RemoveOverrideDisabledLogicId(...)`
 
-### `GetSpawnPointPos(...)`
 
-### `IsGroupAPlayerGroup(...)`
 
-### `SetSkyOverride(...)`
 
-### `IsHudLoaded(...)`
 
-### `TogglePause(...)`
 
-### `SetAssaultStage(...)`
 
-### `GetRegionalHeatValue(...)`
 
-### `DTestSetSpawnPointDirect(...)`
 
-### `ForceSetPlayerInVehicleV2(...)`
 
-### `MissionSetSessionGlobal(...)`
 
-### `RegisterAsStringID(...)`
 
-### `SetLootedNotification_DLC(...)`
 
-### `IsCensoredVersion(...)`
 
-### `SafeHouseDeactivateMissionBlock(...)`
 
-### `IsScriptAutorunEnabled(...)`
 
-### `DisplayKeyEventBox(...)`
 
-### `GetFrameGameTime(...)`
 
-### `AddRegionalHeatValue(...)`
 
-### `EnableVSync(...)`
 
-### `CancelAllExplosions(...)`
 
-### `ExtinguishAllFires(...)`
 
-### `RegisterAsNoCaseStringID(...)`
 
-### `RemoveMiniGamePlayer(...)`
 
-### `SetCarriableEnabled(...)`
 
-### `MissionSetObjectiveMarker(...)`
 
-### `DisplayHealthBar(...)`
 
-### `SetRegionalHeatValue(...)`
 
-### `DTestSetSlowFrameThresholds(...)`
 
-### `GetFrameGameID(...)`
 
-### `PlayBinkVideoOnRemotePlayer(...)`
 
-### `TestGenericEntityPrecondition(...)`
 
-### `HideEntityHealth(...)`
 
-### `DTestStopVideoRecordingMultiagent(...)`
 
-### `ModifyVisibilityOfPlayers(...)`
 
-### `DTestEmitGameEventMultiagent(...)`
 
-### `SetObjectiveMarker(...)`
 
-### `DTestTeleportPlayer(...)`
 
-### `RemoveEntityOrGroup(...)`
 
-### `RemoveScriptedStormFactorOverride(...)`
 
-### `CDominoConsoleCommandManager_GetInstance(...)`
 
-### `GetHeatSensitiveObjectPreviousOwnerPersistent(...)`
 
-### `UISendEventToPlayer(...)`
 
-### `SendChallengeNameToTrackingService(...)`
 
-### `PauseObjectiveTimer(...)`
 
-### `SetAdaptiveBloomOverride(...)`
 
-### `unpack(...)`
 
-### `SetMonsterSpawnerNextState(...)`
 
-### `GetSequenceManager(...)`
 
-### `DTestIsRunningTest(...)`
 
-### `GetRegularRacesCompleted(...)`
 
-### `OverrideFireManagerParticle(...)`
 
-### `GetAgentFaction(...)`
 
-### `setmetatable(...)`
 
-### `Map3DPosInto2DHud(...)`
 
-### `select(...)`
 
-### `SetTimeScale(...)`
 
-### `CancelQueuedDialog(...)`
 
-### `DTestAutoPlayerDropEntityToAimMultiagent(...)`
 
-### `SetEndGamePlayerChoice(...)`
 
-### `UnregisterCelebrationCallback(...)`
 
-### `SetCloudTexture(...)`
 
-### `DTestAutoPlayerAimEntity(...)`
 
-### `GetDefenseStartMarker(...)`
 
-### `DisplayAltitudeLocationUI_temp(...)`
 
-### `getmetatable(...)`
 
-### `DTestAutoPlayerSetDestinationMultiagent(...)`
 
-### `DisplayDebugCinematicMsg(...)`
 
-### `GetMissionMoneyReward(...)`
 
-### `ExoticMissionSoftSave(...)`
 
-### `WorldLoaderPause(...)`
 
-### `DTestGetClientPlayerId(...)`
 
-### `StartUIInteraction(...)`
 
-### `SetKeyPieceNotification_DLC(...)`
 
-### `GetOceanBeaufortLevel(...)`
 
-### `SendPlayGame(...)`
 
-### `GetContextualStrategyUniqueGroup(...)`
 
-### `DisplaySuccessScreenUI(...)`
 
-### `DisplayCinematicSkipUIPrompt(...)`
 
-### `CancelSpawnAI(...)`
 
-### `SpawnAndAttachHeatCompoundToPlayer(...)`
 
-### `DisableCoopLeash(...)`
 
-### `ShowTextPrompt(...)`
 
-### `DestroyLocalFogVolume(...)`
 
-### `DTestIsHost(...)`
 
-### `DisplayQuestProgressIcons(...)`
 
-### `OpenNpcNexusMenu(...)`
 
-### `DTestFinish(...)`
 
-### `GetSimplifiedHitLocationStringID(...)`
 
-### `StartWindBlast(...)`
 
-### `rawget(...)`
 
-### `ReleaseValveIndicatorUI(...)`
 
-### `GetNumberOfPlayers(...)`
 
-### `RemoveOverrideMoonHDRMultiplier(...)`
 
-### `SetOceanBeaufortLevel(...)`
 
-### `DrawTextToScreen(...)`
 
-### `RequestPhoneConversationOnGroupNew(...)`
 
-### `LongRangeWeaponPauseLaunching(...)`
 
-### `IsTrialRewardProcessOver(...)`
 
-### `SendQTEShutdownMessage(...)`
 
-### `CreateLocalFogVolume(...)`
 
-### `ResetRadioPanel(...)`
 
-### `BroadcastDominoMessageDelayed(...)`
 
-### `GetHeroSedanHistoric(...)`
 
-### `StopOverrideAmbiance(...)`
 
-### `GetGameTime(...)`
 
-### `CFCXDominoUiManager_GetInstance(...)`
 
-### `GetPathID(...)`
 
-### `RandomizeCloudTexture(...)`
 
-### `SetAtmosphericScatteringOverride(...)`
 
-### `DisplayMissionFailHUD(...)`
 
-### `RemoveGameplayColorRemap(...)`
 
-### `ShowWorldMap(...)`
 
-### `AddGlobalHeatValue(...)`
 
-### `RemoveShadowOverride(...)`
 
-### `DisplayPackageNotReadyDialog(...)`
 
-### `CEntityGroupManager_GetInstance(...)`
 
-### `AddGameplayColorRemap(...)`
 
-### `SyncMiniBossHealthBarState_DLC(...)`
 
-### `SetPermaDeathStateEnable(...)`
 
-### `SetGlobalHeatLevel(...)`
 
-### `UnregisterDialogMsgBoxCb(...)`
 
-### `UnlockDoor(...)`
 
-### `RemoveGlobalHeatValue(...)`
 
-### `RequestMenuTutorial(...)`
 
-### `SendQTEEndedEvent(...)`
 
-### `MarkOutOfBounds(...)`
 
-### `module(...)`
 
-### `DTestGetTestName(...)`
 
-### `CreateParticle(...)`
 
-### `RequestFloatingPopupPause(...)`
 
-### `DTestAutoPlayerSetDestination(...)`
 
-### `CancelSpawnAIRequestGroup(...)`
 
-### `GetGlobalNumber(...)`
 
-### `IsExtremViolenceAllowed(...)`
 
-### `EnableActivityMemento(...)`
 
-### `CancelPhoneConversation(...)`
 
-### `DTestGetHeightOfTerrainAtPoint(...)`
 
-### `DTestReportProgress(...)`
 
-### `DTestWriteToFile(...)`
 
-### `DisplayInteractionMessageUI(...)`
 
-### `IsLoadPending(...)`
 
-### `CreateSpecificGameplay(...)`
 
-### `GetSunYaw(...)`
 
-### `SetAlarmStateWithReason(...)`
 
-### `GetNoCaseStringIDLogStr(...)`
 
-### `GetStringIDLogStr(...)`
 
-### `GetBestTalkerInGroup(...)`
 
-### `SendCommandEventToEntity(...)`
 
-### `RequestAirDropAroundEntity(...)`
 
-### `DTestAutoPlayerSetShouldShootMultiagent(...)`
 
-### `AreAssaultLivesInfinite(...)`
 
-### `GetPersistentBreakableState(...)`
 
-### `IsSafeHouseHostile(...)`
 
-### `GetGlobalHeatValue(...)`
 
-### `SetSunYaw(...)`
 
-### `DTestWaitForGameEventMultiagent(...)`
 
-### `DTestExecuteConsoleCommand(...)`
 
-### `DoConsoleCommand(...)`
 
-### `DTestStopVideoRecording(...)`
 
-### `ExoticMissionSave(...)`
 
-### `IsPlayerLocal(...)`
 
-### `IsLockedContentUnlocked(...)`
 
-### `EnableCoopObjectiveMarker(...)`
 
-### `EndTimedSlowMotion(...)`
 
-### `SetLoadingScreenVideo(...)`
 
-### `SetRadioState(...)`
 
-### `SendGREvent(...)`
 
-### `SetSlowMotion(number speed)`
 
-Sets the game's slow motion speed. The default value is 1.0.
 
-### `print(...)`
 
-### `EnableUnlimitedAmmo(bool state)`
 
-### `PauseGlobalHeat(...)`
 
-### `IsRpgItemAllowedByFilter(...)`
 
-### `DisplayAssaultIntroUI(...)`
 
-### `GetMiniGamePlayerWithSlotId(...)`
 
-### `IsRadioTowerUnlocked(...)`
 
-### `HideObjectiveTimer(...)`
 
-### `AddRpgTokenToPlayer(...)`
 
-### `GetHeroTruck2CabRacer(...)`
 
-### `SetVisibility(...)`
 
-### `ShowObjectiveTimer(...)`
 
-### `DrawDebugLine(...)`
 
-### `PauseRegionalHeat(...)`
 
-### `DTestStartVideoRecordingMultiagent(...)`
 
-### `CompareEntityIdWithCharacterId(...)`
 
-### `SetOverrideMoonSize(...)`
 
-### `StartWorldMapTutorial(...)`
 
-### `RegisterMissionObserver(...)`
 
-### `PlaySoundByID(...)`
 
-### `ShrinkSafeZone(...)`
 
-### `DTestStartStreamingFAPFile(...)`
 
-### `DTestStopStreamingFAPFileMultiagent(...)`
 
-### `ShowWorldMapOutpostReveal(...)`
 
-### `SetCraftingUnlockAll(...)`
 
-### `AddOverrideDisabledLogicId(...)`
 
-### `GetInvalidEntityId(...)`
 
-### `IsWeatherPreset(...)`
 
-### `GetHeatSensitiveObjectCurrentOwner(...)`
 
-### `FireMortarShell(...)`
 
-### `SetHudVisible(...)`
 
-### `HideRadioTowerObjectiveMarker(...)`
 
-### `RegisterOnSupplyDropSpawnedCallback(...)`
 
-### `setfenv(...)`
 
-### `GetSpawnPointAngles(...)`
 
-### `ForceDeactivateSuper(...)`
 
-### `GetDefaultSpawnPointId(...)`
 
-### `UnlockPlayerBase(...)`
 
-### `RegisterPreconditionListener(...)`
 
-### `IsSafeHouseAIInCombat(...)`
 
-### `pcall(...)`
 
-### `DTestAutoPlayerSetShouldKillAllAround(...)`
 
-### `StartLoopingWindEmitter(...)`
 
-### `ShowObjectiveTimer_Temp(...)`
 
-### `DTestSetPlayerCameraAnglesFromVec3(...)`
 
-### `SpawnHeroVehicleOnSpawnPoint(...)`
 
-### `RemoveWeatherOverride(...)`
 
-### `UseContextualAction(...)`
 
-### `TestEntityPrecondition(...)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### `ActivateGunsForHire(...)`
 
 ### `ActivateNavLinkOnEntity(...)`
 
-### `DTestAutoPlayerSetShouldSprint(...)`
+### `ActiveFireTrap(...)`
 
-### `EnableCoopLeash(...)`
-
-### `SetOverrideMoonHDRMultiplier(...)`
-
-### `StartMissionWarmRestart(...)`
-
-### `DTestStartStreamingFAPFileMultiagent(...)`
-
-### `NotifyChallengerFailure(...)`
-
-### `GetCurrentRaceId(...)`
-
-### `IsGroupEqual(...)`
-
-### `SetBinkVideo(...)`
-
-### `LockGameplayMenuInput(...)`
-
-### `OnExclusiveMissionStart(...)`
-
-### `DTestGetEntityPos(...)`
-
-### `RegisterMenuChangedListener(...)`
-
-### `StartChallengeTimer(...)`
-
-### `DisplayHuntingQuestUIMsg(...)`
-
-### `GlobalSetObjectiveMarker(...)`
-
-### `ResetCustomLeashRanges(...)`
-
-### `GetPoisonLeakCloudHandle(...)`
-
-### `SaveOpenWorld(...)`
-
-### `rawset(...)`
-
-### `LongRangeWeaponStartLaunching(...)`
-
-### `OverridePlayerPosition(...)`
-
-### `DTestGetTelemetrySessionGuid(...)`
-
-### `getfenv(...)`
-
-### `DTestStopBenchmarkTracking(...)`
-
-### `ForceResetASM(...)`
-
-### `ShowProgressBar(...)`
-
-### `SetCloudShadowsOverride(...)`
-
-### `SetMissionBlockLayerStateByName(...)`
-
-### `GetCurrentMissionName(...)`
-
-### `RegisterDominoInputListenerSignal(playerID, instance, string, string)`
-
-### `PlayBinkVideoV2(...)`
-
-### `TeleportPawns(...)`
-
-### `TestPrecondition(...)`
-
-### `API_Mission_IsChallengeInProgress(...)`
-
-### `DTestAutoPlayerActivate(...)`
-
-### `SetWorldMapIcon(...)`
-
-### `SetLocalFogVolume(...)`
-
-### `BreakMetaBreakable(...)`
-
-### `UnApplyModifierWithPriority(...)`
-
-### `SetPermaDeathStateEnableOnJIP(...)`
-
-### `InterruptContextualAction(...)`
-
-### `OpenNpcNexusMenuCoop(...)`
-
-### `IsInGameBenchmark(...)`
-
-### `SetParticleAutoManaged(...)`
-
-### `RemoveMotionBlurOverride(...)`
-
-### `CheckIsAnActiveArmyTarget(...)`
-
-### `LockRadio(...)`
-
-### `GetExplosiveEquipmentType(...)`
-
-### `GetDifficulty(...)`
-
-### `SetBlizzardActive(...)`
-
-### `GetPropagandaPoints(...)`
-
-### `ModifyVisibilityOfRagdollEntities(...)`
-
-### `SetWindOverride(...)`
-
-### `SetEncounterCompleted(...)`
-
-### `type(...)`
-
-### `CScriptCallbackSystem_GetInstance(...)`
-
-### `AddPersistentBreakable(...)`
-
-### `DTestFinishMultiagent(...)`
-
-### `PlayMusicExternalState(...)`
-
-### `RemoveSkyOverride(...)`
-
-### `OverrideRadioStation(...)`
-
-### `SetForceTimeOfDayUpdate(...)`
-
-### `GetDefenseEnemyInWaveCount(...)`
-
-### `SetLootGroup(...)`
-
-### `DisplayMissionExitWarningUI(...)`
-
-### `DTestAutoPlayerDropEntityToAim(...)`
-
-### `SwitchGameMode(...)`
-
-### `StartOverrideAmbiance(...)`
-
-### `DTestFail(...)`
-
-### `PrepareDemoPause(...)`
-
-### `AwardCoopXPLocalized(...)`
-
-### `StopMusicTriggerOnClient(...)`
-
-### `SetForcedGPSOnCurrentObjective(...)`
-
-### `GetDirFromAngles(...)`
-
-### `GetDefenseContextualStrategy(...)`
-
-### `StartWindEmitterOneShot(...)`
-
-### `DisplayQuestSuccess(...)`
-
-### `CDominoSoundManager_GetInstance(...)`
-
-### `SendEntityTrustEvent(...)`
-
-### `DTestAutoPlayerDropEntityToFollow(...)`
-
-### `GetNormalizedTimeOfDay(...)`
-
-### `IsEntityInWater(...)`
-
-### `ShowVehicleChallengeQuestFinish(...)`
-
-### `SetFogOverride(...)`
-
-### `RemovePersistentBreakable(...)`
-
-### `require(...)`
-
-### `IsGamePaused(...)`
-
-### `LockAllSafeHouses(...)`
-
-### `SetMetaBreakableEnabledOnRemotePlayer(...)`
-
-### `ModifyCustomLeashRanges(...)`
-
-### `GetMiniGamePlayers(...)`
-
-### `SetConditionalZoneIdState(...)`
-
-### `SetEnablePropaganda(...)`
-
-### `SetScriptedStormFactorOverride(...)`
-
-### `ResetSoundSwitchValueOnClient(...)`
-
-### `IgnoreEntityLimiter(...)`
-
-### `CreateRandomFloat(...)`
-
-### `rawequal(...)`
-
-### `DisplayMiniBossHealthbar_DLC(...)`
-
-### `GetNumberOfDestroyedPropaganda(...)`
-
-### `SendRegisteredEventToEntity(...)`
-
-### `newproxy(...)`
-
-### `StopLoopingWindEmitter(...)`
-
-### `RemoveDepthOfFieldOverride(...)`
-
-### `StartTrialRewardProcess(...)`
-
-### `EnableEncounterSpawnGroups(...)`
-
-### `ToggleContextualActionStateWithIndex(...)`
-
-### `SetParticleAlphaRatio(...)`
-
-### `GetOpenWorldLieutenantLetterCollected(...)`
-
-### `SendGSFGenericEventToEntity(...)`
-
-### `StartWindBlastEffect(...)`
-
-### `DTestMakeTextArtefact(...)`
-
-### `ChangeLocalPlayerGender(...)`
-
-### `IsLicensedMusicRestricted(...)`
-
-### `ShowVehicleChallengeDialogBox(...)`
-
-### `GetPlayerName(...)`
-
-### `DTestEmitGameEvent(...)`
-
-### `DecreaseAssaultLives(...)`
-
-### `StopBinkVideoOnAllEntities(...)`
-
-### `RegisterNamedTimerLocalized(...)`
-
-### `GetShortestDiff(...)`
-
-### `GetPlayerId(...)`
-
-### `UnregisterNamedTimerCallback(...)`
-
-### `DTestGetMaterialParameter(...)`
-
-### `RemoveAtmosphericScatteringOverride(...)`
-
-### `RemoveOnlyGlobalAmbient(...)`
-
-### `GetPlayerGroup(...)`
-
-### `RefillSuperCharge(...)`
-
-### `SetOverrideMenuAccessibility(...)`
-
-### `DTestGetCurrentGamemodeName(...)`
-
-### `DTestTakeScreenshotWithHUD(...)`
-
-### `LogConsole(...)`
-
-### `HideProgressBar(...)`
-
-### `SetLocalFogVolumeRGB(...)`
-
-### `SetBreakableAsDamageable(...)`
-
-### `DTestStopStreamingFAPFile(...)`
-
-### `GetFactionTrustLevel(...)`
-
-### `BaseballMiniGameMakePitch(...)`
-
-### `SetMetaBreakableImmuneToDamageOnRemotePlayer(...)`
-
-### `SoundMixingFromLua(...)`
-
-### `RemoveQTEResultFromManager(...)`
-
-### `GetSunRoll(...)`
-
-### `DTestAutoPlayerSetShouldSprintMultiagent(...)`
-
-### `FindAndRemoveEntitiesInRadius(...)`
-
-### `GetDistance2D(...)`
-
-### `DTestAutoPlayerPickEntity(...)`
-
-### `ArenaAPI_StartFlameJet(...)`
-
-### `GetLastUsedPlayerVehicles(...)`
+### `AddAgentsToGroups(...)`
 
 ### `AddFactionTrustLevel(...)`
 
-### `SetExposureOverride(...)`
+### `AddGameplayColorRemap(...)`
 
-### `DTestAutoPlayerDeactivate(...)`
+### `AddGlobalHeatValue(...)`
 
-### `GetOwningFaction(...)`
+### `AddOverrideDisabledLogicId(...)`
 
-### `IsQuickLaunching(...)`
+### `AddPersistentBreakable(...)`
 
-### `GetRegionalHeatLevelFromPos(...)`
+### `AddRegionalHeatValue(...)`
 
-### `SetCharacterVisibilityOverride(...)`
+### `AddRpgTokenToPlayer(...)`
 
-### `PlayBlockOnRadioStation(...)`
+### `AllowCoopPlay(...)`
 
-### `PlayRadioTrack(...)`
+### `API_Mission_IsChallengeInProgress(...)`
 
-### `ReleaseGameplayMenuInput(...)`
+### `ApplyModifier(...)`
 
-### `GetPlayerGroupWithType(...)`
+### `ApplyModifierWithPriority(...)`
 
-### `RecruitGunsForHire(...)`
+### `AreAllPawnsReady(...)`
 
-### `HACK_ForceOverrideSpawnPoint(...)`
+### `AreAssaultLivesInfinite(...)`
 
-### `SetSunRoll(...)`
+### `ArenaAPI_StartFlameJet(...)`
 
-### `SealSaveGame(...)`
+### `ArenaAPI_StopFlameJet(...)`
 
-### `SetOwningFaction(...)`
+### `assert(...)`
 
-### `RandomizeStormTexture(...)`
+### `AwardCoopXP(...)`
 
-### `CreateCRC(...)`
+### `AwardCoopXPLocalized(...)`
 
-### `IsEntityInRay(...)`
+### `BaseballMiniGameMakePitch(...)`
 
-### `RemoveOverrideSunDirection(...)`
+### `BeginMaterialDynamicEffect(...)`
 
-### `ShowVehicleChallengeTargets(...)`
+### `BeginTimedSlowMotion(...)`
 
-### `UnregisterOnSupplyDropSpawnedCallback(...)`
+### `Blend(...)`
 
-### `DTestGetPlayerStance(...)`
+### `BreakMetaBreakable(...)`
 
-### `SetMiniMapRoadVisibility(...)`
+### `BroadcastDominoMessage(...)`
 
-### `VillagerZoneEnablePlayerInVehicleTeleport(...)`
+### `BroadcastDominoMessageDelayed(...)`
 
-### `GetHeroEquipmentWeapon(...)`
+### `CAIDirectorService_GetInstance(...)`
 
-### `DisplayMissionTitle(...)`
+### `CancelAllExplosions(...)`
+
+### `CancelPhoneCallOnGroupWithRequester(...)`
+
+### `CancelPhoneConversation(...)`
 
 ### `CancelPhoneConversationGroup(...)`
 
-### `SetContextualStrategy(...)`
+### `CancelQueuedDialog(...)`
+
+### `CancelSpawnAI(...)`
+
+### `CancelSpawnAIRequestGroup(...)`
+
+### `CanExecuteDebugCommands(...)`
+
+### `CDominoConsoleCommandManager_GetInstance(...)`
+
+### `CDominoDelayManager_GetInstance(...)`
+
+### `CDominoSoundManager_GetInstance(...)`
+
+### `CDominoTickManager_GetInstance(...)`
+
+### `CDominoWaterLevelManager_GetInstance(...)`
+
+### `CensorRadioStation(...)`
+
+### `CEntityGroupManager_GetInstance(...)`
+
+### `CFCXDominoUiManager_GetInstance(...)`
+
+### `CGOStateMachineScriptCallbackSystem_GetInstance(...)`
+
+### `ChangeLastSaveSpawnPoint(...)`
+
+### `ChangeLocalPlayerGender(...)`
+
+### `CheckIsAnActiveArmyTarget(...)`
+
+### `ClearCurrentRace(...)`
+
+### `ClearGlobalHeat(...)`
+
+### `ClearObjectiveProgressMsg(...)`
+
+### `ClearRegionalHeat(...)`
+
+### `ClearRemoveEntityOrGroup(...)`
+
+### `CloseCurrentDialogBox(...)`
+
+### `collectgarbage(...)`
+
+### `CompareEntityIdWithCharacterId(...)`
+
+### `CoopEnableInitialSpawn(...)`
+
+### `CoopTeleportPlayer(...)`
+
+### `CreateCRC(...)`
+
+### `CreateCRC64(...)`
+
+### `CreateCRC64NoCase(...)`
+
+### `CreateCRCNoCase(...)`
+
+### `CreateCustomLeash(...)`
+
+### `CreateGroup(...)`
+
+### `CreateLocalFogVolume(...)`
+
+### `CreateParticle(...)`
+
+### `CreateRandomFloat(...)`
+
+### `CreateSpecificGameplay(...)`
+
+### `CreateUniqueGroup(...)`
+
+### `CScriptCallbackSystem_GetInstance(...)`
+
+### `CTerrain_GetInstance(...)`
+
+### `CylinderCheck(...)`
+
+### `DampIIR(...)`
+
+### `DecreaseAssaultLives(...)`
+
+### `DeleteAllArrowPickups(...)`
+
+### `DestroyLocalFogVolume(...)`
+
+### `DestroyParticle(...)`
+
+### `DestroySpecificGameplay(...)`
+
+### `DisableCoopLeash(...)`
+
+### `DisableEncounterService(...)`
+
+### `DisableEncounterSpawnGroups(...)`
+
+### `DisableGFHSystem(...)`
+
+### `DisableInputSignalEvent(...)`
+
+### `DisableLongRangeShadowUpdate(...)`
+
+### `DisablePhotographabilityOfEntity(...)`
+
+### `DisableSafeZone(...)`
+
+### `DisplayActBreakUI(...)`
+
+### `DisplayAltitudeLocationUI_temp(...)`
+
+### `DisplayAltitudeLocationUI(...)`
+
+### `DisplayAssaultIntroUI(...)`
+
+### `DisplayBombIndicatorUI(...)`
+
+### `DisplayCharacterTitleCard(...)`
+
+### `DisplayCinematicBlackBars(...)`
+
+### `DisplayCinematicLogo(...)`
+
+### `DisplayCinematicSkipUIPrompt(...)`
+
+### `DisplayCinematicUIPrompt(...)`
+
+### `DisplayCustomUIMsg(...)`
+
+### `DisplayDebugCinematicMsg(...)`
+
+### `DisplayHealthBar(...)`
+
+### `DisplayHealthRatioBar(...)`
+
+### `DisplayHint(oasisID, bool, duration, 0, 0, 0)`
+
+### `DisplayHostageQuestUIMsg(...)`
+
+### `DisplayHuntingQuestUIMsg(...)`
+
+### `DisplayInteractionMessageUI(...)`
+
+### `DisplayKeyEventBox_Legacy(...)`
+
+### `DisplayKeyEventBox(...)`
+
+### `DisplayLootLostMessage_DLC(...)`
+
+### `DisplayMiniBossHealthbar_DLC(...)`
+
+### `DisplayMissionExitWarningUI(...)`
+
+### `DisplayMissionFailHUD(...)`
+
+### `DisplayMissionTitle(...)`
+
+### `DisplayMoneyRemainedAnim_DLC(...)`
+
+### `DisplayObjectiveProgressMsg(...)`
+
+### `DisplayObjectiveProgressWithoutMissionMsg(...)`
+
+### `DisplayOutpostLiberatedUI(...)`
+
+### `DisplayPackageNotReadyDialog(...)`
+
+### `DisplayPropagandaBar(...)`
+
+### `DisplayQuestProgressIcons(...)`
+
+### `DisplayQuestSuccess(...)`
+
+### `DisplayQuestSuccessOnEntity(...)`
+
+### `DisplaySuccessScreenUI(...)`
+
+### `DisplayTutorialBox(...)`
+
+### `DisplayTutorialBoxKOM(...)`
+
+### `DisplayValveIndicatorUI(...)`
+
+### `DisplayWorldLocationUI(...)`
+
+### `DoConsoleCommand(...)`
+
+### `dofile(...)`
+
+### `DrawDebugBox(...)`
+
+### `DrawDebugCircle(...)`
+
+### `DrawDebugLine(...)`
+
+### `DrawDebugSphere(...)`
+
+### `DrawFixedTextToScreen(...)`
+
+### `DrawTextToScreen(...)`
+
+### `DTestAutoPlayerActivate(...)`
+
+### `DTestAutoPlayerActivateMultiagent(...)`
+
+### `DTestAutoPlayerAimEntity(...)`
+
+### `DTestAutoPlayerAimEntityMultiagent(...)`
+
+### `DTestAutoPlayerDeactivate(...)`
+
+### `DTestAutoPlayerDeactivateMultiagent(...)`
+
+### `DTestAutoPlayerDropEntityToAim(...)`
+
+### `DTestAutoPlayerDropEntityToAimMultiagent(...)`
+
+### `DTestAutoPlayerDropEntityToFollow(...)`
+
+### `DTestAutoPlayerDropEntityToFollowMultiagent(...)`
+
+### `DTestAutoPlayerDropEntityToPick(...)`
+
+### `DTestAutoPlayerDropEntityToPickMultiagent(...)`
+
+### `DTestAutoPlayerFollowEntity(...)`
+
+### `DTestAutoPlayerFollowEntityMultiagent(...)`
+
+### `DTestAutoPlayerPickEntity(...)`
+
+### `DTestAutoPlayerPickEntityMultiagent(...)`
+
+### `DTestAutoPlayerSetDestination(...)`
+
+### `DTestAutoPlayerSetDestinationMultiagent(...)`
+
+### `DTestAutoPlayerSetShouldKillAllAround(...)`
+
+### `DTestAutoPlayerSetShouldKillAllAroundMultiagent(...)`
+
+### `DTestAutoPlayerSetShouldShoot(...)`
+
+### `DTestAutoPlayerSetShouldShootMultiagent(...)`
+
+### `DTestAutoPlayerSetShouldSprint(...)`
+
+### `DTestAutoPlayerSetShouldSprintMultiagent(...)`
 
 ### `DTestAutoPlayerToggleAutoDrive(...)`
 
 ### `DTestAutoPlayerToggleAutoDriveMultiagent(...)`
 
-### `ShowResultScreen(...)`
+### `DTestCreateIssue(...)`
 
-### `SetWaterStreamActive(...)`
+### `DTestEmitGameEvent(...)`
 
-### `DisplayObjectiveProgressWithoutMissionMsg(...)`
+### `DTestEmitGameEventMultiagent(...)`
 
-### `SetDepthOfFieldOverride(...)`
+### `DTestExecuteConsoleCommand(...)`
 
-### `CoopTeleportPlayer(...)`
+### `DTestExecuteConsoleCommandMultiagent(...)`
 
-### `SetCurrentRaceId(...)`
+### `DTestFail(...)`
 
-### `StartCelebrationFromDominoWithText(...)`
+### `DTestFinish(...)`
 
-### `RegisterActivityScriptEntityId(...)`
+### `DTestFinishMultiagent(...)`
 
-### `RequestPhoneConversation(...)`
+### `DTestGetAgentCount(...)`
 
-### `GetExplosiveEquipmentName(...)`
+### `DTestGetClientPlayerId(...)`
 
-### `LockSafeHouse(...)`
+### `DTestGetCommandLineArgument(...)`
 
-### `SetActivityForceTracked(...)`
+### `DTestGetCurrentGamemodeName(...)`
 
-### `AllowCoopPlay(...)`
+### `DTestGetCurrentStim(...)`
 
-### `GetMissionXpReward(...)`
+### `DTestGetEntityPos(...)`
 
-### `IsPhoneCallExclusivityEnabled(...)`
-
-### `loadfile(...)`
-
-### `LongRangeWeaponProxySetTargetEntity(...)`
-
-### `DisplayHint(oasisID, bool, duration, 0, 0, 0)`
-
-### `GetHeroCoupeOld(...)`
-
-### `RemoveLightingOverride(...)`
-
-### `SetBackDropAndVistasLayer(...)`
-
-### `StopAllDialog(...)`
-
-### `pairs(...)`
-
-### `StartWindBlastOnJIP(...)`
-
-### `DTestSwitchBackpack(...)`
-
-### `SendQTEExitMessage(...)`
-
-### `ShowTutorialBox(...)`
-
-### `IsParticleValid(...)`
-
-### `GetGSFParamFloat(...)`
-
-### `GetInvalidEntityGroup(...)`
-
-### `IsWeatherPresetActive(...)`
-
-### `GetPathIDLogStr(...)`
-
-### `SetSpawnOverride(...)`
-
-### `DisableLongRangeShadowUpdate(...)`
-
-### `SetGameVariableValue(...)`
-
-### `RemoveRegionalHeatValue(...)`
-
-### `StopFlameJet(...)`
-
-### `StretchSafeZone(...)`
-
-### `SetQTEHudMode(...)`
-
-### `LockWeaponWheelSlots(...)`
-
-### `QueueCommandEventToEntity(...)`
-
-### `IsItemAllowedByFilter(...)`
-
-### `CreateCRC64(...)`
-
-### `GetStringID(...)`
-
-### `SetWeatherOverride(...)`
-
-### `DisplayPropagandaBar(...)`
-
-### `StopDialog(...)`
-
-### `RemoveExposureOverride(...)`
-
-### `ShowPlayerWaterEffect(...)`
-
-### `PauseProgressBar(...)`
-
-### `EnableSafeZone(...)`
-
-### `ReEnableEncounterService(...)`
-
-### `ActiveFireTrap(...)`
-
-### `GetHeatSensitiveObjectCriticalTimeLeft(...)`
-
-### `DisplayCinematicBlackBars(...)`
-
-### `StartEndGameResultAcknowledgement(...)`
-
-### `GetOperationDifficulty(...)`
-
-### `DTestStartVideoRecording(...)`
-
-### `EnableRestrictedArea(...)`
-
-### `DisableGFHSystem(...)`
-
-### `RemoveCommandEventToEntity(...)`
-
-### `SetInterpolatedTimeOfDay(...)`
-
-### `LongRangeWeaponProxySetConfig(...)`
-
-### `ClearRemoveEntityOrGroup(...)`
-
-### `FireRocket(...)`
-
-### `OnExclusiveMissionStop(...)`
-
-### `HasExclusiveMissionRunning(...)`
-
-### `IsAnyRaceRunning(...)`
-
-### `GetMissionAckTriggerState(...)`
-
-### `CTerrain_GetInstance(...)`
-
-### `GetPoisonCloudHandle(...)`
-
-### `RemoveAdaptiveBloomOverride(...)`
-
-### `dofile(...)`
-
-### `SetFactionTrustLevel(...)`
-
-### `DTestAutoPlayerDropEntityToPickMultiagent(...)`
-
-### `AwardCoopXP(...)`
-
-### `SetOverrideMoonDirection(...)`
-
-### `GetHeroCurrentCarForPlayer(...)`
-
-### `StopBinkVideoOnEntity(...)`
-
-### `DisplayHealthRatioBar(...)`
-
-### `PlayBinkVideo(...)`
-
-### `DTestGetWeaponEntityId(...)`
-
-### `CAIDirectorService_GetInstance(...)`
-
-### `PlayMusicTrigger(...)`
-
-### `RemoveCloudShadowsOverride(...)`
-
-### `IsPackageInstalled(...)`
-
-### `SetSunPitch(...)`
-
-### `GetTimeOfDay(...)`
-
-### `DTestWarning(...)`
-
-### `DTestMakeTextArtefactWithTag(...)`
-
-### `UpdateNamedTimer(...)`
-
-### `ReloadLastCheckpoint(...)`
-
-### `IsUIManagerLoaded(...)`
-
-### `PushTutorialBox(...)`
-
-### `GetDistance3D(...)`
-
-### `SetBreakableNextState(...)`
-
-### `ShowPauseMenuForPawn(...)`
-
-### `SetBlueprintNotification_DLC(...)`
-
-### `MissionGetSessionGlobal(...)`
-
-### `ForceSetPlayerInVehicle(...)`
-
-### `GetCurrentDefenseManagerEntity(...)`
-
-### `GetSurvivalRacesCompleted(...)`
-
-### `SoundMixingFromLuaOnClient(...)`
-
-### `EnableWorldMap(...)`
-
-### `GetLocalizedText(...)`
-
-### `GetNoCaseStringID(...)`
-
-### `VillagerZoneResetAutoDrawOnExitOverride(...)`
-
-### `DisplayAltitudeLocationUI(...)`
-
-### `ToggleSoundPoint(...)`
-
-### `DisplayBombIndicatorUI(...)`
-
-### `DTestWaitForGameEvent(...)`
-
-### `CoopEnableInitialSpawn(...)`
-
-### `GetMotionBlur(...)`
-
-### `DTestMakeTextArtefactMultiagent(...)`
-
-### `SetContextualActionPathIdParameterWithIndex(...)`
-
-### `DTestAutoPlayerFollowEntityMultiagent(...)`
-
-### `SetMotionBlur(...)`
-
-### `RequestPhoneCallOnGroupWithRequester(...)`
-
-### `SetEnableSaveGame(...)`
-
-### `EnableLongRangeShadowUpdate(...)`
-
-### `DTestIsArgumentInCommandLine(...)`
-
-### `SendQTEStartedEvent(...)`
-
-### `DisplayTutorialBox(...)`
-
-### `SendQTEPlayerDeathEvent(...)`
-
-### `ClearObjectiveProgressMsg(...)`
-
-### `IsCharacterDead(...)`
+### `DTestGetHeightOfTerrainAtPoint(...)`
 
 ### `DTestGetHostPlayerId(...)`
 
-### `GetFactionRelationshipFromTrust(...)`
+### `DTestGetMaterialParameter(...)`
 
-### `SetLockAllHeroVehicles(...)`
-
-### `GetDlcGameMode(...)`
-
-### `ArenaAPI_StopFlameJet(...)`
-
-### `HasAssaultHardFailed(...)`
-
-### `RequestTutorial(...)`
-
-### `ActivateGunsForHire(...)`
-
-### `UnlockSafeHouse(...)`
-
-### `CreateCRC64NoCase(...)`
-
-### `SetShopItemsUnlockAll(...)`
-
-### `ClearRegionalHeat(...)`
-
-### `DisplayObjectiveProgressMsg(...)`
-
-### `TriggerExplosive(...)`
-
-### `SetIsPastInitialInstallGate(...)`
-
-### `ReleaseBombIndicatorUI(...)`
-
-### `ResetSuperCharge(...)`
-
-### `LockSafeHouseHostile(...)`
-
-### `RequestDespawnEntityOrGroup(...)`
-
-### `HACK_ForceDisableVehicleIcon(...)`
-
-### `SetEncounterFailed(...)`
-
-### `DTestAutoPlayerDeactivateMultiagent(...)`
-
-### `GetCharacterEntityId(...)`
-
-### `ExoticCaptureFXEnabled(...)`
-
-### `EnableHighEndBlurShadow(...)`
-
-### `DisplayMoneyRemainedAnim_DLC(...)`
-
-### `GetHeatSensitiveObjectPreviousOwner(...)`
-
-### `SetDynamicCheckListObjective(...)`
-
-### `SetMetaBreakableImmuneToDamage(...)`
-
-### `GetActiveEntitiesInGroup(...)`
-
-### `SetRetaliationPartyPolling(...)`
-
-### `GetAgentInGroup(...)`
-
-### `CloseCurrentDialogBox(...)`
-
-### `StopWindBlast(...)`
-
-### `DTestAutoPlayerPickEntityMultiagent(...)`
-
-### `SetFastTravelEnabled(...)`
-
-### `DTestGetPrimaryWeaponEntityId(...)`
-
-### `DisableSafeZone(...)`
-
-### `SendRegisteredEventToEntityNoArgs(...)`
-
-### `SetHudVisibleOnEntity(...)`
-
-### `UnregisterMissionObserver(...)`
-
-### `DisplayCinematicUIPrompt(...)`
-
-### `RemoveCharacterVisibilityOverride(...)`
-
-### `SetFaithTarget(...)`
-
-### `GetInGameBenchmarkCinemaType(...)`
-
-### `HasRpgTokenPlayer(...)`
-
-### `SetLightingOverride(...)`
-
-### `IsHeatSensitiveObjectCritical(...)`
-
-### `DTestAutoPlayerDropEntityToPick(...)`
-
-### `GetOpenWorldThangkaCollected(...)`
-
-### `SetContextualActionPathIdParameter(...)`
-
-### `SetSpawnOverrideForReload(...)`
-
-### `StartCelebrationFromDomino(...)`
-
-### `SetHeatSensitiveObjectIndestructible(...)`
-
-### `GetCurveValue(...)`
-
-### `ClearGlobalHeat(...)`
-
-### `DTestSetWaypoint(...)`
-
-### `UnregisterMenuChangedListener(...)`
-
-### `RegisterSoundMarkerListener(...)`
-
-### `VillagerZoneSetAutoDrawOnExitOverride(...)`
-
-### `SendFactionTrustEvent(...)`
-
-### `IsCurrentRaceRunning(...)`
-
-### `SetCraftingFulfill(...)`
-
-### `DisableEncounterService(...)`
-
-### `DTestAutoPlayerFollowEntity(...)`
-
-### `UnregisterPreconditionListener(...)`
-
-### `DTestAutoPlayerActivateMultiagent(...)`
-
-### `SetGlobalGameVariableValue(...)`
-
-### `GetSomeEntityIDs(...)`
-
-### `UnregisterTutorialCb(...)`
-
-### `SetEnableSaveGameOnEntity(...)`
-
-### `PushUIMode(...)`
-
-### `EnableVehicleHealthBar(...)`
-
-### `ResetObjectiveMarkers(...)`
-
-### `EnableLongRangeWeaponProxyComponent(...)`
-
-### `RemoveOverrideMoonSize(...)`
+### `DTestGetNearestAI(...)`
 
 ### `DTestGetPlayerId(...)`
 
-### `SetTimeOfDay(...)`
+### `DTestGetPlayerStance(...)`
 
-### `Blend(...)`
+### `DTestGetPrimaryWeaponEntityId(...)`
 
-### `GetEntityIdFromString(...)`
+### `DTestGetSectorID(...)`
 
-### `GetOpenWorldPropagandaPosterCollected(...)`
+### `DTestGetTelemetrySessionGuid(...)`
+
+### `DTestGetTestName(...)`
+
+### `DTestGetWeaponEntityId(...)`
+
+### `DTestIsArgumentInCommandLine(...)`
+
+### `DTestIsHost(...)`
+
+### `DTestIsRunningTest(...)`
+
+### `DTestMakeTextArtefact(...)`
+
+### `DTestMakeTextArtefactMultiagent(...)`
+
+### `DTestMakeTextArtefactWithTag(...)`
+
+### `DTestMakeTextArtefactWithTagMultiagent(...)`
+
+### `DTestReportProgress(...)`
+
+### `DTestSetPlayerCameraAnglesFromEntity(...)`
+
+### `DTestSetPlayerCameraAnglesFromVec3(...)`
+
+### `DTestSetSlowFrameThresholds(...)`
+
+### `DTestSetSpawnPoint(...)`
+
+### `DTestSetSpawnPointDirect(...)`
+
+### `DTestSetSpawnPointDirectMultiagent(...)`
+
+### `DTestSetSpawnPointMultiagent(...)`
+
+### `DTestSetSurfaceWaypoint(...)`
+
+### `DTestSetWaypoint(...)`
+
+### `DTestStart(...)`
+
+### `DTestStartBenchmarkTracking(...)`
+
+### `DTestStartMultiagent(...)`
+
+### `DTestStartStreamingFAPFile(...)`
+
+### `DTestStartStreamingFAPFileMultiagent(...)`
+
+### `DTestStartVideoRecording(...)`
+
+### `DTestStartVideoRecordingMultiagent(...)`
+
+### `DTestStopBenchmarkTracking(...)`
+
+### `DTestStopStreamingFAPFile(...)`
+
+### `DTestStopStreamingFAPFileMultiagent(...)`
+
+### `DTestStopVideoRecording(...)`
+
+### `DTestStopVideoRecordingMultiagent(...)`
+
+### `DTestSwitchBackpack(...)`
+
+### `DTestTakeScreenshotWithHUD(...)`
+
+### `DTestTakeScreenshotWithHUDMultiagent(...)`
+
+### `DTestTeleportPlayer(...)`
+
+### `DTestWaitForGameEvent(...)`
+
+### `DTestWaitForGameEventMultiagent(...)`
+
+### `DTestWarning(...)`
+
+### `DTestWriteToFile(...)`
+
+### `DummyFunction()`
+
+### `EnableActivityMemento(...)`
+
+### `EnableCoopLeash(...)`
+
+### `EnableCoopObjectiveMarker(...)`
+
+### `EnableEncounterSpawnGroups(...)`
+
+### `EnableGFHSystem(...)`
 
 ### `EnableGodMode(enabled)`
 
 Toggles god mode on or off.
 
-### `DisplayWorldLocationUI(...)`
+### `EnableHighEndBlurShadow(...)`
 
-### `ShowPauseMenu(...)`
+### `EnableInputSignalEvent(...)`
+
+### `EnableLongRangeShadowUpdate(...)`
+
+### `EnableLongRangeWeaponProxyComponent(...)`
+
+### `EnableRestrictedArea(...)`
+
+### `EnableSafeZone(...)`
+
+### `EnableUnlimitedAmmo(enabled)`
+
+Enables or disables unlimited ammo.
+
+### `EnableVehicleHealthBar(...)`
+
+### `EnableVSync(...)`
+
+### `EnableWorldMap(...)`
+
+### `EndTimedSlowMotion(...)`
 
 ### `error(...)`
 
-### `DisplayValveIndicatorUI(...)`
+### `ExoticCaptureFXEnabled(...)`
 
-### `DummyFunction()`
+### `ExoticMissionSave(...)`
+
+### `ExoticMissionSoftSave(...)`
+
+### `ExtinguishAllFires(...)`
+
+### `FindAndRemoveEntitiesInRadius(...)`
+
+### `FindAndRemoveEntitiesOutOfRange(...)`
+
+### `FindAndRemoveVehiclesInRadius(...)`
+
+### `FireMortarShell(...)`
+
+### `FireRocket(...)`
+
+### `FlushAllHudUpdates(...)`
+
+### `ForceDeactivateSuper(...)`
+
+### `ForceEntityPhotographable(...)`
+
+### `ForceLivingPlayersToIdle(...)`
+
+### `ForceOpenFreezer(...)`
+
+### `ForceResetASM(...)`
+
+### `ForceRespawnPlayers(...)`
+
+### `ForceSaveCharacter(...)`
+
+### `ForceSetPlayerInVehicle(...)`
+
+### `ForceSetPlayerInVehicleV2(...)`
+
+### `ForceUIInteractionOnEntity(...)`
+
+### `gcinfo(...)`
+
+### `GetActiveEntitiesInGroup(...)`
+
+### `GetAgentFaction(...)`
+
+### `GetAgentInGroup(...)`
+
+### `GetAnglesFromDir(...)`
+
+### `GetBestTalkerInGroup(...)`
+
+### `GetBestTalkerInGroupWithFilterPC(...)`
+
+### `GetCharacterEntityId(...)`
+
+### `GetClosestSafeHouse(...)`
+
+### `GetContextualStrategyUniqueGroup(...)`
+
+### `GetCurrentDefenseManagerEntity(...)`
+
+### `GetCurrentGameModeName(...)`
+
+### `GetCurrentMissionName(...)`
+
+### `GetCurrentRaceId(...)`
+
+### `GetCurveValue(...)`
+
+### `GetDefaultSpawnPointId(...)`
+
+### `GetDefenseContextualStrategy(...)`
+
+### `GetDefenseEnemyInWaveCount(...)`
+
+### `GetDefenseStartMarker(...)`
+
+### `GetDemoType(...)`
+
+### `GetDifficulty(...)`
+
+### `GetDirFromAngles(...)`
+
+### `GetDistance2D(...)`
+
+### `GetDistance3D(...)`
+
+### `GetDlcGameMode(...)`
+
+### `GetEntitiesInGroup(...)`
+
+### `GetEntityIdFromString(...)`
+
+### `GetExplosiveEquipmentName(...)`
+
+### `GetExplosiveEquipmentType(...)`
+
+### `GetFactionFromArmy(...)`
+
+### `GetFactionNameFromId(...)`
+
+### `GetFactionRelationshipFromTrust(...)`
+
+### `GetFactionTrustLevel(...)`
+
+### `getfenv(...)`
+
+### `GetFrameGameID(...)`
+
+### `GetFrameGameTime(...)`
+
+### `GetGameTime(...)`
+
+### `GetGlobalHeatLevel(...)`
+
+### `GetGlobalHeatValue(...)`
+
+### `GetGlobalNumber(...)`
+
+### `GetGlobalString(...)`
+
+### `GetGroupInStateMemberCount(...)`
+
+### `GetGSFParamFloat(...)`
+
+### `GetHeatSensitiveObjectCriticalProgress(...)`
+
+### `GetHeatSensitiveObjectCriticalTimeLeft(...)`
+
+### `GetHeatSensitiveObjectCurrentOwner(...)`
+
+### `GetHeatSensitiveObjectPreviousOwner(...)`
+
+### `GetHeatSensitiveObjectPreviousOwnerPersistent(...)`
+
+### `GetHeroCoupeOld(...)`
+
+### `GetHeroCurrentCarForPlayer(...)`
+
+### `GetHeroEquipmentArmor(...)`
+
+### `GetHeroEquipmentCountermeasure(...)`
+
+### `GetHeroEquipmentRam(...)`
+
+### `GetHeroEquipmentWeapon(...)`
+
+### `GetHeroOffroadMilitary(...)`
+
+### `GetHeroSedanHistoric(...)`
+
+### `GetHeroTruck2CabRacer(...)`
+
+### `GetInGameBenchmarkCinemaType(...)`
+
+### `GetInvalidEntityGroup(...)`
+
+### `GetInvalidEntityId(...)`
+
+### `GetInvalidParticleHdl(...)`
+
+### `GetLastUsedPlayerVehicles(...)`
+
+### `GetLocalizedText(...)`
+
+### `GetLocalPlayerId()`
+
+Returns the player id of the local player.
+
+### `getmetatable(...)`
+
+### `GetMiniGamePlayers(...)`
+
+### `GetMiniGamePlayerWithSlotId(...)`
+
+### `GetMissionAckTriggerState(...)`
+
+### `GetMissionBlockIndexForActivityID(...)`
+
+### `GetMissionMoneyReward(...)`
+
+### `GetMissionXpReward(...)`
+
+### `GetMotionBlur(...)`
+
+### `GetNoCaseStringID(...)`
+
+### `GetNoCaseStringIDLogStr(...)`
+
+### `GetNormalizedTimeOfDay(...)`
+
+### `GetNumberOfDestroyedPropaganda(...)`
+
+### `GetNumberOfPlayers(...)`
+
+### `GetOceanBeaufortLevel(...)`
+
+### `GetOpenWorldDemonicMaskCollected(...)`
+
+### `GetOpenWorldLieutenantLetterCollected(...)`
+
+### `GetOpenWorldPropagandaPosterCollected(...)`
+
+### `GetOpenWorldThangkaCollected(...)`
+
+### `GetOperationDifficulty(...)`
+
+### `GetOwningFaction(...)`
+
+### `GetPathID(...)`
+
+### `GetPathIDLogStr(...)`
+
+### `GetPersistentBreakableState(...)`
+
+### `GetPlayerGroup(...)`
+
+### `GetPlayerGroupWithType(...)`
+
+### `GetPlayerId(...)`
+
+### `GetPlayerName(...)`
+
+### `GetPoisonCloudHandle(...)`
+
+### `GetPoisonLeakCloudHandle(...)`
+
+### `GetPrefabsSpawnedByActivity(...)`
+
+### `GetPropagandaPoints(...)`
+
+### `GetQTEResult(...)`
+
+### `GetRandomPointInCircle(...)`
+
+### `GetRegionalHeatLevel(...)`
+
+### `GetRegionalHeatLevelFromPos(...)`
+
+### `GetRegionalHeatValue(...)`
+
+### `GetRegionalHeatValueFromPos(...)`
+
+### `GetRegularRacesCompleted(...)`
+
+### `GetRotatedVector(...)`
+
+### `GetSavedGlobal(...)`
+
+### `GetSequenceManager(...)`
+
+### `GetShadowDegradationLevel(...)`
+
+### `GetShortestDiff(...)`
+
+### `GetShortestDiffVec3(...)`
+
+### `GetSimplifiedHitLocationStringID(...)`
+
+### `GetSkipAssaultsIntro(...)`
+
+### `GetSomeEntityIDs(...)`
+
+### `GetSoundID(...)`
+
+### `GetSpawnPointAngles(...)`
+
+### `GetSpawnPointPos(...)`
+
+### `GetSpecialVersionType(...)`
+
+### `GetStringFromOasisId(...)`
+
+### `GetStringID(...)`
+
+### `GetStringIDLogStr(...)`
+
+### `GetSunPitch(...)`
+
+### `GetSunRoll(...)`
+
+### `GetSunYaw(...)`
+
+### `GetSurvivalRacesCompleted(...)`
+
+### `GetTimeOfDay(...)`
+
+### `GetTriggerComponentContacts(...)`
+
+### `GlobalSetObjectiveMarker(...)`
+
+### `HACK_ForceDisableVehicleIcon(...)`
+
+### `HACK_ForceOverrideSpawnPoint(...)`
+
+### `HasAssaultHardFailed(...)`
+
+### `HasEntitiesAround(...)`
+
+### `HasExclusiveMissionRunning(...)`
+
+### `HasRpgTokenPlayer(...)`
+
+### `HasSilencedWeapon(...)`
+
+### `HeroVehicleCanEquipForPlayer(...)`
+
+### `HeroVehicleIsEquippedForPlayer(...)`
+
+### `HideEntityHealth(...)`
+
+### `HideObjectiveTimer_Temp(...)`
+
+### `HideObjectiveTimer(...)`
+
+### `HideProgressBar(...)`
+
+### `HideRadioTowerObjectiveMarker(...)`
+
+### `IgnoreEntityLimiter(...)`
+
+### `InjectExoticDrugComponentOnPlayer(...)`
+
+### `InterruptContextualAction(...)`
+
+### `ipairs(...)`
+
+### `IsAnyPlayerAlive(...)`
+
+### `IsAnyRaceRunning(...)`
+
+### `IsCarriable(...)`
+
+### `IsCensoredVersion(...)`
+
+### `IsCharacterDead(...)`
+
+### `IsCurrentRaceRunning(...)`
+
+### `IsEntityInRay(...)`
+
+### `IsEntityInWater(...)`
+
+### `IsExtremViolenceAllowed(...)`
+
+### `IsGamePaused(...)`
+
+### `IsGroupAPlayerGroup(...)`
+
+### `IsGroupEqual(...)`
+
+### `IsHeatSensitiveObjectCritical(...)`
+
+### `IsHudLoaded(...)`
+
+### `IsInCombat(...)`
+
+### `IsInEditor(...)`
+
+### `IsInGameBenchmark(...)`
+
+### `IsItemAllowedByFilter(...)`
+
+### `IsLicensedMusicRestricted(...)`
+
+### `IsLoadPending(...)`
+
+### `IsLockedContentUnlocked(...)`
+
+### `IsLockedContentUnlockedOnEntity(...)`
+
+### `IsNudityAllowed(...)`
+
+### `IsOpenWorldConditionUnlocked(...)`
+
+### `IsOpenWorldEnabled(...)`
+
+### `IsPackageInstalled(...)`
+
+### `IsPackageMounted(...)`
+
+### `IsParticleLooping(...)`
+
+### `IsParticleValid(...)`
+
+### `IsPhoneCallExclusivityEnabled(...)`
+
+### `IsPlayerLocal(...)`
+
+### `IsPlayerSetupOnQuicklaunchDisabled(...)`
+
+### `IsPoisonCloudBurning(...)`
+
+### `IsPoisonCloudEmitting(...)`
+
+### `IsPoisonLeakEmitterExhausted(...)`
+
+### `IsQuickLaunching(...)`
+
+### `IsRadioTowerUnlocked(...)`
+
+### `IsRpgItemAllowedByFilter(...)`
+
+### `IsRpgItemFilterEquipped(...)`
+
+### `IsSafeHouseAIInCombat(...)`
+
+### `IsSafeHouseAlarmActivated(...)`
+
+### `IsSafeHouseHostile(...)`
+
+### `IsSafeHouseUnlocked(...)`
+
+### `IsScriptAutorunEnabled(...)`
+
+### `IsTrialRewardProcessOver(...)`
+
+### `IsTutorialMaxDisplayNumberReached(...)`
+
+### `IsUIManagerLoaded(...)`
+
+### `IsValidPlayerGroup(...)`
+
+### `IsValidSpawnPointId(...)`
+
+### `IsWeatherPreset(...)`
+
+### `IsWeatherPresetActive(...)`
+
+### `load(...)`
+
+### `loadfile(...)`
+
+### `loadstring(...)`
+
+### `LockAllSafeHouses(...)`
+
+### `LockGameplayMenuInput(...)`
+
+### `LockRadio(...)`
+
+### `LockRadioStationSwitching(...)`
+
+### `LockSafeHouse(...)`
+
+### `LockSafeHouseHostile(...)`
+
+### `LockWeaponWheelSlots(...)`
+
+### `LogConsole(...)`
+
+### `LogConsoleRetail(...)`
+
+### `LongRangeWeaponPauseLaunching(...)`
+
+### `LongRangeWeaponProxyLaunchSingleProjectileAt(...)`
+
+### `LongRangeWeaponProxySetConfig(...)`
+
+### `LongRangeWeaponProxySetTargetEntity(...)`
+
+### `LongRangeWeaponStartLaunching(...)`
+
+### `LongRangeWeaponStopLaunching(...)`
+
+### `Map3DPosInto2DHud(...)`
+
+### `MarkOutOfBounds(...)`
+
+### `MissionGetSessionGlobal(...)`
+
+### `MissionSetObjectiveMarker(...)`
+
+### `MissionSetSessionGlobal(...)`
+
+### `ModifyCustomLeashRanges(...)`
+
+### `ModifyVisibilityOfPlayers(...)`
+
+### `ModifyVisibilityOfPlayersOnJIP(...)`
+
+### `ModifyVisibilityOfRagdollEntities(...)`
+
+### `module(...)`
+
+### `newproxy(...)`
+
+### `next(...)`
+
+### `NotifyChallengerFailure(...)`
+
+### `OnExclusiveMissionStart(...)`
+
+### `OnExclusiveMissionStop(...)`
+
+### `OnOperationFinished(...)`
+
+### `OnOperationIntroFinished(...)`
+
+### `OpenAvatarCreationMenu(...)`
+
+### `OpenNpcNexusMenu(...)`
+
+### `OpenNpcNexusMenuCoop(...)`
+
+### `OpenWorldSetUnlockAllMenu(...)`
+
+### `OverrideFireManagerParticle(...)`
+
+### `OverridePlayerPosition(...)`
+
+### `OverrideRadioStation(...)`
+
+### `OverrideShopMenu(...)`
+
+### `pairs(...)`
+
+### `PauseGame(...)`
+
+### `PauseGlobalHeat(...)`
+
+### `PauseObjectiveTimer_Temp(...)`
+
+### `PauseObjectiveTimer(...)`
+
+### `PauseProgressBar(...)`
+
+### `PauseRegionalHeat(...)`
+
+### `pcall(...)`
+
+### `PlayBinkVideo(...)`
+
+### `PlayBinkVideoOnRemotePlayer(...)`
+
+### `PlayBinkVideoV2(...)`
+
+### `PlayBlockOnRadioStation(...)`
+
+### `PlayMusicExternalState(...)`
+
+### `PlayMusicTrigger(...)`
+
+### `PlayMusicTriggerOnClient(...)`
+
+### `PlayRadioTrack(...)`
+
+### `PlaySoundByID(...)`
+
+### `PopUIMode(...)`
+
+### `PopUpEndOfGame(...)`
+
+### `PreloadBinkVideo(...)`
+
+### `PrepareDemoPause(...)`
+
+### `print(...)`
+
+### `PushTutorialBox(...)`
+
+### `PushUIMode(...)`
+
+### `QueueCommandEventToEntity(...)`
+
+### `QuitToMainMenu(...)`
+
+### `RandomizeCloudTexture(...)`
+
+### `RandomizeStormTexture(...)`
+
+### `rawequal(...)`
+
+### `rawget(...)`
+
+### `rawset(...)`
+
+### `RecruitGunsForHire(...)`
+
+### `ReEnableEncounterService(...)`
+
+### `RefillSuperCharge(...)`
+
+### `RegisterActivityScriptEntityId(...)`
+
+### `RegisterAsNoCaseStringID(...)`
+
+### `RegisterAsPathID(...)`
+
+### `RegisterAsStringID(...)`
+
+### `RegisterDominoInputListenerSignal(playerID, instance, string, string)`
+
+### `RegisterEntityPreconditionListener(...)`
+
+### `RegisterGenericEntityPreconditionListener(...)`
+
+### `RegisterMenuChangedListener(...)`
+
+### `RegisterMissionObserver(...)`
+
+### `RegisterNamedTimer(...)`
+
+### `RegisterNamedTimerCallback(...)`
+
+### `RegisterNamedTimerLocalized(...)`
+
+### `RegisterOnSupplyDropSpawnedCallback(...)`
+
+### `RegisterPreconditionListener(...)`
+
+### `RegisterSoundMarkerListener(...)`
+
+### `ReleaseBombIndicatorUI(...)`
+
+### `ReleaseGameplayMenuInput(...)`
+
+### `ReleaseValveIndicatorUI(...)`
+
+### `ReloadLastCheckpoint(...)`
+
+### `RemoveAdaptiveBloomOverride(...)`
+
+### `RemoveAllPlayerFX(...)`
+
+### `RemoveAtmosphericScatteringOverride(...)`
+
+### `RemoveCharacterVisibilityOverride(...)`
+
+### `RemoveCloudShadowsOverride(...)`
+
+### `RemoveCommandEventToEntity(...)`
+
+### `RemoveCustomLeash(...)`
+
+### `RemoveDepthOfFieldOverride(...)`
+
+### `RemoveEntityOrGroup(...)`
+
+### `RemoveExposureOverride(...)`
+
+### `RemoveFactionTrustLevel(...)`
+
+### `RemoveFogOverride(...)`
+
+### `RemoveGameplayColorRemap(...)`
+
+### `RemoveGlobalHeatValue(...)`
+
+### `RemoveLightingOverride(...)`
+
+### `RemoveMiniGamePlayer(...)`
+
+### `RemoveMotionBlurOverride(...)`
+
+### `RemoveOnlyGlobalAmbient(...)`
+
+### `RemoveOverrideDisabledLogicId(...)`
+
+### `RemoveOverrideMoonDirection(...)`
+
+### `RemoveOverrideMoonHDRMultiplier(...)`
+
+### `RemoveOverrideMoonSize(...)`
+
+### `RemoveOverrideSunDirection(...)`
+
+### `RemovePersistentBreakable(...)`
+
+### `RemoveQTEResultFromManager(...)`
+
+### `RemoveRegionalHeatValue(...)`
+
+### `RemoveScriptedStormFactorOverride(...)`
+
+### `RemoveScriptedWeatherPresetOverride(...)`
+
+### `RemoveShadowOverride(...)`
+
+### `RemoveSkyOverride(...)`
+
+### `RemoveSpawnAIRequestGroupScriptCallback(...)`
+
+### `RemoveSpawnAIScriptCallback(...)`
+
+### `RemoveWeatherOverride(...)`
+
+### `RemoveWindOverride(...)`
+
+### `RepositionPlayerLoots(...)`
+
+### `RequestAirDropAroundEntity(...)`
+
+### `RequestDespawnEntityOrGroup(...)`
+
+### `RequestFloatingPopupPause(...)`
+
+### `RequestMenuTutorial(...)`
+
+### `RequestPhoneCallOnGroup(...)`
+
+### `RequestPhoneCallOnGroupWithRequester(...)`
+
+### `RequestPhoneConversation(...)`
+
+### `RequestPhoneConversationOnGroupNew(...)`
+
+### `RequestTutorial(...)`
+
+### `require(...)`
+
+### `ResetCustomLeashRanges(...)`
+
+### `ResetFogOfWar(...)`
+
+### `ResetObjectiveMarkers(...)`
+
+### `ResetRadioPanel(...)`
+
+### `ResetSoundSwitchValue(...)`
+
+### `ResetSoundSwitchValueOnClient(...)`
+
+### `ResetSuperCharge(...)`
+
+### `SafeHouseDeactivateMissionBlock(...)`
+
+### `SafeHouseDeactivateMissionBlockOnUnlock(...)`
+
+### `SaveOpenWorld(...)`
+
+### `SealSaveGame(...)`
+
+### `select(...)`
+
+### `SendChallengeNameToTrackingService(...)`
+
+### `SendCommandEventToEntity(...)`
+
+### `SendDominoFireEvent(...)`
+
+### `SendEntitiesEvent(...)`
+
+### `SendEntityTrustEvent(...)`
+
+### `SendFactionTrustEvent(...)`
+
+### `SendGREvent(...)`
+
+### `SendGSFGenericEvent(...)`
+
+### `SendGSFGenericEventToEntity(...)`
+
+### `SendPlayerBaseTrackingEvent(...)`
+
+### `SendPlayGame(...)`
+
+### `SendQTEEndedEvent(...)`
+
+### `SendQTEExitMessage(...)`
+
+### `SendQTEPlayerDeathEvent(...)`
+
+### `SendQTEShutdownMessage(...)`
+
+### `SendQTEStartedEvent(...)`
+
+### `SendRegisteredEventToEntity(...)`
+
+### `SendRegisteredEventToEntityNoArgs(...)`
+
+### `SetActivityForceTracked(...)`
+
+### `SetAdaptiveBloomOverride(...)`
+
+### `SetAlarmState(...)`
+
+### `SetAlarmStateWithReason(...)`
+
+### `SetAllowFrontTakedown(...)`
+
+### `SetAlternateLoadingScreen(...)`
+
+### `SetAssaultSpecOpsProgress(...)`
+
+### `SetAssaultStage(...)`
+
+### `SetAtmosphericScatteringOverride(...)`
+
+### `SetBackDropAndVistasLayer(...)`
+
+### `SetBinkVideo(...)`
+
+### `SetBlizzardActive(...)`
+
+### `SetBlueprintNotification_DLC(...)`
+
+### `SetBreakableAsDamageable(...)`
+
+### `SetBreakableAsNotDamageable(...)`
+
+### `SetBreakableNextState(...)`
+
+### `SetBreakableState(...)`
+
+### `SetCanUnfog(...)`
+
+### `SetCarriableEnabled(...)`
+
+### `SetCharacterVisibilityOverride(...)`
+
+### `SetCloudShadowsOverride(...)`
+
+### `SetCloudTexture(...)`
+
+### `SetConditionalZoneDBIDState(...)`
+
+### `SetConditionalZoneIdState(...)`
+
+### `SetContextualActionPathIdParameter(...)`
+
+### `SetContextualActionPathIdParameterWithIndex(...)`
+
+### `SetContextualStrategy(...)`
+
+### `SetCraftingFulfill(...)`
+
+### `SetCraftingUnlockAll(...)`
+
+### `SetCurrentRace(...)`
+
+### `SetCurrentRaceId(...)`
+
+### `SetDepthOfFieldOverride(...)`
+
+### `SetDynamicCheckListObjective(...)`
+
+### `SetEnablePropaganda(...)`
+
+### `SetEnableSaveGame(...)`
+
+### `SetEnableSaveGameOnEntity(...)`
+
+### `SetEncounterCompleted(...)`
+
+### `SetEncounterFailed(...)`
+
+### `SetEndGamePlayerChoice(...)`
+
+### `SetEntityAsLeashTeleportReference(...)`
+
+### `SetExposureOverride(...)`
+
+### `SetFactionTrustLevel(...)`
+
+### `SetFaithTarget(...)`
+
+### `SetFastTravelEnabled(...)`
+
+### `setfenv(...)`
+
+### `SetFishingRegionsEnabledWithinArea(...)`
+
+### `SetFogOverride(...)`
+
+### `SetForcedGPSOnCurrentObjective(...)`
+
+### `SetForceTimeOfDayUpdate(...)`
+
+### `SetGameVariableValue(...)`
+
+### `SetGlobalGameVariableValue(...)`
+
+### `SetGlobalHeatLevel(...)`
+
+### `SetGlobalHeatValue(...)`
+
+### `SetHeatProgressOfEntity(...)`
+
+### `SetHeatSensitiveObjectIndestructible(...)`
+
+### `SetHudVisible(...)`
+
+### `SetHudVisibleOnEntity(...)`
+
+### `SetIgnoreSkillLock(...)`
+
+### `SetInterpolatedTimeOfDay(...)`
+
+### `SetIsPastInitialInstallGate(...)`
+
+### `SetKeyPieceNotification_DLC(...)`
+
+### `SetLedgeIsActive(...)`
+
+### `SetLightingOverride(...)`
+
+### `SetLoadingScreenVideo(...)`
+
+### `SetLocalFogVolume(...)`
+
+### `SetLocalFogVolumeRGB(...)`
+
+### `SetLocalFogVolumeRGBPhaseG(...)`
+
+### `SetLockAllHeroVehicles(...)`
+
+### `SetLootedNotification_DLC(...)`
+
+### `SetLootGroup(...)`
+
+### `SetMetaBreakableEnabled(...)`
+
+### `SetMetaBreakableEnabledOnRemotePlayer(...)`
+
+### `SetMetaBreakableImmuneToDamage(...)`
+
+### `SetMetaBreakableImmuneToDamageOnRemotePlayer(...)`
+
+### `setmetatable(...)`
+
+### `SetMiniMapRoadVisibility(...)`
+
+### `SetMissionBlockLayerStateById(...)`
+
+### `SetMissionBlockLayerStateByName(...)`
+
+### `SetMonsterSpawnerNextState(...)`
+
+### `SetMotionBlur(...)`
+
+### `SetMotionBlurOverride(...)`
+
+### `SetObjectiveMarker(...)`
+
+### `SetOceanBeaufortLevel(...)`
+
+### `SetOnlyGlobalAmbient(...)`
+
+### `SetOverrideMenuAccessibility(...)`
+
+### `SetOverrideMoonDirection(...)`
+
+### `SetOverrideMoonHDRMultiplier(...)`
+
+### `SetOverrideMoonSize(...)`
+
+### `SetOverrideSunDirection(...)`
+
+### `SetOwningFaction(...)`
+
+### `SetParticleAlphaRatio(...)`
+
+### `SetParticleAutoManaged(...)`
+
+### `SetPermaDeathStateEnable(...)`
+
+### `SetPermaDeathStateEnableOnJIP(...)`
+
+### `SetPhoneCallExclusivity(...)`
+
+### `SetPOIComplete(...)`
+
+### `SetProceduralMotionState(...)`
+
+### `SetQTEHudMode(...)`
+
+### `SetRadioState(...)`
+
+### `SetRankOfCurrentQuest(...)`
+
+### `SetRegionalHeatLevel(...)`
+
+### `SetRegionalHeatValue(...)`
+
+### `SetRetaliationPartyPolling(...)`
+
+### `SetSavedGlobal(...)`
+
+### `SetScriptedStormFactorOverride(...)`
+
+### `SetScriptedWeatherPresetOverride(...)`
+
+### `SetSessionLocked(...)`
+
+### `SetShadowDegradationLevel(...)`
+
+### `SetShadowOverride(...)`
+
+### `SetShopItemsUnlockAll(...)`
+
+### `SetSkyOverride(...)`
+
+### `SetSlowMotion(number speed)`
+
+Sets the game's slow motion speed. The default value is 1.0.
+
+### `SetSoundSwitchValue(...)`
+
+### `SetSoundSwitchValueOnClient(...)`
+
+### `SetSpawnOverride(...)`
+
+### `SetSpawnOverrideForReload(...)`
+
+### `SetStormTexture(...)`
+
+### `SetSunPitch(...)`
+
+### `SetSunRoll(...)`
+
+### `SetSunYaw(...)`
+
+### `SetTimeOfDay(...)`
+
+### `SetTimeScale(scale)`
+
+Sets the game's time scale. This is the speed at which time passes in the game. A value of 1.0 is normal speed, 0.5 is half speed, 2.0 is double speed, etc.
+
+### `SetVehicleAsLeashTeleportAnchor(...)`
+
+### `SetVisibility(...)`
+
+### `SetWaterStreamActive(...)`
+
+### `SetWeatherOverride(...)`
+
+### `SetWindOverride(...)`
+
+### `SetWorldMapIcon(...)`
+
+### `ShouldSkipPlaygo(...)`
+
+### `ShowDialogBox(...)`
+
+### `ShowObjectiveTimer_Temp(...)`
+
+### `ShowObjectiveTimer(...)`
+
+### `ShowPauseMenu(...)`
+
+### `ShowPauseMenuForPawn(...)`
+
+### `ShowPlayerWaterEffect(...)`
+
+### `ShowProgressBar(...)`
+
+### `ShowResultScreen(...)`
+
+### `ShowTextPrompt(...)`
+
+### `ShowTutorialBox(...)`
+
+### `ShowVehicleChallengeDialogBox(...)`
+
+### `ShowVehicleChallengeQuestFinish(...)`
+
+### `ShowVehicleChallengeQuestStart(...)`
+
+### `ShowVehicleChallengeTargets(...)`
+
+### `ShowWorldMap(...)`
+
+### `ShowWorldMapOutpostReveal(...)`
+
+### `ShrinkSafeZone(...)`
+
+### `SoundMixingFromLua(...)`
+
+### `SoundMixingFromLuaOnClient(...)`
+
+### `SpawnAI(...)`
+
+### `SpawnAIRequestGroup(...)`
+
+### `SpawnAndAttachHeatCompoundToPlayer(...)`
+
+### `SpawnDominoEntity(...)`
+
+### `SpawnEntityFromArchetype_Legacy(...)`
+
+### `SpawnHeroVehicleOnSpawnPoint(...)`
+
+### `StartCelebrationFromDomino(...)`
+
+### `StartCelebrationFromDominoWithText(...)`
+
+### `StartCelebrationFromDominoWithTextAndPrompt(...)`
+
+### `StartChallengeTimer(...)`
+
+### `StartEndGameResultAcknowledgement(...)`
+
+### `StartFlameJet(...)`
+
+### `StartLoopingWindEmitter(...)`
+
+### `StartMissionWarmRestart(...)`
+
+### `StartMonitoringPositionReachability(...)`
+
+### `StartOverrideAmbiance(...)`
+
+### `StartTrialRewardProcess(...)`
+
+### `StartUIInteraction(...)`
+
+### `StartWindBlast(...)`
+
+### `StartWindBlastEffect(...)`
+
+### `StartWindBlastOnJIP(...)`
+
+### `StartWindEmitterOneShot(...)`
+
+### `StartWorldMapTutorial(...)`
+
+### `StopAllBinkVideosOnEntity(...)`
+
+### `StopAllDialog(...)`
+
+### `StopBinkVideoOnAllEntities(...)`
+
+### `StopBinkVideoOnEntity(...)`
+
+### `StopContextualAction(...)`
+
+### `StopDialog(...)`
+
+### `StopFlameJet(...)`
+
+### `StopLoopingWindEmitter(...)`
+
+### `StopMonitoringPositionReachability(...)`
+
+### `StopMusic(...)`
+
+### `StopMusicExternalState(...)`
+
+### `StopMusicTrigger(...)`
+
+### `StopMusicTriggerOnClient(...)`
+
+### `StopOverrideAmbiance(...)`
+
+### `StopWindBlast(...)`
+
+### `StretchSafeZone(...)`
+
+### `SwitchGameMode(...)`
+
+### `SyncMiniBossHealthBarState_DLC(...)`
+
+### `TeleportMultiPlayerWithLoadingScreen(...)`
+
+### `TeleportPawnGroup(...)`
+
+### `TeleportPawns(...)`
+
+### `TestEntityPrecondition(...)`
+
+### `TestGenericEntityPrecondition(...)`
+
+### `TestPrecondition(...)`
+
+### `ToggleContextualActionState(...)`
+
+### `ToggleContextualActionStateWithIndex(...)`
+
+### `TogglePause(...)`
+
+### `ToggleSoundPoint(...)`
+
+### `tonumber(...)`
+
+### `tostring(...)`
+
+### `TraceConnection(...)`
+
+### `TriggerExplosive(...)`
+
+### `TriggerLightning(...)`
+
+### `type(...)`
+
+### `UISendEventToPlayer(...)`
+
+### `UnApplyModifier(...)`
+
+### `UnApplyModifierWithPriority(...)`
+
+### `UnlockAllSafeHouses(...)`
+
+### `UnlockDoor(...)`
+
+### `UnlockPlayerBase(...)`
+
+### `UnlockSafeHouse(...)`
+
+### `unpack(...)`
+
+### `UnregisterCelebrationCallback(...)`
+
+### `UnregisterDialogMsgBoxCb(...)`
+
+### `UnregisterDominoInputListenerSignal(playerID, signal, string)`
+
+### `UnregisterMenuChangedListener(...)`
+
+### `UnregisterMissionObserver(...)`
+
+### `UnregisterNamedTimer(...)`
+
+### `UnregisterNamedTimerCallback(...)`
+
+### `UnregisterOnSupplyDropSpawnedCallback(...)`
+
+### `UnregisterPreconditionListener(...)`
+
+### `UnregisterSoundMarkerListener(...)`
+
+### `UnregisterTutorialCb(...)`
+
+### `UpdateNamedTimer(...)`
+
+### `UpdateObjectiveTimer(...)`
+
+### `UpdateParticleMatrix(...)`
+
+### `UseContextualAction(...)`
+
+### `UseContextualActionWithIndex(...)`
+
+### `VillagerZoneEnablePlayerInVehicleTeleport(...)`
+
+### `VillagerZoneResetAutoDrawOnExitOverride(...)`
+
+### `VillagerZoneSetAutoDrawOnExitOverride(...)`
+
+### `WorldLoaderPause(...)`
+
+### `xpcall(...)`

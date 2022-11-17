@@ -2,44 +2,44 @@
 
 ## Functions
 
-### `SetAnimalDisconnection(...)`
+### `AddToCompanionEliteEnemyList(...)`
 
-### `SetBoidsEmissiveEV(...)`
+### `AreAllBoidsUnitsDead(...)`
+
+### `ClearCompanionEliteEnemyList(...)`
+
+### `ClearFlyingSpeedOverride(...)`
 
 ### `ForceSetAnimalInVehicle(...)`
-
-### `IsAnimalDown(...)`
-
-### `SetAnimalEnclosedState(...)`
-
-### `SetAnimalCageState(...)`
-
-### `TriggerBoidsFlee(...)`
-
-### `ResetBoidsEmissiveEV(...)`
 
 ### `GetAnimalCompanionFromArchetypeId(...)`
 
 ### `GetAnimalHealthRatio(...)`
 
-### `OverrideFlyingSpeed(...)`
-
-### `ClearFlyingSpeedOverride(...)`
-
-### `AddToCompanionEliteEnemyList(...)`
-
-### `AreAllBoidsUnitsDead(...)`
+### `IsAnAnimal(...)`
 
 ### `IsAnimalBaited(...)`
 
-### `ClearCompanionEliteEnemyList(...)`
+### `IsAnimalDown(...)`
 
-### `SetAnimalRecruitable(...)`
+### `OverrideFlyingSpeed(...)`
 
-### `SetAnimalNaturalBehaviorState(...)`
+### `ResetBoidsEmissiveEV(...)`
+
+### `SetAnimalCageState(...)`
 
 ### `SetAnimalCompanionScoutingState(...)`
 
-### `IsAnAnimal(...)`
+### `SetAnimalDisconnection(...)`
+
+### `SetAnimalEnclosedState(...)`
+
+### `SetAnimalNaturalBehaviorState(...)`
+
+### `SetAnimalRecruitable(...)`
+
+### `SetBoidsEmissiveEV(...)`
 
 ### `SetIsSeatLocked(...)`
+
+### `TriggerBoidsFlee(...)`

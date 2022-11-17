@@ -2,16 +2,16 @@
 
 ## Functions
 
-### `ForbidNarrativeDialog(...)`
-
 ### `AllowNarrativeDialog(...)`
 
-### `StartDialog(...)`
+### `ForbidNarrativeDialog(...)`
+
+### `PlayDialog(...)`
 
 ### `PlayDialogNew(...)`
 
-### `SetDialogTriggerForbidden(...)`
-
 ### `PlayDialogTrigger(...)`
 
-### `PlayDialog(...)`
+### `SetDialogTriggerForbidden(...)`
+
+### `StartDialog(...)`

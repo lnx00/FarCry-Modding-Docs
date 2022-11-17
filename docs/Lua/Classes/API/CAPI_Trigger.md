@@ -2,8 +2,8 @@
 
 ## Functions
 
-### `SetTriggerEnable(...)`
+### `GetTriggerEnable(...)`
 
 ### `IsEntityInsideTrigger(...)`
 
-### `GetTriggerEnable(...)`
+### `SetTriggerEnable(...)`

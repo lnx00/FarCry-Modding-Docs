@@ -114,7 +114,10 @@
 
 ### `SetPhysicsEnabled(...)`
 
-### `GetEntityPosition(...)`
+### `GetEntityPosition(entityID, coordinate)`
+
+Returns the position of the entity. You need to specify the coordinate you want to get the position from.
+0 is x, 1 is y, 2 is z.
 
 ### `StopRealTreeGrowth(...)`
 

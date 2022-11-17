@@ -1,5 +1,9 @@
 # Pawn
 
+A pawn is an [Entity](CAPI_Entity.md).
+
+---
+
 ## Functions
 
 ### `IsAPlayer(...)`
@@ -170,7 +174,9 @@
 
 ### `ForgetAmmoInWeaponClip(...)`
 
-### `KillPawn(...)`
+### `KillPawn(pawnID, ?)`
+
+Kills the given pawn.
 
 ### `SetCurrentTimeDirection(...)`
 

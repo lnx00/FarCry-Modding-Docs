@@ -2,14 +2,15 @@
 
 ## Functions
 
+### `ForceFullAmmoInClip(...)`
+
 ### `IsArrow(...)`
-
-### `SetMountedWeaponUsable(...)`
-
-### `StopShooting(...)`
 
 ### `IsRock(...)`
 
+### `SetMountedWeaponUsable(...)`
+
 ### `StartShooting(...)`
 
-### `ForceFullAmmoInClip(...)`
+### `StopShooting(...)`
+
