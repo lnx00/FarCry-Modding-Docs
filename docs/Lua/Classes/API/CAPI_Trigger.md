@@ -1,6 +1,6 @@
 # Trigger
 
-## Methods
+## Functions
 
 ### `SetTriggerEnable(...)`
 

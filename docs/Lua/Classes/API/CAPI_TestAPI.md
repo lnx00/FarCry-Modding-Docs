@@ -1,5 +1,5 @@
 # TestAPI
 
-## Methods
+## Functions
 
 ### `ComponentExists(...)`

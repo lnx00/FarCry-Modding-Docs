@@ -1,6 +1,6 @@
 # NPC
 
-## Methods
+## Functions
 
 ### `ForbidNarrativeDialog(...)`
 

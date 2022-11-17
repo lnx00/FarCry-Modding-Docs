@@ -1,10 +1,6 @@
 # Pawn
 
-Inherits from [Entity](CAPI_Entity.md)
-
----
-
-## Methods
+## Functions
 
 ### `IsAPlayer(...)`
 

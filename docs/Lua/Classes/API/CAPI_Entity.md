@@ -1,6 +1,6 @@
 # Entity
 
-## Methods
+## Functions
 
 ### `SecurityCameraSetTargets(...)`
 

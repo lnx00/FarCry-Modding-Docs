@@ -1,10 +1,6 @@
 # Player
 
-Inherits from [Pawn](CAPI_Pawn.md)
-
----
-
-## Methods
+## Functions
 
 ### `AttachToGrappleAnchor(...)`
 

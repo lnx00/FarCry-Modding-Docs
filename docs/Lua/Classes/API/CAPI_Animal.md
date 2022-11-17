@@ -1,6 +1,6 @@
 # Animal
 
-## Methods
+## Functions
 
 ### `SetAnimalDisconnection(...)`
 

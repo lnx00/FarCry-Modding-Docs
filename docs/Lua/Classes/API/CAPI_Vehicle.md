@@ -1,6 +1,6 @@
 # Vehicle
 
-## Methods
+## Functions
 
 ### `GetVehicleOccupants(...)`
 

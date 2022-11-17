@@ -1,6 +1,6 @@
 # Weapon
 
-## Methods
+## Functions
 
 ### `IsArrow(...)`
 

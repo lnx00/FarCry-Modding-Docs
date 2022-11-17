@@ -1,6 +1,6 @@
 # Sound
 
-## Methods
+## Functions
 
 ### `SetGenericRTPC(...)`
 
