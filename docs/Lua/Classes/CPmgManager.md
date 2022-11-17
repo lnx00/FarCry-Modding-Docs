@@ -1,0 +1,5 @@
+# PmgManager
+
+## Methods
+
+### `GetInstanceRaw(...)`
