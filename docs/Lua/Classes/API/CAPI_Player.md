@@ -104,7 +104,9 @@ You can retrieve it using `GetLocalPlayerId()`
 
 ### `GetPlayerAmmoIsEmpty(...)`
 
-### `GetPlayerFOV(...)`
+### `GetPlayerFOV(playerID)`
+
+Returns the player's current field of view.
 
 ### `GetPlayerLookAngles(...)`
 
@@ -188,7 +190,9 @@ Returns true if the player is in god mode.
 
 ### `SetCanGainXP(...)`
 
-### `SetCanSprint(...)`
+### `SetCanSprint(playerID, state)`
+
+Sets whether the player is allowed to sprint.
 
 ### `SetCloseUpCamera(...)`
 
@@ -204,7 +208,9 @@ Returns true if the player is in god mode.
 
 ### `SetFlashlightArchetype(...)`
 
-### `SetFlashlightEnable(...)`
+### `SetFlashlightEnable(playerID, enabled)`
+
+Enables or disables the flashlight.
 
 ### `SetFlashlightEnableOnJIP(...)`
 
@@ -218,9 +224,13 @@ Returns true if the player is in god mode.
 
 ### `SetIronSight(...)`
 
-### `SetJumping(...)`
+### `SetJumping(playerID, state)`
 
-### `SetLandingDamageEnabled(player, bool enabled)`
+Jumps if the player is on the ground.
+
+### `SetLandingDamageEnabled(playerID, enabled)`
+
+Enables or disables fall damage.
 
 ### `SetLockRadios(...)`
 
@@ -262,7 +272,9 @@ Sets the player's money to the specified amount.
 
 ### `SetRadioTrackOnPlayerVehicle(...)`
 
-### `SetSprinting(...)`
+### `SetSprinting(playerID, state)`
+
+Sets whether the player is sprinting.
 
 ### `SetStalkMode(...)`
 
@@ -308,13 +320,19 @@ Sets the player's money to the specified amount.
 
 ### `VerifyInputPriorityByStringID(...)`
 
-### `VisionModeStartBliss(...)`
+### `VisionModeStartBliss(playerID, duration, false)`
+
+Starts the bliss vision mode for the specified player.
 
 ### `VisionModeStartCustomIntoxication(...)`
 
-### `VisionModeStartDrunk(...)`
+### `VisionModeStartDrunk(playerID, duration, false)`
 
-### `VisionModeStartHigh(...)`
+Starts the drunk vision mode for the specified player.
+
+### `VisionModeStartHigh(playerID, duration, false)`
+
+Starts the high vision mode for the specified player.
 
 ### `VisionModeStartScopolamineHeavy(...)`
 
@@ -324,6 +342,8 @@ Sets the player's money to the specified amount.
 
 ### `VisionModeStartSuppression(...)`
 
-### `VisionModeStop(...)`
+### `VisionModeStop(playerID)`
+
+Stops the current vision mode for the specified player.
 
 ### `WithdrawPlayerMoney(...)`

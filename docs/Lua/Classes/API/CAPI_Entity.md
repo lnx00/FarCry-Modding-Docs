@@ -1,5 +1,7 @@
 # Entity
 
+Most of these functions require the entityID as the first parameter.
+
 ## Functions
 
 ### `SecurityCameraSetTargets(...)`
@@ -40,7 +42,9 @@
 
 ### `GetEntityAngles(...)`
 
-### `GetEntityPositionVec3(...)`
+### `GetEntityPositionVec3(entityID)`
+
+Returns the position of the entity as a table where every index is a coordinate.
 
 ### `GetEntityAngle(...)`
 
@@ -52,7 +56,7 @@
 
 ### `RemoveBonusPlan(...)`
 
-### `AddEntityToGroup(...)`
+### `AddEntityToGroup(entityID, groupID)`
 
 ### `IsPickable(...)`
 

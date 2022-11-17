@@ -54,7 +54,9 @@ A pawn is an [Entity](CAPI_Entity.md).
 
 ### `BelongToGOSMGroup(...)`
 
-### `SetDieOnOxygenDepletion(...)`
+### `SetDieOnOxygenDepletion(pawnID, enabled)`
+
+Enables or disables the pawn's death when the oxygen level reaches 0.
 
 ### `AddGunsForHire(...)`
 
@@ -134,7 +136,7 @@ A pawn is an [Entity](CAPI_Entity.md).
 
 ### `RestrictedRpgFeatureEnabled(...)`
 
-### `AddItem(...)`
+### `AddItem(pawnID, itemID, ammount)`
 
 ### `HasSilentWeapon(...)`
 
@@ -246,7 +248,7 @@ Kills the given pawn.
 
 ### `CheckPawnWeaponInventoryByCategory(...)`
 
-### `SetNoWeaponMode(...)`
+### `SetNoWeaponMode(pawnID, enabled, 0)`
 
 ### `GetRpgInventoryItemQuantity(...)`
 
@@ -326,7 +328,9 @@ Kills the given pawn.
 
 ### `UnlockUniqueGunsForHire(...)`
 
-### `SetPawnHealth(...)`
+### `SetPawnHealth(pawnID, 0, health)`
+
+Sets the health of the given pawn.
 
 ### `GetPawnHealth(...)`
 
@@ -360,7 +364,9 @@ Kills the given pawn.
 
 ### `AddProtectedLootDbItem(...)`
 
-### `ExtinguishFire(...)`
+### `ExtinguishFire(pawnID, 1)`
+
+Extinguishes the fire on the given pawn.
 
 ### `SetHighAltitudeOxygenDrain(...)`
 
@@ -398,7 +404,7 @@ Kills the given pawn.
 
 ### `SetInQTE(...)`
 
-### `RemoveAllInventory(...)`
+### `RemoveAllInventory(pawnID, 1)`
 
 ### `SetItemQuantity(...)`
 

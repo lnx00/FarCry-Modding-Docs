@@ -13,4 +13,3 @@
 ### `StartShooting(...)`
 
 ### `StopShooting(...)`
-

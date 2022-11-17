@@ -1,5 +1,11 @@
 # ActivityManager
 
+## Functions
+
+### `GetInstance()`
+
+Returns the singleton instance of the ActivityManager.
+
 ## Methods
 
 ### `UnregisterActivityObjectiveEndedCallback(...)`
@@ -25,8 +31,6 @@
 ### `SetActivityStoppableWhenAcknowledged(...)`
 
 ### `SetActivityFact(...)`
-
-### `GetInstance(...)`
 
 ### `PMG_CompleteChallenge(...)`
 

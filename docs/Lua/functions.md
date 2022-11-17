@@ -969,13 +969,15 @@
 
 ### `ClearCurrentRace(...)`
 
-### `ClearGlobalHeat(...)`
+### `ClearGlobalHeat()`
+
+Clears the global heat value.
 
 ### `ClearObjectiveProgressMsg(...)`
 
 ### `ClearRegionalHeat(...)`
 
-### `ClearRemoveEntityOrGroup(...)`
+### `ClearRemoveEntityOrGroup(id)`
 
 ### `CloseCurrentDialogBox(...)`
 
@@ -1009,7 +1011,9 @@
 
 ### `CreateUniqueGroup(...)`
 
-### `CScriptCallbackSystem_GetInstance(...)`
+### `CScriptCallbackSystem_GetInstance()`
+
+Returns the global instance of the [ScriptCallbackSystem](CScriptCallbackSystem.md).
 
 ### `CTerrain_GetInstance(...)`
 
@@ -1063,7 +1067,9 @@
 
 ### `DisplayCinematicUIPrompt(...)`
 
-### `DisplayCustomUIMsg(...)`
+### `DisplayCustomUIMsg(messageID, state, 0, entityID, type)`
+
+Displays a custom UI message.
 
 ### `DisplayDebugCinematicMsg(...)`
 
@@ -1361,7 +1367,9 @@ Enables or disables unlimited ammo.
 
 ### `ExoticMissionSoftSave(...)`
 
-### `ExtinguishAllFires(...)`
+### `ExtinguishAllFires(1)`
+
+Extinguishes all fires in the world.
 
 ### `FindAndRemoveEntitiesInRadius(...)`
 
@@ -1441,11 +1449,13 @@ Enables or disables unlimited ammo.
 
 ### `GetDistance2D(...)`
 
-### `GetDistance3D(...)`
+### `GetDistance3D(entityID1, entityID2)`
 
 ### `GetDlcGameMode(...)`
 
-### `GetEntitiesInGroup(...)`
+### `GetEntitiesInGroup(groupID)`
+
+Returns a table of entity IDs in the specified group.
 
 ### `GetEntityIdFromString(...)`
 
@@ -1571,7 +1581,10 @@ Returns the player id of the local player.
 
 ### `GetPersistentBreakableState(...)`
 
-### `GetPlayerGroup(...)`
+### `GetPlayerGroup()`
+
+Returns the group ID of the friendly players.
+Use `GetEntitiesInGroup` to get a table of entity IDs.
 
 ### `GetPlayerGroupWithType(...)`
 
@@ -1767,7 +1780,9 @@ Returns the player id of the local player.
 
 ### `IsSafeHouseHostile(...)`
 
-### `IsSafeHouseUnlocked(...)`
+### `IsSafeHouseUnlocked(entityID)`
+
+Returns whether the safehouse with the given entity ID is unlocked.
 
 ### `IsScriptAutorunEnabled(...)`
 
@@ -1875,7 +1890,9 @@ Returns the player id of the local player.
 
 ### `PauseGame(...)`
 
-### `PauseGlobalHeat(...)`
+### `PauseGlobalHeat(paused)`
+
+Pauses the global heat system.
 
 ### `PauseObjectiveTimer_Temp(...)`
 
@@ -1907,7 +1924,7 @@ Returns the player id of the local player.
 
 ### `PopUIMode(...)`
 
-### `PopUpEndOfGame(...)`
+### `PopUpEndOfGame(enabled)`
 
 ### `PreloadBinkVideo(...)`
 
@@ -1993,7 +2010,9 @@ Returns the player id of the local player.
 
 ### `RemoveDepthOfFieldOverride(...)`
 
-### `RemoveEntityOrGroup(...)`
+### `RemoveEntityOrGroup(id)`
+
+Removes an entity or group of entities.
 
 ### `RemoveExposureOverride(...)`
 
@@ -2093,7 +2112,9 @@ Returns the player id of the local player.
 
 ### `SendChallengeNameToTrackingService(...)`
 
-### `SendCommandEventToEntity(...)`
+### `SendCommandEventToEntity(entityID, commands, parameters)`
+
+Sends a command event to an entity. The parameters are stored in a table.
 
 ### `SendDominoFireEvent(...)`
 
@@ -2135,7 +2156,9 @@ Returns the player id of the local player.
 
 ### `SetAlarmStateWithReason(...)`
 
-### `SetAllowFrontTakedown(...)`
+### `SetAllowFrontTakedown(playerID, enabled)`
+
+Enables or disables the ability to perform a front takedown.
 
 ### `SetAlternateLoadingScreen(...)`
 
@@ -2301,7 +2324,9 @@ Returns the player id of the local player.
 
 ### `SetOverrideMoonHDRMultiplier(...)`
 
-### `SetOverrideMoonSize(...)`
+### `SetOverrideMoonSize(size)`
+
+Changes the size of the moon.
 
 ### `SetOverrideSunDirection(...)`
 
@@ -2435,7 +2460,9 @@ Sets the game's time scale. This is the speed at which time passes in the game. 
 
 ### `SpawnDominoEntity(...)`
 
-### `SpawnEntityFromArchetype_Legacy(...)`
+### `SpawnEntityFromArchetype_Legacy(archeType, x, y, z, yaw, pitch, roll)`
+
+Spawn an entity from an archetype. Returns the ID of the spawned entity.
 
 ### `SpawnHeroVehicleOnSpawnPoint(...)`
 
