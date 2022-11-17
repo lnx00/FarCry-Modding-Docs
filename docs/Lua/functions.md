@@ -941,7 +941,9 @@
 
 ### `CancelSpawnAIRequestGroup(...)`
 
-### `CanExecuteDebugCommands(...)`
+### `CanExecuteDebugCommands()`
+
+Returns true if the debug commands are enabled.
 
 ### `CDominoConsoleCommandManager_GetInstance(...)`
 
@@ -1419,7 +1421,9 @@ Extinguishes all fires in the world.
 
 ### `GetCharacterEntityId(...)`
 
-### `GetClosestSafeHouse(...)`
+### `GetClosestSafeHouse(playerID)`
+
+Returns the entity ID of the closest safe house to the player.
 
 ### `GetContextualStrategyUniqueGroup(...)`
 
@@ -1756,7 +1760,9 @@ Use `GetEntitiesInGroup` to get a table of entity IDs.
 
 ### `IsPhoneCallExclusivityEnabled(...)`
 
-### `IsPlayerLocal(...)`
+### `IsPlayerLocal(playerID)`
+
+Returns true if the player is the local player.
 
 ### `IsPlayerSetupOnQuicklaunchDisabled(...)`
 
@@ -2442,7 +2448,9 @@ Sets the game's time scale. This is the speed at which time passes in the game. 
 
 ### `ShowVehicleChallengeTargets(...)`
 
-### `ShowWorldMap(...)`
+### `ShowWorldMap(playerID)`
+
+Shows the world map for the specified player.
 
 ### `ShowWorldMapOutpostReveal(...)`
 
@@ -2498,7 +2506,9 @@ Spawn an entity from an archetype. Returns the ID of the spawned entity.
 
 ### `StartWindEmitterOneShot(...)`
 
-### `StartWorldMapTutorial(...)`
+### `StartWorldMapTutorial(playerID)`
+
+Starts the world map tutorial for the specified player.
 
 ### `StopAllBinkVideosOnEntity(...)`
 
