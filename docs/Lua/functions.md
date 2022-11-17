@@ -1714,7 +1714,9 @@ Sets the game's slow motion speed. The default value is 1.0.
 
 ### `GetOpenWorldPropagandaPosterCollected(...)`
 
-### `EnableGodMode(bool enabled)`
+### `EnableGodMode(enabled)`
+
+Toggles god mode on or off.
 
 ### `DisplayWorldLocationUI(...)`
 

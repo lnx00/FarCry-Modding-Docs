@@ -44,7 +44,7 @@ Contains your player id (?).
 
 ## Tables
 
-### `table<?> Boxes`
+### `table<CDominoBoxInstance> Boxes`
 
 Contains all box instances.
 

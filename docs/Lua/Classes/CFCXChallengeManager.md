@@ -1,0 +1,7 @@
+# FCXChallengeManager
+
+## Methods
+
+### `GetInstance(...)`
+
+### `DisplayStartMenu(...)`

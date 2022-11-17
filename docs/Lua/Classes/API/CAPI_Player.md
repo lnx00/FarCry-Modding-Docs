@@ -266,7 +266,9 @@ Inherits from [Pawn](CAPI_Pawn.md)
 
 ### `ForceSetPlayerInGround(...)`
 
-### `bool IsPlayerInGodMode()`
+### `IsPlayerInGodMode()`
+
+Returns true if the player is in god mode.
 
 ### `GetHighestPriorityInteraction(...)`
 

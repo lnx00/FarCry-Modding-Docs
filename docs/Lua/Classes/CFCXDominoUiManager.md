@@ -1,0 +1,5 @@
+# FCXDominoUiManager
+
+## Methods
+
+### `GetInstance(...)`

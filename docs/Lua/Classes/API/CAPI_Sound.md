@@ -1,0 +1,7 @@
+# Sound
+
+## Methods
+
+### `SetGenericRTPC(...)`
+
+### `PlaySoundAtPosition(...)`

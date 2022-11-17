@@ -1,0 +1,7 @@
+# Terrain
+
+## Methods
+
+### `GetInstance(...)`
+
+### `GetSector(...)`

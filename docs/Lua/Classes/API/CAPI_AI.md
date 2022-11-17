@@ -1,35 +1,35 @@
 # AI
 
-## Methods
-
-### `FlushNarrativePathConversations(...)`
-
-### `GetConversationStatus(...)`
-
-### `GetAlarmUserId(...)`
+## Functions
 
 ### `FlushConversation(...)`
 
-### `GetAlarmState(...)`
-
-### `GetCurrentContextualStrategyEntity(...)`
-
-### `GetCurrentLineId(...)`
-
-### `GetConvoyReliabilityFactor(...)`
-
-### `GetCurrentContextualStrategyType(...)`
-
-### `HealPawnCompanions(...)`
+### `FlushNarrativePathConversations(...)`
 
 ### `GetAlarmActivationReason(...)`
 
+### `GetAlarmState(...)`
+
+### `GetAlarmUserId(...)`
+
+### `GetConversationStatus(...)`
+
+### `GetConvoyReliabilityFactor(...)`
+
 ### `GetCurrentContextualAction(...)`
 
-### `SetIncapacitated(...)`
+### `GetCurrentContextualStrategyEntity(...)`
 
-### `IsAgentVolumeActive(...)`
+### `GetCurrentContextualStrategyType(...)`
+
+### `GetCurrentLineId(...)`
 
 ### `GetEntitiesInVolume(...)`
 
+### `HealPawnCompanions(...)`
+
+### `IsAgentVolumeActive(...)`
+
 ### `SetAgentVolumeActive(...)`
+
+### `SetIncapacitated(...)`
