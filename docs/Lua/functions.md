@@ -238,7 +238,7 @@
 
 ### `RemoveSpawnAIRequestGroupScriptCallback(...)`
 
-### `UnregisterDominoInputListenerSignal(...)`
+### `UnregisterDominoInputListenerSignal(playerID, signal, string)`
 
 ### `IsParticleLooping(...)`
 
@@ -836,7 +836,9 @@
 
 ### `SendGREvent(...)`
 
-### `SetSlowMotion(...)`
+### `SetSlowMotion(number speed)`
+
+Sets the game's slow motion speed. The default value is 1.0.
 
 ### `print(...)`
 
@@ -998,7 +1000,7 @@
 
 ### `GetCurrentMissionName(...)`
 
-### `RegisterDominoInputListenerSignal(...)`
+### `RegisterDominoInputListenerSignal(playerID, instance, string, string)`
 
 ### `PlayBinkVideoV2(...)`
 
@@ -1332,7 +1334,7 @@
 
 ### `LongRangeWeaponProxySetTargetEntity(...)`
 
-### `DisplayHint(...)`
+### `DisplayHint(oasisID, bool, duration, 0, 0, 0)`
 
 ### `GetHeroCoupeOld(...)`
 
@@ -1712,7 +1714,7 @@
 
 ### `GetOpenWorldPropagandaPosterCollected(...)`
 
-### `EnableGodMode(...)`
+### `EnableGodMode(bool enabled)`
 
 ### `DisplayWorldLocationUI(...)`
 

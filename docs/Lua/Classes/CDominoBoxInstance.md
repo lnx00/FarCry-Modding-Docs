@@ -8,7 +8,7 @@
 
 ### `ExecDynString(...)`
 
-### `SetParentGraph(...)`
+### `SetParentGraph(DominoBoxInstance instance)`
 
 ### `ExecDynInt(...)`
 
@@ -28,4 +28,4 @@
 
 ### `SetBoxName(...)`
 
-### `CreateBox(...)`
+### `CreateBox(string luaPath)`
