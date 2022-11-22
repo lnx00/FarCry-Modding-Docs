@@ -1,0 +1,3660 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Player - Far Cry Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.08040f6c.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#player" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Far Cry Docs" class="md-header__button md-logo" aria-label="Far Cry Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Far Cry Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Player
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/lnx00/FarCry-Modding-Docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    FarCry Modding Docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../" class="md-tabs__link md-tabs__link--active">
+        Lua
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Far Cry Docs" class="md-nav__button md-logo" aria-label="Far Cry Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Far Cry Docs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/lnx00/FarCry-Modding-Docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    FarCry Modding Docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Lua
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Lua" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Lua
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../" class="md-nav__link">
+        Lua API
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../functions/" class="md-nav__link">
+        Global Functions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../variables/" class="md-nav__link">
+        Global Data
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          Classes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Classes" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Classes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CAIDirectorService/" class="md-nav__link">
+        AIDirectorService
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CActivityManager/" class="md-nav__link">
+        ActivityManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CDominoBoxInstance/" class="md-nav__link">
+        DominoBoxInstance
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CDominoBoxResource/" class="md-nav__link">
+        DominoBoxResource
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CDominoConsoleCommandManager/" class="md-nav__link">
+        DominoConsoleCommandManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CDominoDelayManager/" class="md-nav__link">
+        DominoDelayManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CDominoSoundManager/" class="md-nav__link">
+        DominoSoundManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CDominoTickManager/" class="md-nav__link">
+        DominoTickManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CDominoWaterLevelManager/" class="md-nav__link">
+        DominoWaterLevelManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CEntityGroupManager/" class="md-nav__link">
+        EntityGroupManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CFCXAchievementService/" class="md-nav__link">
+        FCXAchievementService
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CFCXChallengeManager/" class="md-nav__link">
+        FCXChallengeManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CFCXDominoUiManager/" class="md-nav__link">
+        FCXDominoUiManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CFCXMusicService/" class="md-nav__link">
+        FCXMusicService
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CFCXNoFlyZoneService/" class="md-nav__link">
+        CFCXNoFlyZoneService
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CGOStateMachineScriptCallbackSystem/" class="md-nav__link">
+        GOStateMachineScriptCallbackSystem
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CIntelManager/" class="md-nav__link">
+        IntelManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CMissionBlockManager/" class="md-nav__link">
+        MissionBlockManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CNavigationScriptingInterface/" class="md-nav__link">
+        NavigationScriptingInterface
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CNewPoisonCloudManager/" class="md-nav__link">
+        NewPoisonCloudManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CPmgManager/" class="md-nav__link">
+        PmgManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CScriptCallbackSystem/" class="md-nav__link">
+        ScriptCallbackSystem
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CScriptObjectGame/" class="md-nav__link">
+        ScriptObjectGame
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CSector/" class="md-nav__link">
+        Sector
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CStatisticServiceSP/" class="md-nav__link">
+        StatisticServiceSP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CTerrain/" class="md-nav__link">
+        Terrain
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_27" type="checkbox" id="__nav_2_4_27" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4_27">
+          API
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="API" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_27">
+          <span class="md-nav__icon md-icon"></span>
+          API
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_AI/" class="md-nav__link">
+        AI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Animal/" class="md-nav__link">
+        Animal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Cinema/" class="md-nav__link">
+        Cinema
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Entity/" class="md-nav__link">
+        Entity
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_NPC/" class="md-nav__link">
+        NPC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Pawn/" class="md-nav__link">
+        Pawn
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Player
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Player
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#functions" class="md-nav__link">
+    Functions
+  </a>
+  
+    <nav class="md-nav" aria-label="Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#addarmor" class="md-nav__link">
+    AddArmor(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addboolfact" class="md-nav__link">
+    AddBoolFact(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addplayermoney" class="md-nav__link">
+    AddPlayerMoney(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addreinforcementtokens" class="md-nav__link">
+    AddReinforcementTokens(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addweaponattachment" class="md-nav__link">
+    AddWeaponAttachment(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adjustbinocularzoomnow" class="md-nav__link">
+    AdjustBinocularZoomNow(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adjustcamerazoomnow" class="md-nav__link">
+    AdjustCameraZoomNow(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#airstrikeactivate" class="md-nav__link">
+    AirStrikeActivate(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#airstrikeaddtokens" class="md-nav__link">
+    AirStrikeAddTokens(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#airstrikeenablecharge" class="md-nav__link">
+    AirStrikeEnableCharge(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applydisplacement" class="md-nav__link">
+    ApplyDisplacement(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applyslidingspeed" class="md-nav__link">
+    ApplySlidingSpeed(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attachplayer" class="md-nav__link">
+    AttachPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attachtograppleanchor" class="md-nav__link">
+    AttachToGrappleAnchor(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blendandrestorefov" class="md-nav__link">
+    BlendAndRestoreFOV(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#camerashakeandgamepadrumble" class="md-nav__link">
+    CameraShakeAndGamePadRumble(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changegrapplearchetype" class="md-nav__link">
+    ChangeGrappleArchetype(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clearallweaponattachments" class="md-nav__link">
+    ClearAllWeaponAttachments(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#completeracegame" class="md-nav__link">
+    CompleteRaceGame(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleteinventory" class="md-nav__link">
+    DeleteInventory(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detachplayer" class="md-nav__link">
+    DetachPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drawarrow" class="md-nav__link">
+    DrawArrow(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drawgadget" class="md-nav__link">
+    DrawGadget(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drophealinginteractionpriority" class="md-nav__link">
+    DropHealingInteractionPriority(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enableanimallooting" class="md-nav__link">
+    EnableAnimalLooting(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enableplantlooting" class="md-nav__link">
+    EnablePlantLooting(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fillammoforammotype" class="md-nav__link">
+    FillAmmoForAmmoType(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finishanimationcycle" class="md-nav__link">
+    FinishAnimationCycle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fishingforcebite" class="md-nav__link">
+    FishingForceBite(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fishingforcelinebreak" class="md-nav__link">
+    FishingForceLineBreak(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcesetplayerincapture" class="md-nav__link">
+    ForceSetPlayerInCapture(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcesetplayerincapturedonchair" class="md-nav__link">
+    ForceSetPlayerInCapturedOnChair(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcesetplayerincapturestate" class="md-nav__link">
+    ForceSetPlayerInCaptureState(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcesetplayeringround" class="md-nav__link">
+    ForceSetPlayerInGround(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcesetplayerinridingentity" class="md-nav__link">
+    ForceSetPlayerInRidingEntity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcesetplayerinvehicle" class="md-nav__link">
+    ForceSetPlayerInVehicle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getbeautifierfirstmaxanglelimits" class="md-nav__link">
+    GetBeautifierFirstMaxAngleLimits(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getbeautifierfirstminanglelimits" class="md-nav__link">
+    GetBeautifierFirstMinAngleLimits(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getcurrentcyclesnumber" class="md-nav__link">
+    GetCurrentCyclesNumber(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getcurrentinventorykey" class="md-nav__link">
+    GetCurrentInventoryKey(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getcurrentregion" class="md-nav__link">
+    GetCurrentRegion(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getcurrentregionfaction" class="md-nav__link">
+    GetCurrentRegionFaction(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getdesiredplayerlookangles" class="md-nav__link">
+    GetDesiredPlayerLookAngles(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getflashlightarchetype" class="md-nav__link">
+    GetFlashlightArchetype(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gethighestpriorityinteraction" class="md-nav__link">
+    GetHighestPriorityInteraction(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getmovementsensitivity" class="md-nav__link">
+    GetMovementSensitivity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getplayerammoisempty" class="md-nav__link">
+    GetPlayerAmmoIsEmpty(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getplayerfovplayerid" class="md-nav__link">
+    GetPlayerFOV(playerID)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getplayerlookangles" class="md-nav__link">
+    GetPlayerLookAngles(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getplayermedpackcount" class="md-nav__link">
+    GetPlayerMedPackCount(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getplayermoney" class="md-nav__link">
+    GetPlayerMoney(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getplayernearfov" class="md-nav__link">
+    GetPlayerNearFOV(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getquicklaunchplayeridref" class="md-nav__link">
+    GetQuickLaunchPlayerIdRef(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getworldspeed" class="md-nav__link">
+    GetWorldSpeed(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#giveammoclipstoplayer" class="md-nav__link">
+    GiveAmmoClipsToPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#giveammotoplayer" class="md-nav__link">
+    GiveAmmoToPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#giveplayeroutpostxpbonus" class="md-nav__link">
+    GivePlayerOutpostXPBonus(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#giveplayerreward" class="md-nav__link">
+    GivePlayerReward(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#giveplayerxp" class="md-nav__link">
+    GivePlayerXP(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#huntingvisionstart" class="md-nav__link">
+    HuntingVisionStart(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#huntingvisionstop" class="md-nav__link">
+    HuntingVisionStop(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isbeautifierfirstyawlimited" class="md-nav__link">
+    IsBeautifierFirstYawLimited(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isinair" class="md-nav__link">
+    IsInAir(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isplayeringodmode" class="md-nav__link">
+    IsPlayerInGodMode()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isradiotowersequenceactive" class="md-nav__link">
+    IsRadioTowerSequenceActive(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#issignalpressed" class="md-nav__link">
+    IsSignalPressed(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#istrialplayer" class="md-nav__link">
+    IsTrialPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isusingladder" class="md-nav__link">
+    IsUsingLadder(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lockinputpriority" class="md-nav__link">
+    LockInputPriority(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lockinputprioritybystringid" class="md-nav__link">
+    LockInputPriorityByStringID(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lockplayeractionmap" class="md-nav__link">
+    LockPlayerActionMap(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modifymodeltypeoflocalplayer" class="md-nav__link">
+    ModifyModelTypeOfLocalPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#popplayeractionmap" class="md-nav__link">
+    PopPlayerActionMap(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pushplayeractionmap" class="md-nav__link">
+    PushPlayerActionMap(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#releaseinputpriority" class="md-nav__link">
+    ReleaseInputPriority(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#releaseinputprioritybystringid" class="md-nav__link">
+    ReleaseInputPriorityByStringID(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeallspawnedgadgets" class="md-nav__link">
+    RemoveAllSpawnedGadgets(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removedevicetotrack" class="md-nav__link">
+    RemoveDeviceToTrack(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeplayeractionmap" class="md-nav__link">
+    RemovePlayerActionMap(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resethudreticlealpha" class="md-nav__link">
+    ResetHudReticleAlpha(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resetinputs" class="md-nav__link">
+    ResetInputs(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restoredefaultgrapplearchetype" class="md-nav__link">
+    RestoreDefaultGrappleArchetype(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#safehousealarmdisabledfeedback" class="md-nav__link">
+    SafeHouseAlarmDisabledFeedback(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selectthrowgadget" class="md-nav__link">
+    SelectThrowGadget(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setabilityupgradable" class="md-nav__link">
+    SetAbilityUpgradable(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setalwayssliding" class="md-nav__link">
+    SetAlwaysSliding(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setcancatchonfire" class="md-nav__link">
+    SetCanCatchOnFire(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setcangainxp" class="md-nav__link">
+    SetCanGainXP(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setcansprintplayerid-state" class="md-nav__link">
+    SetCanSprint(playerID, state)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setcloseupcamera" class="md-nav__link">
+    SetCloseUpCamera(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setcurrentspactivity" class="md-nav__link">
+    SetCurrentSPActivity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setdivingpostfxallowed" class="md-nav__link">
+    SetDivingPostFXAllowed(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seteffectivecamerapositionoffset" class="md-nav__link">
+    SetEffectiveCameraPositionOffset(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setenablevehicleradios" class="md-nav__link">
+    SetEnableVehicleRadios(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setextremezoomcamera" class="md-nav__link">
+    SetExtremeZoomCamera(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setflashlightarchetype" class="md-nav__link">
+    SetFlashlightArchetype(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setflashlightenableplayerid-enabled" class="md-nav__link">
+    SetFlashlightEnable(playerID, enabled)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setflashlightenableonjip" class="md-nav__link">
+    SetFlashlightEnableOnJIP(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sethighaltitude" class="md-nav__link">
+    SetHighAltitude(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sethudreticlealpha" class="md-nav__link">
+    SetHudReticleAlpha(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setignoreplayersignal" class="md-nav__link">
+    SetIgnorePlayerSignal(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setinexoticminigame" class="md-nav__link">
+    SetInExoticMinigame(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setironsight" class="md-nav__link">
+    SetIronSight(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setjumpingplayerid-state" class="md-nav__link">
+    SetJumping(playerID, state)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setlandingdamageenabledplayerid-enabled" class="md-nav__link">
+    SetLandingDamageEnabled(playerID, enabled)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setlockradios" class="md-nav__link">
+    SetLockRadios(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setmovementsensitivityplayerid-sensitivity" class="md-nav__link">
+    SetMovementSensitivity(playerID, sensitivity)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setoxygenlevel" class="md-nav__link">
+    SetOxygenLevel(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayeractionmap" class="md-nav__link">
+    SetPlayerActionMap(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayeraimangles" class="md-nav__link">
+    SetPlayerAimAngles(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayeraimanglesfromangles" class="md-nav__link">
+    SetPlayerAimAnglesFromAngles(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayerfov" class="md-nav__link">
+    SetPlayerFOV(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayerlookangles" class="md-nav__link">
+    SetPlayerLookAngles(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayerlookanglesfromangles" class="md-nav__link">
+    SetPlayerLookAnglesFromAngles(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayermoneyplayerid-ammount" class="md-nav__link">
+    SetPlayerMoney(playerID, ammount)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayernearfov" class="md-nav__link">
+    SetPlayerNearFOV(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayerpadrumble" class="md-nav__link">
+    SetPlayerPadRumble(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayertriggerrumble" class="md-nav__link">
+    SetPlayerTriggerRumble(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpositiononladder" class="md-nav__link">
+    SetPositionOnLadder(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpostfxintensity" class="md-nav__link">
+    SetPostFXIntensity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpropagandaenabled" class="md-nav__link">
+    SetPropagandaEnabled(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setquicklaunchplayeridref" class="md-nav__link">
+    SetQuickLaunchPlayerIdRef(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setradiotrackonplayervehicle" class="md-nav__link">
+    SetRadioTrackOnPlayerVehicle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setsprintingplayerid-state" class="md-nav__link">
+    SetSprinting(playerID, state)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setstalkmode" class="md-nav__link">
+    SetStalkMode(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setswimlookpitchlimits" class="md-nav__link">
+    SetSwimLookPitchLimits(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setwaterdivingenable" class="md-nav__link">
+    SetWaterDivingEnable(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setworldspeed" class="md-nav__link">
+    SetWorldSpeed(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#startplayanim" class="md-nav__link">
+    StartPlayAnim(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#startpostfx" class="md-nav__link">
+    StartPostFX(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stopplayanim" class="md-nav__link">
+    StopPlayAnim(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stoppostfx" class="md-nav__link">
+    StopPostFX(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#switchcamera" class="md-nav__link">
+    SwitchCamera(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#switchinventory" class="md-nav__link">
+    SwitchInventory(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#switchplayerpawn" class="md-nav__link">
+    SwitchPlayerPawn(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#takecamerapicture" class="md-nav__link">
+    TakeCameraPicture(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teleportplayeronladder" class="md-nav__link">
+    TeleportPlayerOnLadder(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unlockplayeractionmap" class="md-nav__link">
+    UnlockPlayerActionMap(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unsetcurrentspactivity" class="md-nav__link">
+    UnsetCurrentSPActivity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updatedevicetotrack" class="md-nav__link">
+    UpdateDeviceToTrack(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updatemovement" class="md-nav__link">
+    UpdateMovement(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updateplayerincapture" class="md-nav__link">
+    UpdatePlayerInCapture(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updateplayerincapturestate" class="md-nav__link">
+    UpdatePlayerInCaptureState(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updateracegametimer" class="md-nav__link">
+    UpdateRaceGameTimer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verifyinputpriority" class="md-nav__link">
+    VerifyInputPriority(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verifyinputprioritybystringid" class="md-nav__link">
+    VerifyInputPriorityByStringID(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestartblissplayerid-duration-false" class="md-nav__link">
+    VisionModeStartBliss(playerID, duration, false)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestartcustomintoxication" class="md-nav__link">
+    VisionModeStartCustomIntoxication(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestartdrunkplayerid-duration-false" class="md-nav__link">
+    VisionModeStartDrunk(playerID, duration, false)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestarthighplayerid-duration-false" class="md-nav__link">
+    VisionModeStartHigh(playerID, duration, false)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestartscopolamineheavy" class="md-nav__link">
+    VisionModeStartScopolamineHeavy(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestartscopolaminelow" class="md-nav__link">
+    VisionModeStartScopolamineLow(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestartscopolaminemedium" class="md-nav__link">
+    VisionModeStartScopolamineMedium(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestartsuppression" class="md-nav__link">
+    VisionModeStartSuppression(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestopplayerid" class="md-nav__link">
+    VisionModeStop(playerID)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#withdrawplayermoney" class="md-nav__link">
+    WithdrawPlayerMoney(...)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Sound/" class="md-nav__link">
+        Sound
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_TestAPI/" class="md-nav__link">
+        TestAPI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Trigger/" class="md-nav__link">
+        Trigger
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Vehicle/" class="md-nav__link">
+        Vehicle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Weapon/" class="md-nav__link">
+        Weapon
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          Lua Classes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Lua Classes" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Lua Classes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/GetVehicleSpeedBox/" class="md-nav__link">
+        GetVehicleSpeedBox
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/LuaLibCore/" class="md-nav__link">
+        LuaLibCore
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/LuaLibDebug/" class="md-nav__link">
+        LuaLibDebug
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/LuaLibEvents/" class="md-nav__link">
+        LuaLibEvents
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/LuaLibFire/" class="md-nav__link">
+        LuaLibFire
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/LuaLibMath/" class="md-nav__link">
+        LuaLibMath
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/LuaLibStateless/" class="md-nav__link">
+        LuaLibStateless
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/RemoveEntityOrGroupBox/" class="md-nav__link">
+        RemoveEntityOrGroupBox
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#functions" class="md-nav__link">
+    Functions
+  </a>
+  
+    <nav class="md-nav" aria-label="Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#addarmor" class="md-nav__link">
+    AddArmor(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addboolfact" class="md-nav__link">
+    AddBoolFact(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addplayermoney" class="md-nav__link">
+    AddPlayerMoney(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addreinforcementtokens" class="md-nav__link">
+    AddReinforcementTokens(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addweaponattachment" class="md-nav__link">
+    AddWeaponAttachment(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adjustbinocularzoomnow" class="md-nav__link">
+    AdjustBinocularZoomNow(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adjustcamerazoomnow" class="md-nav__link">
+    AdjustCameraZoomNow(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#airstrikeactivate" class="md-nav__link">
+    AirStrikeActivate(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#airstrikeaddtokens" class="md-nav__link">
+    AirStrikeAddTokens(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#airstrikeenablecharge" class="md-nav__link">
+    AirStrikeEnableCharge(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applydisplacement" class="md-nav__link">
+    ApplyDisplacement(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applyslidingspeed" class="md-nav__link">
+    ApplySlidingSpeed(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attachplayer" class="md-nav__link">
+    AttachPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attachtograppleanchor" class="md-nav__link">
+    AttachToGrappleAnchor(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blendandrestorefov" class="md-nav__link">
+    BlendAndRestoreFOV(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#camerashakeandgamepadrumble" class="md-nav__link">
+    CameraShakeAndGamePadRumble(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changegrapplearchetype" class="md-nav__link">
+    ChangeGrappleArchetype(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clearallweaponattachments" class="md-nav__link">
+    ClearAllWeaponAttachments(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#completeracegame" class="md-nav__link">
+    CompleteRaceGame(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deleteinventory" class="md-nav__link">
+    DeleteInventory(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detachplayer" class="md-nav__link">
+    DetachPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drawarrow" class="md-nav__link">
+    DrawArrow(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drawgadget" class="md-nav__link">
+    DrawGadget(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drophealinginteractionpriority" class="md-nav__link">
+    DropHealingInteractionPriority(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enableanimallooting" class="md-nav__link">
+    EnableAnimalLooting(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enableplantlooting" class="md-nav__link">
+    EnablePlantLooting(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fillammoforammotype" class="md-nav__link">
+    FillAmmoForAmmoType(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finishanimationcycle" class="md-nav__link">
+    FinishAnimationCycle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fishingforcebite" class="md-nav__link">
+    FishingForceBite(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fishingforcelinebreak" class="md-nav__link">
+    FishingForceLineBreak(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcesetplayerincapture" class="md-nav__link">
+    ForceSetPlayerInCapture(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcesetplayerincapturedonchair" class="md-nav__link">
+    ForceSetPlayerInCapturedOnChair(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcesetplayerincapturestate" class="md-nav__link">
+    ForceSetPlayerInCaptureState(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcesetplayeringround" class="md-nav__link">
+    ForceSetPlayerInGround(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcesetplayerinridingentity" class="md-nav__link">
+    ForceSetPlayerInRidingEntity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcesetplayerinvehicle" class="md-nav__link">
+    ForceSetPlayerInVehicle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getbeautifierfirstmaxanglelimits" class="md-nav__link">
+    GetBeautifierFirstMaxAngleLimits(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getbeautifierfirstminanglelimits" class="md-nav__link">
+    GetBeautifierFirstMinAngleLimits(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getcurrentcyclesnumber" class="md-nav__link">
+    GetCurrentCyclesNumber(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getcurrentinventorykey" class="md-nav__link">
+    GetCurrentInventoryKey(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getcurrentregion" class="md-nav__link">
+    GetCurrentRegion(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getcurrentregionfaction" class="md-nav__link">
+    GetCurrentRegionFaction(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getdesiredplayerlookangles" class="md-nav__link">
+    GetDesiredPlayerLookAngles(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getflashlightarchetype" class="md-nav__link">
+    GetFlashlightArchetype(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gethighestpriorityinteraction" class="md-nav__link">
+    GetHighestPriorityInteraction(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getmovementsensitivity" class="md-nav__link">
+    GetMovementSensitivity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getplayerammoisempty" class="md-nav__link">
+    GetPlayerAmmoIsEmpty(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getplayerfovplayerid" class="md-nav__link">
+    GetPlayerFOV(playerID)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getplayerlookangles" class="md-nav__link">
+    GetPlayerLookAngles(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getplayermedpackcount" class="md-nav__link">
+    GetPlayerMedPackCount(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getplayermoney" class="md-nav__link">
+    GetPlayerMoney(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getplayernearfov" class="md-nav__link">
+    GetPlayerNearFOV(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getquicklaunchplayeridref" class="md-nav__link">
+    GetQuickLaunchPlayerIdRef(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getworldspeed" class="md-nav__link">
+    GetWorldSpeed(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#giveammoclipstoplayer" class="md-nav__link">
+    GiveAmmoClipsToPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#giveammotoplayer" class="md-nav__link">
+    GiveAmmoToPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#giveplayeroutpostxpbonus" class="md-nav__link">
+    GivePlayerOutpostXPBonus(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#giveplayerreward" class="md-nav__link">
+    GivePlayerReward(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#giveplayerxp" class="md-nav__link">
+    GivePlayerXP(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#huntingvisionstart" class="md-nav__link">
+    HuntingVisionStart(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#huntingvisionstop" class="md-nav__link">
+    HuntingVisionStop(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isbeautifierfirstyawlimited" class="md-nav__link">
+    IsBeautifierFirstYawLimited(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isinair" class="md-nav__link">
+    IsInAir(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isplayeringodmode" class="md-nav__link">
+    IsPlayerInGodMode()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isradiotowersequenceactive" class="md-nav__link">
+    IsRadioTowerSequenceActive(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#issignalpressed" class="md-nav__link">
+    IsSignalPressed(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#istrialplayer" class="md-nav__link">
+    IsTrialPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isusingladder" class="md-nav__link">
+    IsUsingLadder(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lockinputpriority" class="md-nav__link">
+    LockInputPriority(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lockinputprioritybystringid" class="md-nav__link">
+    LockInputPriorityByStringID(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lockplayeractionmap" class="md-nav__link">
+    LockPlayerActionMap(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modifymodeltypeoflocalplayer" class="md-nav__link">
+    ModifyModelTypeOfLocalPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#popplayeractionmap" class="md-nav__link">
+    PopPlayerActionMap(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pushplayeractionmap" class="md-nav__link">
+    PushPlayerActionMap(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#releaseinputpriority" class="md-nav__link">
+    ReleaseInputPriority(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#releaseinputprioritybystringid" class="md-nav__link">
+    ReleaseInputPriorityByStringID(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeallspawnedgadgets" class="md-nav__link">
+    RemoveAllSpawnedGadgets(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removedevicetotrack" class="md-nav__link">
+    RemoveDeviceToTrack(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeplayeractionmap" class="md-nav__link">
+    RemovePlayerActionMap(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resethudreticlealpha" class="md-nav__link">
+    ResetHudReticleAlpha(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resetinputs" class="md-nav__link">
+    ResetInputs(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restoredefaultgrapplearchetype" class="md-nav__link">
+    RestoreDefaultGrappleArchetype(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#safehousealarmdisabledfeedback" class="md-nav__link">
+    SafeHouseAlarmDisabledFeedback(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selectthrowgadget" class="md-nav__link">
+    SelectThrowGadget(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setabilityupgradable" class="md-nav__link">
+    SetAbilityUpgradable(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setalwayssliding" class="md-nav__link">
+    SetAlwaysSliding(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setcancatchonfire" class="md-nav__link">
+    SetCanCatchOnFire(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setcangainxp" class="md-nav__link">
+    SetCanGainXP(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setcansprintplayerid-state" class="md-nav__link">
+    SetCanSprint(playerID, state)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setcloseupcamera" class="md-nav__link">
+    SetCloseUpCamera(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setcurrentspactivity" class="md-nav__link">
+    SetCurrentSPActivity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setdivingpostfxallowed" class="md-nav__link">
+    SetDivingPostFXAllowed(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seteffectivecamerapositionoffset" class="md-nav__link">
+    SetEffectiveCameraPositionOffset(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setenablevehicleradios" class="md-nav__link">
+    SetEnableVehicleRadios(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setextremezoomcamera" class="md-nav__link">
+    SetExtremeZoomCamera(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setflashlightarchetype" class="md-nav__link">
+    SetFlashlightArchetype(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setflashlightenableplayerid-enabled" class="md-nav__link">
+    SetFlashlightEnable(playerID, enabled)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setflashlightenableonjip" class="md-nav__link">
+    SetFlashlightEnableOnJIP(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sethighaltitude" class="md-nav__link">
+    SetHighAltitude(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sethudreticlealpha" class="md-nav__link">
+    SetHudReticleAlpha(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setignoreplayersignal" class="md-nav__link">
+    SetIgnorePlayerSignal(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setinexoticminigame" class="md-nav__link">
+    SetInExoticMinigame(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setironsight" class="md-nav__link">
+    SetIronSight(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setjumpingplayerid-state" class="md-nav__link">
+    SetJumping(playerID, state)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setlandingdamageenabledplayerid-enabled" class="md-nav__link">
+    SetLandingDamageEnabled(playerID, enabled)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setlockradios" class="md-nav__link">
+    SetLockRadios(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setmovementsensitivityplayerid-sensitivity" class="md-nav__link">
+    SetMovementSensitivity(playerID, sensitivity)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setoxygenlevel" class="md-nav__link">
+    SetOxygenLevel(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayeractionmap" class="md-nav__link">
+    SetPlayerActionMap(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayeraimangles" class="md-nav__link">
+    SetPlayerAimAngles(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayeraimanglesfromangles" class="md-nav__link">
+    SetPlayerAimAnglesFromAngles(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayerfov" class="md-nav__link">
+    SetPlayerFOV(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayerlookangles" class="md-nav__link">
+    SetPlayerLookAngles(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayerlookanglesfromangles" class="md-nav__link">
+    SetPlayerLookAnglesFromAngles(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayermoneyplayerid-ammount" class="md-nav__link">
+    SetPlayerMoney(playerID, ammount)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayernearfov" class="md-nav__link">
+    SetPlayerNearFOV(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayerpadrumble" class="md-nav__link">
+    SetPlayerPadRumble(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setplayertriggerrumble" class="md-nav__link">
+    SetPlayerTriggerRumble(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpositiononladder" class="md-nav__link">
+    SetPositionOnLadder(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpostfxintensity" class="md-nav__link">
+    SetPostFXIntensity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpropagandaenabled" class="md-nav__link">
+    SetPropagandaEnabled(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setquicklaunchplayeridref" class="md-nav__link">
+    SetQuickLaunchPlayerIdRef(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setradiotrackonplayervehicle" class="md-nav__link">
+    SetRadioTrackOnPlayerVehicle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setsprintingplayerid-state" class="md-nav__link">
+    SetSprinting(playerID, state)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setstalkmode" class="md-nav__link">
+    SetStalkMode(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setswimlookpitchlimits" class="md-nav__link">
+    SetSwimLookPitchLimits(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setwaterdivingenable" class="md-nav__link">
+    SetWaterDivingEnable(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setworldspeed" class="md-nav__link">
+    SetWorldSpeed(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#startplayanim" class="md-nav__link">
+    StartPlayAnim(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#startpostfx" class="md-nav__link">
+    StartPostFX(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stopplayanim" class="md-nav__link">
+    StopPlayAnim(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stoppostfx" class="md-nav__link">
+    StopPostFX(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#switchcamera" class="md-nav__link">
+    SwitchCamera(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#switchinventory" class="md-nav__link">
+    SwitchInventory(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#switchplayerpawn" class="md-nav__link">
+    SwitchPlayerPawn(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#takecamerapicture" class="md-nav__link">
+    TakeCameraPicture(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teleportplayeronladder" class="md-nav__link">
+    TeleportPlayerOnLadder(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unlockplayeractionmap" class="md-nav__link">
+    UnlockPlayerActionMap(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unsetcurrentspactivity" class="md-nav__link">
+    UnsetCurrentSPActivity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updatedevicetotrack" class="md-nav__link">
+    UpdateDeviceToTrack(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updatemovement" class="md-nav__link">
+    UpdateMovement(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updateplayerincapture" class="md-nav__link">
+    UpdatePlayerInCapture(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updateplayerincapturestate" class="md-nav__link">
+    UpdatePlayerInCaptureState(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updateracegametimer" class="md-nav__link">
+    UpdateRaceGameTimer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verifyinputpriority" class="md-nav__link">
+    VerifyInputPriority(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verifyinputprioritybystringid" class="md-nav__link">
+    VerifyInputPriorityByStringID(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestartblissplayerid-duration-false" class="md-nav__link">
+    VisionModeStartBliss(playerID, duration, false)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestartcustomintoxication" class="md-nav__link">
+    VisionModeStartCustomIntoxication(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestartdrunkplayerid-duration-false" class="md-nav__link">
+    VisionModeStartDrunk(playerID, duration, false)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestarthighplayerid-duration-false" class="md-nav__link">
+    VisionModeStartHigh(playerID, duration, false)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestartscopolamineheavy" class="md-nav__link">
+    VisionModeStartScopolamineHeavy(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestartscopolaminelow" class="md-nav__link">
+    VisionModeStartScopolamineLow(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestartscopolaminemedium" class="md-nav__link">
+    VisionModeStartScopolamineMedium(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestartsuppression" class="md-nav__link">
+    VisionModeStartSuppression(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visionmodestopplayerid" class="md-nav__link">
+    VisionModeStop(playerID)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#withdrawplayermoney" class="md-nav__link">
+    WithdrawPlayerMoney(...)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <a href="https://github.com/lnx00/FarCry-Modding-Docs/edit/main/docs/Lua/Classes/API/CAPI_Player.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="player">Player</h1>
+<p>A player is a <a href="../CAPI_Pawn/">Pawn</a>.</p>
+<p>Most of these functions require the playerID as the first parameter.
+You can retrieve it using <code>GetLocalPlayerId()</code>
+.</p>
+<hr />
+<h2 id="functions">Functions</h2>
+<h3 id="addarmor"><code>AddArmor(...)</code></h3>
+<h3 id="addboolfact"><code>AddBoolFact(...)</code></h3>
+<h3 id="addplayermoney"><code>AddPlayerMoney(...)</code></h3>
+<h3 id="addreinforcementtokens"><code>AddReinforcementTokens(...)</code></h3>
+<h3 id="addweaponattachment"><code>AddWeaponAttachment(...)</code></h3>
+<h3 id="adjustbinocularzoomnow"><code>AdjustBinocularZoomNow(...)</code></h3>
+<h3 id="adjustcamerazoomnow"><code>AdjustCameraZoomNow(...)</code></h3>
+<h3 id="airstrikeactivate"><code>AirStrikeActivate(...)</code></h3>
+<h3 id="airstrikeaddtokens"><code>AirStrikeAddTokens(...)</code></h3>
+<h3 id="airstrikeenablecharge"><code>AirStrikeEnableCharge(...)</code></h3>
+<h3 id="applydisplacement"><code>ApplyDisplacement(...)</code></h3>
+<h3 id="applyslidingspeed"><code>ApplySlidingSpeed(...)</code></h3>
+<h3 id="attachplayer"><code>AttachPlayer(...)</code></h3>
+<h3 id="attachtograppleanchor"><code>AttachToGrappleAnchor(...)</code></h3>
+<h3 id="blendandrestorefov"><code>BlendAndRestoreFOV(...)</code></h3>
+<h3 id="camerashakeandgamepadrumble"><code>CameraShakeAndGamePadRumble(...)</code></h3>
+<h3 id="changegrapplearchetype"><code>ChangeGrappleArchetype(...)</code></h3>
+<h3 id="clearallweaponattachments"><code>ClearAllWeaponAttachments(...)</code></h3>
+<h3 id="completeracegame"><code>CompleteRaceGame(...)</code></h3>
+<h3 id="deleteinventory"><code>DeleteInventory(...)</code></h3>
+<h3 id="detachplayer"><code>DetachPlayer(...)</code></h3>
+<h3 id="drawarrow"><code>DrawArrow(...)</code></h3>
+<h3 id="drawgadget"><code>DrawGadget(...)</code></h3>
+<h3 id="drophealinginteractionpriority"><code>DropHealingInteractionPriority(...)</code></h3>
+<h3 id="enableanimallooting"><code>EnableAnimalLooting(...)</code></h3>
+<h3 id="enableplantlooting"><code>EnablePlantLooting(...)</code></h3>
+<h3 id="fillammoforammotype"><code>FillAmmoForAmmoType(...)</code></h3>
+<h3 id="finishanimationcycle"><code>FinishAnimationCycle(...)</code></h3>
+<h3 id="fishingforcebite"><code>FishingForceBite(...)</code></h3>
+<h3 id="fishingforcelinebreak"><code>FishingForceLineBreak(...)</code></h3>
+<h3 id="forcesetplayerincapture"><code>ForceSetPlayerInCapture(...)</code></h3>
+<h3 id="forcesetplayerincapturedonchair"><code>ForceSetPlayerInCapturedOnChair(...)</code></h3>
+<h3 id="forcesetplayerincapturestate"><code>ForceSetPlayerInCaptureState(...)</code></h3>
+<h3 id="forcesetplayeringround"><code>ForceSetPlayerInGround(...)</code></h3>
+<h3 id="forcesetplayerinridingentity"><code>ForceSetPlayerInRidingEntity(...)</code></h3>
+<h3 id="forcesetplayerinvehicle"><code>ForceSetPlayerInVehicle(...)</code></h3>
+<h3 id="getbeautifierfirstmaxanglelimits"><code>GetBeautifierFirstMaxAngleLimits(...)</code></h3>
+<h3 id="getbeautifierfirstminanglelimits"><code>GetBeautifierFirstMinAngleLimits(...)</code></h3>
+<h3 id="getcurrentcyclesnumber"><code>GetCurrentCyclesNumber(...)</code></h3>
+<h3 id="getcurrentinventorykey"><code>GetCurrentInventoryKey(...)</code></h3>
+<h3 id="getcurrentregion"><code>GetCurrentRegion(...)</code></h3>
+<h3 id="getcurrentregionfaction"><code>GetCurrentRegionFaction(...)</code></h3>
+<h3 id="getdesiredplayerlookangles"><code>GetDesiredPlayerLookAngles(...)</code></h3>
+<h3 id="getflashlightarchetype"><code>GetFlashlightArchetype(...)</code></h3>
+<h3 id="gethighestpriorityinteraction"><code>GetHighestPriorityInteraction(...)</code></h3>
+<h3 id="getmovementsensitivity"><code>GetMovementSensitivity(...)</code></h3>
+<h3 id="getplayerammoisempty"><code>GetPlayerAmmoIsEmpty(...)</code></h3>
+<h3 id="getplayerfovplayerid"><code>GetPlayerFOV(playerID)</code></h3>
+<p>Returns the player's current field of view.</p>
+<h3 id="getplayerlookangles"><code>GetPlayerLookAngles(...)</code></h3>
+<h3 id="getplayermedpackcount"><code>GetPlayerMedPackCount(...)</code></h3>
+<h3 id="getplayermoney"><code>GetPlayerMoney(...)</code></h3>
+<h3 id="getplayernearfov"><code>GetPlayerNearFOV(...)</code></h3>
+<h3 id="getquicklaunchplayeridref"><code>GetQuickLaunchPlayerIdRef(...)</code></h3>
+<h3 id="getworldspeed"><code>GetWorldSpeed(...)</code></h3>
+<h3 id="giveammoclipstoplayer"><code>GiveAmmoClipsToPlayer(...)</code></h3>
+<h3 id="giveammotoplayer"><code>GiveAmmoToPlayer(...)</code></h3>
+<h3 id="giveplayeroutpostxpbonus"><code>GivePlayerOutpostXPBonus(...)</code></h3>
+<h3 id="giveplayerreward"><code>GivePlayerReward(...)</code></h3>
+<h3 id="giveplayerxp"><code>GivePlayerXP(...)</code></h3>
+<h3 id="huntingvisionstart"><code>HuntingVisionStart(...)</code></h3>
+<h3 id="huntingvisionstop"><code>HuntingVisionStop(...)</code></h3>
+<h3 id="isbeautifierfirstyawlimited"><code>IsBeautifierFirstYawLimited(...)</code></h3>
+<h3 id="isinair"><code>IsInAir(...)</code></h3>
+<h3 id="isplayeringodmode"><code>IsPlayerInGodMode()</code></h3>
+<p>Returns true if the player is in god mode.</p>
+<h3 id="isradiotowersequenceactive"><code>IsRadioTowerSequenceActive(...)</code></h3>
+<h3 id="issignalpressed"><code>IsSignalPressed(...)</code></h3>
+<h3 id="istrialplayer"><code>IsTrialPlayer(...)</code></h3>
+<h3 id="isusingladder"><code>IsUsingLadder(...)</code></h3>
+<h3 id="lockinputpriority"><code>LockInputPriority(...)</code></h3>
+<h3 id="lockinputprioritybystringid"><code>LockInputPriorityByStringID(...)</code></h3>
+<h3 id="lockplayeractionmap"><code>LockPlayerActionMap(...)</code></h3>
+<h3 id="modifymodeltypeoflocalplayer"><code>ModifyModelTypeOfLocalPlayer(...)</code></h3>
+<h3 id="popplayeractionmap"><code>PopPlayerActionMap(...)</code></h3>
+<h3 id="pushplayeractionmap"><code>PushPlayerActionMap(...)</code></h3>
+<h3 id="releaseinputpriority"><code>ReleaseInputPriority(...)</code></h3>
+<h3 id="releaseinputprioritybystringid"><code>ReleaseInputPriorityByStringID(...)</code></h3>
+<h3 id="removeallspawnedgadgets"><code>RemoveAllSpawnedGadgets(...)</code></h3>
+<h3 id="removedevicetotrack"><code>RemoveDeviceToTrack(...)</code></h3>
+<h3 id="removeplayeractionmap"><code>RemovePlayerActionMap(...)</code></h3>
+<h3 id="resethudreticlealpha"><code>ResetHudReticleAlpha(...)</code></h3>
+<h3 id="resetinputs"><code>ResetInputs(...)</code></h3>
+<h3 id="restoredefaultgrapplearchetype"><code>RestoreDefaultGrappleArchetype(...)</code></h3>
+<h3 id="safehousealarmdisabledfeedback"><code>SafeHouseAlarmDisabledFeedback(...)</code></h3>
+<h3 id="selectthrowgadget"><code>SelectThrowGadget(...)</code></h3>
+<h3 id="setabilityupgradable"><code>SetAbilityUpgradable(...)</code></h3>
+<h3 id="setalwayssliding"><code>SetAlwaysSliding(...)</code></h3>
+<h3 id="setcancatchonfire"><code>SetCanCatchOnFire(...)</code></h3>
+<h3 id="setcangainxp"><code>SetCanGainXP(...)</code></h3>
+<h3 id="setcansprintplayerid-state"><code>SetCanSprint(playerID, state)</code></h3>
+<p>Sets whether the player is allowed to sprint.</p>
+<h3 id="setcloseupcamera"><code>SetCloseUpCamera(...)</code></h3>
+<h3 id="setcurrentspactivity"><code>SetCurrentSPActivity(...)</code></h3>
+<h3 id="setdivingpostfxallowed"><code>SetDivingPostFXAllowed(...)</code></h3>
+<h3 id="seteffectivecamerapositionoffset"><code>SetEffectiveCameraPositionOffset(...)</code></h3>
+<h3 id="setenablevehicleradios"><code>SetEnableVehicleRadios(...)</code></h3>
+<h3 id="setextremezoomcamera"><code>SetExtremeZoomCamera(...)</code></h3>
+<h3 id="setflashlightarchetype"><code>SetFlashlightArchetype(...)</code></h3>
+<h3 id="setflashlightenableplayerid-enabled"><code>SetFlashlightEnable(playerID, enabled)</code></h3>
+<p>Enables or disables the flashlight.</p>
+<h3 id="setflashlightenableonjip"><code>SetFlashlightEnableOnJIP(...)</code></h3>
+<h3 id="sethighaltitude"><code>SetHighAltitude(...)</code></h3>
+<h3 id="sethudreticlealpha"><code>SetHudReticleAlpha(...)</code></h3>
+<h3 id="setignoreplayersignal"><code>SetIgnorePlayerSignal(...)</code></h3>
+<h3 id="setinexoticminigame"><code>SetInExoticMinigame(...)</code></h3>
+<h3 id="setironsight"><code>SetIronSight(...)</code></h3>
+<h3 id="setjumpingplayerid-state"><code>SetJumping(playerID, state)</code></h3>
+<p>Jumps if the player is on the ground.</p>
+<h3 id="setlandingdamageenabledplayerid-enabled"><code>SetLandingDamageEnabled(playerID, enabled)</code></h3>
+<p>Enables or disables fall damage.</p>
+<h3 id="setlockradios"><code>SetLockRadios(...)</code></h3>
+<h3 id="setmovementsensitivityplayerid-sensitivity"><code>SetMovementSensitivity(playerID, sensitivity)</code></h3>
+<p>Sets the player's movement sensitivity.</p>
+<h3 id="setoxygenlevel"><code>SetOxygenLevel(...)</code></h3>
+<h3 id="setplayeractionmap"><code>SetPlayerActionMap(...)</code></h3>
+<h3 id="setplayeraimangles"><code>SetPlayerAimAngles(...)</code></h3>
+<h3 id="setplayeraimanglesfromangles"><code>SetPlayerAimAnglesFromAngles(...)</code></h3>
+<h3 id="setplayerfov"><code>SetPlayerFOV(...)</code></h3>
+<h3 id="setplayerlookangles"><code>SetPlayerLookAngles(...)</code></h3>
+<h3 id="setplayerlookanglesfromangles"><code>SetPlayerLookAnglesFromAngles(...)</code></h3>
+<h3 id="setplayermoneyplayerid-ammount"><code>SetPlayerMoney(playerID, ammount)</code></h3>
+<p>Sets the player's money to the specified amount.</p>
+<h3 id="setplayernearfov"><code>SetPlayerNearFOV(...)</code></h3>
+<h3 id="setplayerpadrumble"><code>SetPlayerPadRumble(...)</code></h3>
+<h3 id="setplayertriggerrumble"><code>SetPlayerTriggerRumble(...)</code></h3>
+<h3 id="setpositiononladder"><code>SetPositionOnLadder(...)</code></h3>
+<h3 id="setpostfxintensity"><code>SetPostFXIntensity(...)</code></h3>
+<h3 id="setpropagandaenabled"><code>SetPropagandaEnabled(...)</code></h3>
+<h3 id="setquicklaunchplayeridref"><code>SetQuickLaunchPlayerIdRef(...)</code></h3>
+<h3 id="setradiotrackonplayervehicle"><code>SetRadioTrackOnPlayerVehicle(...)</code></h3>
+<h3 id="setsprintingplayerid-state"><code>SetSprinting(playerID, state)</code></h3>
+<p>Sets whether the player is sprinting.</p>
+<h3 id="setstalkmode"><code>SetStalkMode(...)</code></h3>
+<h3 id="setswimlookpitchlimits"><code>SetSwimLookPitchLimits(...)</code></h3>
+<h3 id="setwaterdivingenable"><code>SetWaterDivingEnable(...)</code></h3>
+<h3 id="setworldspeed"><code>SetWorldSpeed(...)</code></h3>
+<h3 id="startplayanim"><code>StartPlayAnim(...)</code></h3>
+<h3 id="startpostfx"><code>StartPostFX(...)</code></h3>
+<h3 id="stopplayanim"><code>StopPlayAnim(...)</code></h3>
+<h3 id="stoppostfx"><code>StopPostFX(...)</code></h3>
+<h3 id="switchcamera"><code>SwitchCamera(...)</code></h3>
+<h3 id="switchinventory"><code>SwitchInventory(...)</code></h3>
+<h3 id="switchplayerpawn"><code>SwitchPlayerPawn(...)</code></h3>
+<h3 id="takecamerapicture"><code>TakeCameraPicture(...)</code></h3>
+<h3 id="teleportplayeronladder"><code>TeleportPlayerOnLadder(...)</code></h3>
+<h3 id="unlockplayeractionmap"><code>UnlockPlayerActionMap(...)</code></h3>
+<h3 id="unsetcurrentspactivity"><code>UnsetCurrentSPActivity(...)</code></h3>
+<h3 id="updatedevicetotrack"><code>UpdateDeviceToTrack(...)</code></h3>
+<h3 id="updatemovement"><code>UpdateMovement(...)</code></h3>
+<h3 id="updateplayerincapture"><code>UpdatePlayerInCapture(...)</code></h3>
+<h3 id="updateplayerincapturestate"><code>UpdatePlayerInCaptureState(...)</code></h3>
+<h3 id="updateracegametimer"><code>UpdateRaceGameTimer(...)</code></h3>
+<h3 id="verifyinputpriority"><code>VerifyInputPriority(...)</code></h3>
+<h3 id="verifyinputprioritybystringid"><code>VerifyInputPriorityByStringID(...)</code></h3>
+<h3 id="visionmodestartblissplayerid-duration-false"><code>VisionModeStartBliss(playerID, duration, false)</code></h3>
+<p>Starts the bliss vision mode for the specified player.</p>
+<h3 id="visionmodestartcustomintoxication"><code>VisionModeStartCustomIntoxication(...)</code></h3>
+<h3 id="visionmodestartdrunkplayerid-duration-false"><code>VisionModeStartDrunk(playerID, duration, false)</code></h3>
+<p>Starts the drunk vision mode for the specified player.</p>
+<h3 id="visionmodestarthighplayerid-duration-false"><code>VisionModeStartHigh(playerID, duration, false)</code></h3>
+<p>Starts the high vision mode for the specified player.</p>
+<h3 id="visionmodestartscopolamineheavy"><code>VisionModeStartScopolamineHeavy(...)</code></h3>
+<h3 id="visionmodestartscopolaminelow"><code>VisionModeStartScopolamineLow(...)</code></h3>
+<h3 id="visionmodestartscopolaminemedium"><code>VisionModeStartScopolamineMedium(...)</code></h3>
+<h3 id="visionmodestartsuppression"><code>VisionModeStartSuppression(...)</code></h3>
+<h3 id="visionmodestopplayerid"><code>VisionModeStop(playerID)</code></h3>
+<p>Stops the current vision mode for the specified player.</p>
+<h3 id="withdrawplayermoney"><code>WithdrawPlayerMoney(...)</code></h3>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../CAPI_Pawn/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Pawn" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Pawn
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../CAPI_Sound/" class="md-footer__link md-footer__link--next" aria-label="Next: Sound" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Sound
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.top"], "search": "../../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>

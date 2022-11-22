@@ -1,0 +1,4308 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Pawn - Far Cry Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.08040f6c.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#pawn" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Far Cry Docs" class="md-header__button md-logo" aria-label="Far Cry Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Far Cry Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Pawn
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/lnx00/FarCry-Modding-Docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    FarCry Modding Docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../" class="md-tabs__link md-tabs__link--active">
+        Lua
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Far Cry Docs" class="md-nav__button md-logo" aria-label="Far Cry Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Far Cry Docs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/lnx00/FarCry-Modding-Docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    FarCry Modding Docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Lua
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Lua" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Lua
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../" class="md-nav__link">
+        Lua API
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../functions/" class="md-nav__link">
+        Global Functions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../variables/" class="md-nav__link">
+        Global Data
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          Classes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Classes" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Classes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CAIDirectorService/" class="md-nav__link">
+        AIDirectorService
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CActivityManager/" class="md-nav__link">
+        ActivityManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CDominoBoxInstance/" class="md-nav__link">
+        DominoBoxInstance
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CDominoBoxResource/" class="md-nav__link">
+        DominoBoxResource
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CDominoConsoleCommandManager/" class="md-nav__link">
+        DominoConsoleCommandManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CDominoDelayManager/" class="md-nav__link">
+        DominoDelayManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CDominoSoundManager/" class="md-nav__link">
+        DominoSoundManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CDominoTickManager/" class="md-nav__link">
+        DominoTickManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CDominoWaterLevelManager/" class="md-nav__link">
+        DominoWaterLevelManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CEntityGroupManager/" class="md-nav__link">
+        EntityGroupManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CFCXAchievementService/" class="md-nav__link">
+        FCXAchievementService
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CFCXChallengeManager/" class="md-nav__link">
+        FCXChallengeManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CFCXDominoUiManager/" class="md-nav__link">
+        FCXDominoUiManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CFCXMusicService/" class="md-nav__link">
+        FCXMusicService
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CFCXNoFlyZoneService/" class="md-nav__link">
+        CFCXNoFlyZoneService
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CGOStateMachineScriptCallbackSystem/" class="md-nav__link">
+        GOStateMachineScriptCallbackSystem
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CIntelManager/" class="md-nav__link">
+        IntelManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CMissionBlockManager/" class="md-nav__link">
+        MissionBlockManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CNavigationScriptingInterface/" class="md-nav__link">
+        NavigationScriptingInterface
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CNewPoisonCloudManager/" class="md-nav__link">
+        NewPoisonCloudManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CPmgManager/" class="md-nav__link">
+        PmgManager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CScriptCallbackSystem/" class="md-nav__link">
+        ScriptCallbackSystem
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CScriptObjectGame/" class="md-nav__link">
+        ScriptObjectGame
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CSector/" class="md-nav__link">
+        Sector
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CStatisticServiceSP/" class="md-nav__link">
+        StatisticServiceSP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CTerrain/" class="md-nav__link">
+        Terrain
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_27" type="checkbox" id="__nav_2_4_27" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4_27">
+          API
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="API" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_27">
+          <span class="md-nav__icon md-icon"></span>
+          API
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_AI/" class="md-nav__link">
+        AI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Animal/" class="md-nav__link">
+        Animal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Cinema/" class="md-nav__link">
+        Cinema
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Entity/" class="md-nav__link">
+        Entity
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_NPC/" class="md-nav__link">
+        NPC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Pawn
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Pawn
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#functions" class="md-nav__link">
+    Functions
+  </a>
+  
+    <nav class="md-nav" aria-label="Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#isaplayer" class="md-nav__link">
+    IsAPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setusableorientation" class="md-nav__link">
+    SetUsableOrientation(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setmaxhealth" class="md-nav__link">
+    SetMaxHealth(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isintakendownstate" class="md-nav__link">
+    IsInTakenDownState(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setreticleoffset" class="md-nav__link">
+    SetReticleOffset(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcecharactercustomization" class="md-nav__link">
+    ForceCharacterCustomization(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getreticleoffset" class="md-nav__link">
+    GetReticleOffset(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setautodrivedisabledbyscript" class="md-nav__link">
+    SetAutoDriveDisabledByScript(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getanimcuttime" class="md-nav__link">
+    GetAnimCutTime(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeitemfromstash" class="md-nav__link">
+    RemoveItemFromStash(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#healgearhealth" class="md-nav__link">
+    HealGearHealth(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpmsvalueint" class="md-nav__link">
+    SetPMSValueInt(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enablemeleeweaponthrow" class="md-nav__link">
+    EnableMeleeWeaponThrow(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeitem" class="md-nav__link">
+    RemoveItem(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isapawn" class="md-nav__link">
+    IsAPawn(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isonledge" class="md-nav__link">
+    IsOnLedge(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addanimattachment" class="md-nav__link">
+    AddAnimAttachment(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getbeautifier" class="md-nav__link">
+    GetBeautifier(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getitemquantitybyfilter" class="md-nav__link">
+    GetItemQuantityByFilter(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isinwater" class="md-nav__link">
+    IsInWater(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refillpocketedweaponclip" class="md-nav__link">
+    RefillPocketedWeaponClip(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcedetachmountedweapon" class="md-nav__link">
+    ForceDetachMountedWeapon(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refillpocketedequippableammobyfilter" class="md-nav__link">
+    RefillPocketedEquippableAmmoByFilter(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#belongtogosmgroup" class="md-nav__link">
+    BelongToGOSMGroup(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setdieonoxygendepletionpawnid-enabled" class="md-nav__link">
+    SetDieOnOxygenDepletion(pawnID, enabled)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addgunsforhire" class="md-nav__link">
+    AddGunsForHire(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setconditionalzoneeventsenabled" class="md-nav__link">
+    SetConditionalZoneEventsEnabled(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writeblackboardangle3f" class="md-nav__link">
+    WriteBlackBoardAngle3F(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnridingentity" class="md-nav__link">
+    GetPawnRidingEntity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setitemunlimitedquantity" class="md-nav__link">
+    SetItemUnlimitedQuantity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isontopofvehicle" class="md-nav__link">
+    IsOnTopOfVehicle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refillpocketedweaponclipbyfilter" class="md-nav__link">
+    RefillPocketedWeaponClipByFilter(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getgunsforhirefromarchetypeid" class="md-nav__link">
+    GetGunsForHireFromArchetypeId(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loadwolfskinoverride" class="md-nav__link">
+    LoadWolfskinOverride(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeitembyfilter" class="md-nav__link">
+    RemoveItemByFilter(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exotichackpawnstartclimbfail" class="md-nav__link">
+    ExoticHackPawnStartClimbFail(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lockbeautifier" class="md-nav__link">
+    LockBeautifier(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enableupdateisinwater" class="md-nav__link">
+    EnableUpdateIsInWater(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detachanchor" class="md-nav__link">
+    DetachAnchor(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#particlepauseemitting" class="md-nav__link">
+    ParticlePauseEmitting(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restoregosm" class="md-nav__link">
+    RestoreGOSM(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#holster" class="md-nav__link">
+    Holster(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checkpawngadgetinventorybycategory" class="md-nav__link">
+    CheckPawnGadgetInventoryByCategory(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writeblackboardentityid" class="md-nav__link">
+    WriteBlackBoardEntityId(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isinqte" class="md-nav__link">
+    IsInQTE(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enableexotickidnapcheck" class="md-nav__link">
+    EnableExoticKidnapCheck(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attachanchorwithname" class="md-nav__link">
+    AttachAnchorWithName(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disbanduniquegunsforhire" class="md-nav__link">
+    DisbandUniqueGunsForHire(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isanimationcutable" class="md-nav__link">
+    IsAnimationCutable(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getequippableitemammo" class="md-nav__link">
+    GetEquippableItemAmmo(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exotichackpawnendclimbfail" class="md-nav__link">
+    ExoticHackPawnEndClimbFail(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getanimattachment" class="md-nav__link">
+    GetAnimAttachment(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#permitpawntodetachfromzipline" class="md-nav__link">
+    PermitPawnToDetachFromZipline(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drawweapon" class="md-nav__link">
+    DrawWeapon(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isanimationinterruptible" class="md-nav__link">
+    IsAnimationInterruptible(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isitemunlimited" class="md-nav__link">
+    IsItemUnlimited(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dismountfromledge" class="md-nav__link">
+    DismountFromLedge(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeanimattachment" class="md-nav__link">
+    RemoveAnimAttachment(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#popbeautifier" class="md-nav__link">
+    PopBeautifier(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#destroyparticle" class="md-nav__link">
+    DestroyParticle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setkickonzipline" class="md-nav__link">
+    SetKickOnZipline(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setforcepanicswim" class="md-nav__link">
+    SetForcePanicSwim(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forceusemountedweapon" class="md-nav__link">
+    ForceUseMountedWeapon(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restrictedrpgfeatureenabled" class="md-nav__link">
+    RestrictedRpgFeatureEnabled(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additempawnid-itemid-ammount" class="md-nav__link">
+    AddItem(pawnID, itemID, ammount)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hassilentweapon" class="md-nav__link">
+    HasSilentWeapon(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checkpawnweaponinventorybyname" class="md-nav__link">
+    CheckPawnWeaponInventoryByName(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detachanchorwithname" class="md-nav__link">
+    DetachAnchorWithName(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ispawnalive" class="md-nav__link">
+    IsPawnAlive(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpmsvalueangle" class="md-nav__link">
+    SetPMSValueAngle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revertoverriddenwolfskin" class="md-nav__link">
+    RevertOverriddenWolfskin(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loadinventorypack" class="md-nav__link">
+    LoadInventoryPack(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transfertitemfromstashtoinventory" class="md-nav__link">
+    TransfertItemFromStashToInventory(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detachfromgrapple" class="md-nav__link">
+    DetachFromGrapple(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnhealthratio" class="md-nav__link">
+    GetPawnHealthRatio(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isgunsforhire" class="md-nav__link">
+    IsGunsForHire(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pushstatemachine" class="md-nav__link">
+    PushStateMachine(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#holsteritem" class="md-nav__link">
+    HolsterItem(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploywingsuit" class="md-nav__link">
+    DeployWingsuit(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpawninragdoll" class="md-nav__link">
+    SetPawnInRagDoll(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forceplayanimation" class="md-nav__link">
+    ForcePlayAnimation(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ispawndead" class="md-nav__link">
+    IsPawnDead(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isgunsforhirearchetypeinroster" class="md-nav__link">
+    IsGunsForHireArchetypeInRoster(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forgetammoinweaponclip" class="md-nav__link">
+    ForgetAmmoInWeaponClip(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#killpawnpawnid" class="md-nav__link">
+    KillPawn(pawnID, ?)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setcurrenttimedirection" class="md-nav__link">
+    SetCurrentTimeDirection(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stoptodestroyparticle" class="md-nav__link">
+    StopToDestroyParticle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shutdowngosm" class="md-nav__link">
+    ShutdownGOSM(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unequipwolfskinoverride" class="md-nav__link">
+    UnequipWolfskinOverride(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isgunsforhirearchetypeinsquad" class="md-nav__link">
+    IsGunsForHireArchetypeInSquad(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additemtostash" class="md-nav__link">
+    AddItemToStash(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpreviouspawnvehicle" class="md-nav__link">
+    GetPreviousPawnVehicle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setbeautifier" class="md-nav__link">
+    SetBeautifier(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attachanchorwithnamefrompos" class="md-nav__link">
+    AttachAnchorWithNameFromPos(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getbodypartdir" class="md-nav__link">
+    GetBodyPartDir(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getitemquantity" class="md-nav__link">
+    GetItemQuantity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refillpocketedequippableammo" class="md-nav__link">
+    RefillPocketedEquippableAmmo(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setreticlespeed" class="md-nav__link">
+    SetReticleSpeed(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checkpawnweaponinventorybydescriptorid" class="md-nav__link">
+    CheckPawnWeaponInventoryByDescriptorId(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clearrestricteditemlist" class="md-nav__link">
+    ClearRestrictedItemList(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addrestricteditemfilter" class="md-nav__link">
+    AddRestrictedItemFilter(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isanimationloop" class="md-nav__link">
+    IsAnimationLoop(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drawitem" class="md-nav__link">
+    DrawItem(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getbodypartpos" class="md-nav__link">
+    GetBodyPartPos(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#damagepawn" class="md-nav__link">
+    DamagePawn(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#giveskillpoints" class="md-nav__link">
+    GiveSkillPoints(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setautodraw" class="md-nav__link">
+    SetAutoDraw(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overriderpgitemskin" class="md-nav__link">
+    OverrideRpgItemSkin(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pushbeautifier" class="md-nav__link">
+    PushBeautifier(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnwingsuit" class="md-nav__link">
+    GetPawnWingsuit(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rpginventory_addlootpool" class="md-nav__link">
+    RpgInventory_AddLootPool(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sendgosmsignal" class="md-nav__link">
+    SendGosmSignal(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeblackboardfact" class="md-nav__link">
+    RemoveBlackBoardFact(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addrpglootrollable" class="md-nav__link">
+    AddRpgLootRollable(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#healcorehealth" class="md-nav__link">
+    HealCoreHealth(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setequippeditemvisibility" class="md-nav__link">
+    SetEquippedItemVisibility(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getanimboundtime" class="md-nav__link">
+    GetAnimBoundTime(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnstance" class="md-nav__link">
+    GetPawnStance(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checkpawnweaponinventorybycategory" class="md-nav__link">
+    CheckPawnWeaponInventoryByCategory(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setnoweaponmodepawnid-enabled-0" class="md-nav__link">
+    SetNoWeaponMode(pawnID, enabled, 0)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getrpginventoryitemquantity" class="md-nav__link">
+    GetRpgInventoryItemQuantity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getequippeditemid" class="md-nav__link">
+    GetEquippedItemID(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnvehicleseat" class="md-nav__link">
+    GetPawnVehicleSeat(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removecriticalhealth" class="md-nav__link">
+    RemoveCriticalHealth(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removepawnfromzipline" class="md-nav__link">
+    RemovePawnFromZipline(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sethealthregenenabled" class="md-nav__link">
+    SetHealthRegenEnabled(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writeblackboardbool" class="md-nav__link">
+    WriteBlackBoardBool(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getbodypartmatrix" class="md-nav__link">
+    GetBodyPartMatrix(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skipnextbinocularoutrofade" class="md-nav__link">
+    SkipNextBinocularOutroFade(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isanimationsupportsbackward" class="md-nav__link">
+    IsAnimationSupportsBackward(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addproceduraleffector" class="md-nav__link">
+    AddProceduralEffector(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ispawnonzipline" class="md-nav__link">
+    IsPawnOnZipline(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnvehicle" class="md-nav__link">
+    GetPawnVehicle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overridewolfskin" class="md-nav__link">
+    OverrideWolfskin(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setweaponinspectdisabled" class="md-nav__link">
+    SetWeaponInspectDisabled(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setdamagecappingonhealthratio" class="md-nav__link">
+    SetDamageCappingOnHealthRatio(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcepawnbailoutofvehicle" class="md-nav__link">
+    ForcePawnBailoutOfVehicle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equipwolfskinoverride" class="md-nav__link">
+    EquipWolfskinOverride(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setnoweaponmodeonremoteplayer" class="md-nav__link">
+    SetNoWeaponModeOnRemotePlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpmsvaluefloat" class="md-nav__link">
+    SetPMSValueFloat(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setautohealthregen" class="md-nav__link">
+    SetAutoHealthRegen(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getbestmeleeweapon" class="md-nav__link">
+    GetBestMeleeWeapon(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unlockbeautifier" class="md-nav__link">
+    UnlockBeautifier(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setlastqteresult" class="md-nav__link">
+    SetLastQTEResult(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#particlestopemitting" class="md-nav__link">
+    ParticleStopEmitting(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writeblackboardfloat" class="md-nav__link">
+    WriteBlackBoardFloat(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setmovebodycustominteractstring" class="md-nav__link">
+    SetMoveBodyCustomInteractString(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#playanimation" class="md-nav__link">
+    PlayAnimation(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#popstatemachine" class="md-nav__link">
+    PopStateMachine(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isgunsforhireinsquad" class="md-nav__link">
+    IsGunsForHireInSquad(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spawnparticle" class="md-nav__link">
+    SpawnParticle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isgosmshutdown" class="md-nav__link">
+    IsGOSMShutdown(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#healpawn" class="md-nav__link">
+    HealPawn(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attachanchor" class="md-nav__link">
+    AttachAnchor(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lockuniquegunsforhire" class="md-nav__link">
+    LockUniqueGunsForHire(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setparticlevisible" class="md-nav__link">
+    SetParticleVisible(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#draw" class="md-nav__link">
+    Draw(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rpginventory_setrpgcompanionstatus" class="md-nav__link">
+    RpgInventory_SetRpgCompanionStatus(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unlockuniquegunsforhire" class="md-nav__link">
+    UnlockUniqueGunsForHire(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpawnhealthpawnid-0-health" class="md-nav__link">
+    SetPawnHealth(pawnID, 0, health)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnhealth" class="md-nav__link">
+    GetPawnHealth(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addgunsforhirefromarchetype" class="md-nav__link">
+    AddGunsForHireFromArchetype(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unloadwolfskinoverride" class="md-nav__link">
+    UnloadWolfskinOverride(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addrestricteditem" class="md-nav__link">
+    AddRestrictedItem(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getcurrentmovename" class="md-nav__link">
+    GetCurrentMoveName(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setoxygenmaskdrain" class="md-nav__link">
+    SetOxygenMaskDrain(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overridegadgetsocketselection" class="md-nav__link">
+    OverrideGadgetSocketSelection(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getcurrentanimname" class="md-nav__link">
+    GetCurrentAnimName(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#particlestartemitting" class="md-nav__link">
+    ParticleStartEmitting(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spawnparticleonclient" class="md-nav__link">
+    SpawnParticleOnClient(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checkpawnweaponinventorybyclass" class="md-nav__link">
+    CheckPawnWeaponInventoryByClass(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preventpawnfromdetachingfromzipline" class="md-nav__link">
+    PreventPawnFromDetachingFromZipline(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setnearz" class="md-nav__link">
+    SetNearZ(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additemsfromlootgroup" class="md-nav__link">
+    AddItemsFromLootGroup(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setmissionbombmarkeruserpawn" class="md-nav__link">
+    SetMissionBombMarkerUserPawn(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addprotectedlootdbitem" class="md-nav__link">
+    AddProtectedLootDbItem(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extinguishfirepawnid-1" class="md-nav__link">
+    ExtinguishFire(pawnID, 1)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sethighaltitudeoxygendrain" class="md-nav__link">
+    SetHighAltitudeOxygenDrain(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpawnstance" class="md-nav__link">
+    SetPawnStance(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isgunsforhireinroster" class="md-nav__link">
+    IsGunsForHireInRoster(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removecriticalhealthforallplayers" class="md-nav__link">
+    RemoveCriticalHealthForAllPlayers(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setcanmovebody" class="md-nav__link">
+    SetCanMoveBody(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnmaxhealth" class="md-nav__link">
+    GetPawnMaxHealth(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpmsvalueenum" class="md-nav__link">
+    SetPMSValueEnum(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getanimduration" class="md-nav__link">
+    GetAnimDuration(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setusable" class="md-nav__link">
+    SetUsable(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getreticlescreenpos" class="md-nav__link">
+    GetReticleScreenPos(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hassilentweaponequipped" class="md-nav__link">
+    HasSilentWeaponEquipped(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#givereputationtoplayer" class="md-nav__link">
+    GiveReputationToPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#damagepawnwithdetail" class="md-nav__link">
+    DamagePawnWithDetail(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnvehicletype" class="md-nav__link">
+    GetPawnVehicleType(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enableweaponbreaking" class="md-nav__link">
+    EnableWeaponBreaking(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpmsvaluebool" class="md-nav__link">
+    SetPMSValueBool(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ispawndown" class="md-nav__link">
+    IsPawnDown(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setinqte" class="md-nav__link">
+    SetInQTE(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeallinventorypawnid-1" class="md-nav__link">
+    RemoveAllInventory(pawnID, 1)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setitemquantity" class="md-nav__link">
+    SetItemQuantity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeprotectedlootdbitem" class="md-nav__link">
+    RemoveProtectedLootDbItem(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ispawnheadunderwater" class="md-nav__link">
+    IsPawnHeadUnderwater(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getweaponclassfromname" class="md-nav__link">
+    GetWeaponClassFromName(...)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Player/" class="md-nav__link">
+        Player
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Sound/" class="md-nav__link">
+        Sound
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_TestAPI/" class="md-nav__link">
+        TestAPI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Trigger/" class="md-nav__link">
+        Trigger
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Vehicle/" class="md-nav__link">
+        Vehicle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CAPI_Weapon/" class="md-nav__link">
+        Weapon
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          Lua Classes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Lua Classes" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Lua Classes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/GetVehicleSpeedBox/" class="md-nav__link">
+        GetVehicleSpeedBox
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/LuaLibCore/" class="md-nav__link">
+        LuaLibCore
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/LuaLibDebug/" class="md-nav__link">
+        LuaLibDebug
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/LuaLibEvents/" class="md-nav__link">
+        LuaLibEvents
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/LuaLibFire/" class="md-nav__link">
+        LuaLibFire
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/LuaLibMath/" class="md-nav__link">
+        LuaLibMath
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/LuaLibStateless/" class="md-nav__link">
+        LuaLibStateless
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Lua%20Classes/RemoveEntityOrGroupBox/" class="md-nav__link">
+        RemoveEntityOrGroupBox
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#functions" class="md-nav__link">
+    Functions
+  </a>
+  
+    <nav class="md-nav" aria-label="Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#isaplayer" class="md-nav__link">
+    IsAPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setusableorientation" class="md-nav__link">
+    SetUsableOrientation(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setmaxhealth" class="md-nav__link">
+    SetMaxHealth(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isintakendownstate" class="md-nav__link">
+    IsInTakenDownState(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setreticleoffset" class="md-nav__link">
+    SetReticleOffset(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcecharactercustomization" class="md-nav__link">
+    ForceCharacterCustomization(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getreticleoffset" class="md-nav__link">
+    GetReticleOffset(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setautodrivedisabledbyscript" class="md-nav__link">
+    SetAutoDriveDisabledByScript(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getanimcuttime" class="md-nav__link">
+    GetAnimCutTime(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeitemfromstash" class="md-nav__link">
+    RemoveItemFromStash(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#healgearhealth" class="md-nav__link">
+    HealGearHealth(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpmsvalueint" class="md-nav__link">
+    SetPMSValueInt(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enablemeleeweaponthrow" class="md-nav__link">
+    EnableMeleeWeaponThrow(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeitem" class="md-nav__link">
+    RemoveItem(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isapawn" class="md-nav__link">
+    IsAPawn(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isonledge" class="md-nav__link">
+    IsOnLedge(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addanimattachment" class="md-nav__link">
+    AddAnimAttachment(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getbeautifier" class="md-nav__link">
+    GetBeautifier(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getitemquantitybyfilter" class="md-nav__link">
+    GetItemQuantityByFilter(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isinwater" class="md-nav__link">
+    IsInWater(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refillpocketedweaponclip" class="md-nav__link">
+    RefillPocketedWeaponClip(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcedetachmountedweapon" class="md-nav__link">
+    ForceDetachMountedWeapon(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refillpocketedequippableammobyfilter" class="md-nav__link">
+    RefillPocketedEquippableAmmoByFilter(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#belongtogosmgroup" class="md-nav__link">
+    BelongToGOSMGroup(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setdieonoxygendepletionpawnid-enabled" class="md-nav__link">
+    SetDieOnOxygenDepletion(pawnID, enabled)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addgunsforhire" class="md-nav__link">
+    AddGunsForHire(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setconditionalzoneeventsenabled" class="md-nav__link">
+    SetConditionalZoneEventsEnabled(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writeblackboardangle3f" class="md-nav__link">
+    WriteBlackBoardAngle3F(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnridingentity" class="md-nav__link">
+    GetPawnRidingEntity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setitemunlimitedquantity" class="md-nav__link">
+    SetItemUnlimitedQuantity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isontopofvehicle" class="md-nav__link">
+    IsOnTopOfVehicle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refillpocketedweaponclipbyfilter" class="md-nav__link">
+    RefillPocketedWeaponClipByFilter(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getgunsforhirefromarchetypeid" class="md-nav__link">
+    GetGunsForHireFromArchetypeId(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loadwolfskinoverride" class="md-nav__link">
+    LoadWolfskinOverride(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeitembyfilter" class="md-nav__link">
+    RemoveItemByFilter(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exotichackpawnstartclimbfail" class="md-nav__link">
+    ExoticHackPawnStartClimbFail(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lockbeautifier" class="md-nav__link">
+    LockBeautifier(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enableupdateisinwater" class="md-nav__link">
+    EnableUpdateIsInWater(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detachanchor" class="md-nav__link">
+    DetachAnchor(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#particlepauseemitting" class="md-nav__link">
+    ParticlePauseEmitting(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restoregosm" class="md-nav__link">
+    RestoreGOSM(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#holster" class="md-nav__link">
+    Holster(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checkpawngadgetinventorybycategory" class="md-nav__link">
+    CheckPawnGadgetInventoryByCategory(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writeblackboardentityid" class="md-nav__link">
+    WriteBlackBoardEntityId(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isinqte" class="md-nav__link">
+    IsInQTE(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enableexotickidnapcheck" class="md-nav__link">
+    EnableExoticKidnapCheck(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attachanchorwithname" class="md-nav__link">
+    AttachAnchorWithName(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disbanduniquegunsforhire" class="md-nav__link">
+    DisbandUniqueGunsForHire(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isanimationcutable" class="md-nav__link">
+    IsAnimationCutable(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getequippableitemammo" class="md-nav__link">
+    GetEquippableItemAmmo(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exotichackpawnendclimbfail" class="md-nav__link">
+    ExoticHackPawnEndClimbFail(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getanimattachment" class="md-nav__link">
+    GetAnimAttachment(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#permitpawntodetachfromzipline" class="md-nav__link">
+    PermitPawnToDetachFromZipline(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drawweapon" class="md-nav__link">
+    DrawWeapon(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isanimationinterruptible" class="md-nav__link">
+    IsAnimationInterruptible(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isitemunlimited" class="md-nav__link">
+    IsItemUnlimited(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dismountfromledge" class="md-nav__link">
+    DismountFromLedge(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeanimattachment" class="md-nav__link">
+    RemoveAnimAttachment(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#popbeautifier" class="md-nav__link">
+    PopBeautifier(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#destroyparticle" class="md-nav__link">
+    DestroyParticle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setkickonzipline" class="md-nav__link">
+    SetKickOnZipline(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setforcepanicswim" class="md-nav__link">
+    SetForcePanicSwim(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forceusemountedweapon" class="md-nav__link">
+    ForceUseMountedWeapon(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restrictedrpgfeatureenabled" class="md-nav__link">
+    RestrictedRpgFeatureEnabled(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additempawnid-itemid-ammount" class="md-nav__link">
+    AddItem(pawnID, itemID, ammount)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hassilentweapon" class="md-nav__link">
+    HasSilentWeapon(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checkpawnweaponinventorybyname" class="md-nav__link">
+    CheckPawnWeaponInventoryByName(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detachanchorwithname" class="md-nav__link">
+    DetachAnchorWithName(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ispawnalive" class="md-nav__link">
+    IsPawnAlive(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpmsvalueangle" class="md-nav__link">
+    SetPMSValueAngle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revertoverriddenwolfskin" class="md-nav__link">
+    RevertOverriddenWolfskin(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loadinventorypack" class="md-nav__link">
+    LoadInventoryPack(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transfertitemfromstashtoinventory" class="md-nav__link">
+    TransfertItemFromStashToInventory(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detachfromgrapple" class="md-nav__link">
+    DetachFromGrapple(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnhealthratio" class="md-nav__link">
+    GetPawnHealthRatio(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isgunsforhire" class="md-nav__link">
+    IsGunsForHire(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pushstatemachine" class="md-nav__link">
+    PushStateMachine(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#holsteritem" class="md-nav__link">
+    HolsterItem(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploywingsuit" class="md-nav__link">
+    DeployWingsuit(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpawninragdoll" class="md-nav__link">
+    SetPawnInRagDoll(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forceplayanimation" class="md-nav__link">
+    ForcePlayAnimation(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ispawndead" class="md-nav__link">
+    IsPawnDead(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isgunsforhirearchetypeinroster" class="md-nav__link">
+    IsGunsForHireArchetypeInRoster(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forgetammoinweaponclip" class="md-nav__link">
+    ForgetAmmoInWeaponClip(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#killpawnpawnid" class="md-nav__link">
+    KillPawn(pawnID, ?)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setcurrenttimedirection" class="md-nav__link">
+    SetCurrentTimeDirection(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stoptodestroyparticle" class="md-nav__link">
+    StopToDestroyParticle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shutdowngosm" class="md-nav__link">
+    ShutdownGOSM(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unequipwolfskinoverride" class="md-nav__link">
+    UnequipWolfskinOverride(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isgunsforhirearchetypeinsquad" class="md-nav__link">
+    IsGunsForHireArchetypeInSquad(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additemtostash" class="md-nav__link">
+    AddItemToStash(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpreviouspawnvehicle" class="md-nav__link">
+    GetPreviousPawnVehicle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setbeautifier" class="md-nav__link">
+    SetBeautifier(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attachanchorwithnamefrompos" class="md-nav__link">
+    AttachAnchorWithNameFromPos(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getbodypartdir" class="md-nav__link">
+    GetBodyPartDir(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getitemquantity" class="md-nav__link">
+    GetItemQuantity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refillpocketedequippableammo" class="md-nav__link">
+    RefillPocketedEquippableAmmo(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setreticlespeed" class="md-nav__link">
+    SetReticleSpeed(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checkpawnweaponinventorybydescriptorid" class="md-nav__link">
+    CheckPawnWeaponInventoryByDescriptorId(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clearrestricteditemlist" class="md-nav__link">
+    ClearRestrictedItemList(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addrestricteditemfilter" class="md-nav__link">
+    AddRestrictedItemFilter(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isanimationloop" class="md-nav__link">
+    IsAnimationLoop(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drawitem" class="md-nav__link">
+    DrawItem(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getbodypartpos" class="md-nav__link">
+    GetBodyPartPos(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#damagepawn" class="md-nav__link">
+    DamagePawn(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#giveskillpoints" class="md-nav__link">
+    GiveSkillPoints(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setautodraw" class="md-nav__link">
+    SetAutoDraw(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overriderpgitemskin" class="md-nav__link">
+    OverrideRpgItemSkin(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pushbeautifier" class="md-nav__link">
+    PushBeautifier(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnwingsuit" class="md-nav__link">
+    GetPawnWingsuit(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rpginventory_addlootpool" class="md-nav__link">
+    RpgInventory_AddLootPool(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sendgosmsignal" class="md-nav__link">
+    SendGosmSignal(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeblackboardfact" class="md-nav__link">
+    RemoveBlackBoardFact(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addrpglootrollable" class="md-nav__link">
+    AddRpgLootRollable(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#healcorehealth" class="md-nav__link">
+    HealCoreHealth(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setequippeditemvisibility" class="md-nav__link">
+    SetEquippedItemVisibility(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getanimboundtime" class="md-nav__link">
+    GetAnimBoundTime(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnstance" class="md-nav__link">
+    GetPawnStance(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checkpawnweaponinventorybycategory" class="md-nav__link">
+    CheckPawnWeaponInventoryByCategory(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setnoweaponmodepawnid-enabled-0" class="md-nav__link">
+    SetNoWeaponMode(pawnID, enabled, 0)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getrpginventoryitemquantity" class="md-nav__link">
+    GetRpgInventoryItemQuantity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getequippeditemid" class="md-nav__link">
+    GetEquippedItemID(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnvehicleseat" class="md-nav__link">
+    GetPawnVehicleSeat(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removecriticalhealth" class="md-nav__link">
+    RemoveCriticalHealth(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removepawnfromzipline" class="md-nav__link">
+    RemovePawnFromZipline(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sethealthregenenabled" class="md-nav__link">
+    SetHealthRegenEnabled(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writeblackboardbool" class="md-nav__link">
+    WriteBlackBoardBool(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getbodypartmatrix" class="md-nav__link">
+    GetBodyPartMatrix(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skipnextbinocularoutrofade" class="md-nav__link">
+    SkipNextBinocularOutroFade(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isanimationsupportsbackward" class="md-nav__link">
+    IsAnimationSupportsBackward(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addproceduraleffector" class="md-nav__link">
+    AddProceduralEffector(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ispawnonzipline" class="md-nav__link">
+    IsPawnOnZipline(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnvehicle" class="md-nav__link">
+    GetPawnVehicle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overridewolfskin" class="md-nav__link">
+    OverrideWolfskin(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setweaponinspectdisabled" class="md-nav__link">
+    SetWeaponInspectDisabled(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setdamagecappingonhealthratio" class="md-nav__link">
+    SetDamageCappingOnHealthRatio(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcepawnbailoutofvehicle" class="md-nav__link">
+    ForcePawnBailoutOfVehicle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equipwolfskinoverride" class="md-nav__link">
+    EquipWolfskinOverride(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setnoweaponmodeonremoteplayer" class="md-nav__link">
+    SetNoWeaponModeOnRemotePlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpmsvaluefloat" class="md-nav__link">
+    SetPMSValueFloat(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setautohealthregen" class="md-nav__link">
+    SetAutoHealthRegen(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getbestmeleeweapon" class="md-nav__link">
+    GetBestMeleeWeapon(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unlockbeautifier" class="md-nav__link">
+    UnlockBeautifier(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setlastqteresult" class="md-nav__link">
+    SetLastQTEResult(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#particlestopemitting" class="md-nav__link">
+    ParticleStopEmitting(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writeblackboardfloat" class="md-nav__link">
+    WriteBlackBoardFloat(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setmovebodycustominteractstring" class="md-nav__link">
+    SetMoveBodyCustomInteractString(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#playanimation" class="md-nav__link">
+    PlayAnimation(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#popstatemachine" class="md-nav__link">
+    PopStateMachine(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isgunsforhireinsquad" class="md-nav__link">
+    IsGunsForHireInSquad(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spawnparticle" class="md-nav__link">
+    SpawnParticle(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isgosmshutdown" class="md-nav__link">
+    IsGOSMShutdown(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#healpawn" class="md-nav__link">
+    HealPawn(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attachanchor" class="md-nav__link">
+    AttachAnchor(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lockuniquegunsforhire" class="md-nav__link">
+    LockUniqueGunsForHire(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setparticlevisible" class="md-nav__link">
+    SetParticleVisible(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#draw" class="md-nav__link">
+    Draw(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rpginventory_setrpgcompanionstatus" class="md-nav__link">
+    RpgInventory_SetRpgCompanionStatus(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unlockuniquegunsforhire" class="md-nav__link">
+    UnlockUniqueGunsForHire(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpawnhealthpawnid-0-health" class="md-nav__link">
+    SetPawnHealth(pawnID, 0, health)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnhealth" class="md-nav__link">
+    GetPawnHealth(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addgunsforhirefromarchetype" class="md-nav__link">
+    AddGunsForHireFromArchetype(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unloadwolfskinoverride" class="md-nav__link">
+    UnloadWolfskinOverride(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addrestricteditem" class="md-nav__link">
+    AddRestrictedItem(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getcurrentmovename" class="md-nav__link">
+    GetCurrentMoveName(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setoxygenmaskdrain" class="md-nav__link">
+    SetOxygenMaskDrain(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overridegadgetsocketselection" class="md-nav__link">
+    OverrideGadgetSocketSelection(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getcurrentanimname" class="md-nav__link">
+    GetCurrentAnimName(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#particlestartemitting" class="md-nav__link">
+    ParticleStartEmitting(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spawnparticleonclient" class="md-nav__link">
+    SpawnParticleOnClient(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checkpawnweaponinventorybyclass" class="md-nav__link">
+    CheckPawnWeaponInventoryByClass(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preventpawnfromdetachingfromzipline" class="md-nav__link">
+    PreventPawnFromDetachingFromZipline(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setnearz" class="md-nav__link">
+    SetNearZ(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additemsfromlootgroup" class="md-nav__link">
+    AddItemsFromLootGroup(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setmissionbombmarkeruserpawn" class="md-nav__link">
+    SetMissionBombMarkerUserPawn(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addprotectedlootdbitem" class="md-nav__link">
+    AddProtectedLootDbItem(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extinguishfirepawnid-1" class="md-nav__link">
+    ExtinguishFire(pawnID, 1)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sethighaltitudeoxygendrain" class="md-nav__link">
+    SetHighAltitudeOxygenDrain(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpawnstance" class="md-nav__link">
+    SetPawnStance(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isgunsforhireinroster" class="md-nav__link">
+    IsGunsForHireInRoster(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removecriticalhealthforallplayers" class="md-nav__link">
+    RemoveCriticalHealthForAllPlayers(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setcanmovebody" class="md-nav__link">
+    SetCanMoveBody(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnmaxhealth" class="md-nav__link">
+    GetPawnMaxHealth(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpmsvalueenum" class="md-nav__link">
+    SetPMSValueEnum(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getanimduration" class="md-nav__link">
+    GetAnimDuration(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setusable" class="md-nav__link">
+    SetUsable(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getreticlescreenpos" class="md-nav__link">
+    GetReticleScreenPos(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hassilentweaponequipped" class="md-nav__link">
+    HasSilentWeaponEquipped(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#givereputationtoplayer" class="md-nav__link">
+    GiveReputationToPlayer(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#damagepawnwithdetail" class="md-nav__link">
+    DamagePawnWithDetail(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpawnvehicletype" class="md-nav__link">
+    GetPawnVehicleType(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enableweaponbreaking" class="md-nav__link">
+    EnableWeaponBreaking(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setpmsvaluebool" class="md-nav__link">
+    SetPMSValueBool(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ispawndown" class="md-nav__link">
+    IsPawnDown(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setinqte" class="md-nav__link">
+    SetInQTE(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeallinventorypawnid-1" class="md-nav__link">
+    RemoveAllInventory(pawnID, 1)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setitemquantity" class="md-nav__link">
+    SetItemQuantity(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removeprotectedlootdbitem" class="md-nav__link">
+    RemoveProtectedLootDbItem(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ispawnheadunderwater" class="md-nav__link">
+    IsPawnHeadUnderwater(...)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getweaponclassfromname" class="md-nav__link">
+    GetWeaponClassFromName(...)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <a href="https://github.com/lnx00/FarCry-Modding-Docs/edit/main/docs/Lua/Classes/API/CAPI_Pawn.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="pawn">Pawn</h1>
+<p>A pawn is an <a href="../CAPI_Entity/">Entity</a>.</p>
+<hr />
+<h2 id="functions">Functions</h2>
+<h3 id="isaplayer"><code>IsAPlayer(...)</code></h3>
+<h3 id="setusableorientation"><code>SetUsableOrientation(...)</code></h3>
+<h3 id="setmaxhealth"><code>SetMaxHealth(...)</code></h3>
+<h3 id="isintakendownstate"><code>IsInTakenDownState(...)</code></h3>
+<h3 id="setreticleoffset"><code>SetReticleOffset(...)</code></h3>
+<h3 id="forcecharactercustomization"><code>ForceCharacterCustomization(...)</code></h3>
+<h3 id="getreticleoffset"><code>GetReticleOffset(...)</code></h3>
+<h3 id="setautodrivedisabledbyscript"><code>SetAutoDriveDisabledByScript(...)</code></h3>
+<h3 id="getanimcuttime"><code>GetAnimCutTime(...)</code></h3>
+<h3 id="removeitemfromstash"><code>RemoveItemFromStash(...)</code></h3>
+<h3 id="healgearhealth"><code>HealGearHealth(...)</code></h3>
+<h3 id="setpmsvalueint"><code>SetPMSValueInt(...)</code></h3>
+<h3 id="enablemeleeweaponthrow"><code>EnableMeleeWeaponThrow(...)</code></h3>
+<h3 id="removeitem"><code>RemoveItem(...)</code></h3>
+<h3 id="isapawn"><code>IsAPawn(...)</code></h3>
+<h3 id="isonledge"><code>IsOnLedge(...)</code></h3>
+<h3 id="addanimattachment"><code>AddAnimAttachment(...)</code></h3>
+<h3 id="getbeautifier"><code>GetBeautifier(...)</code></h3>
+<h3 id="getitemquantitybyfilter"><code>GetItemQuantityByFilter(...)</code></h3>
+<h3 id="isinwater"><code>IsInWater(...)</code></h3>
+<h3 id="refillpocketedweaponclip"><code>RefillPocketedWeaponClip(...)</code></h3>
+<h3 id="forcedetachmountedweapon"><code>ForceDetachMountedWeapon(...)</code></h3>
+<h3 id="refillpocketedequippableammobyfilter"><code>RefillPocketedEquippableAmmoByFilter(...)</code></h3>
+<h3 id="belongtogosmgroup"><code>BelongToGOSMGroup(...)</code></h3>
+<h3 id="setdieonoxygendepletionpawnid-enabled"><code>SetDieOnOxygenDepletion(pawnID, enabled)</code></h3>
+<p>Enables or disables the pawn's death when the oxygen level reaches 0.</p>
+<h3 id="addgunsforhire"><code>AddGunsForHire(...)</code></h3>
+<h3 id="setconditionalzoneeventsenabled"><code>SetConditionalZoneEventsEnabled(...)</code></h3>
+<h3 id="writeblackboardangle3f"><code>WriteBlackBoardAngle3F(...)</code></h3>
+<h3 id="getpawnridingentity"><code>GetPawnRidingEntity(...)</code></h3>
+<h3 id="setitemunlimitedquantity"><code>SetItemUnlimitedQuantity(...)</code></h3>
+<h3 id="isontopofvehicle"><code>IsOnTopOfVehicle(...)</code></h3>
+<h3 id="refillpocketedweaponclipbyfilter"><code>RefillPocketedWeaponClipByFilter(...)</code></h3>
+<h3 id="getgunsforhirefromarchetypeid"><code>GetGunsForHireFromArchetypeId(...)</code></h3>
+<h3 id="loadwolfskinoverride"><code>LoadWolfskinOverride(...)</code></h3>
+<h3 id="removeitembyfilter"><code>RemoveItemByFilter(...)</code></h3>
+<h3 id="exotichackpawnstartclimbfail"><code>ExoticHackPawnStartClimbFail(...)</code></h3>
+<h3 id="lockbeautifier"><code>LockBeautifier(...)</code></h3>
+<h3 id="enableupdateisinwater"><code>EnableUpdateIsInWater(...)</code></h3>
+<h3 id="detachanchor"><code>DetachAnchor(...)</code></h3>
+<h3 id="particlepauseemitting"><code>ParticlePauseEmitting(...)</code></h3>
+<h3 id="restoregosm"><code>RestoreGOSM(...)</code></h3>
+<h3 id="holster"><code>Holster(...)</code></h3>
+<h3 id="checkpawngadgetinventorybycategory"><code>CheckPawnGadgetInventoryByCategory(...)</code></h3>
+<h3 id="writeblackboardentityid"><code>WriteBlackBoardEntityId(...)</code></h3>
+<h3 id="isinqte"><code>IsInQTE(...)</code></h3>
+<h3 id="enableexotickidnapcheck"><code>EnableExoticKidnapCheck(...)</code></h3>
+<h3 id="attachanchorwithname"><code>AttachAnchorWithName(...)</code></h3>
+<h3 id="disbanduniquegunsforhire"><code>DisbandUniqueGunsForHire(...)</code></h3>
+<h3 id="isanimationcutable"><code>IsAnimationCutable(...)</code></h3>
+<h3 id="getequippableitemammo"><code>GetEquippableItemAmmo(...)</code></h3>
+<h3 id="exotichackpawnendclimbfail"><code>ExoticHackPawnEndClimbFail(...)</code></h3>
+<h3 id="getanimattachment"><code>GetAnimAttachment(...)</code></h3>
+<h3 id="permitpawntodetachfromzipline"><code>PermitPawnToDetachFromZipline(...)</code></h3>
+<h3 id="drawweapon"><code>DrawWeapon(...)</code></h3>
+<h3 id="isanimationinterruptible"><code>IsAnimationInterruptible(...)</code></h3>
+<h3 id="isitemunlimited"><code>IsItemUnlimited(...)</code></h3>
+<h3 id="dismountfromledge"><code>DismountFromLedge(...)</code></h3>
+<h3 id="removeanimattachment"><code>RemoveAnimAttachment(...)</code></h3>
+<h3 id="popbeautifier"><code>PopBeautifier(...)</code></h3>
+<h3 id="destroyparticle"><code>DestroyParticle(...)</code></h3>
+<h3 id="setkickonzipline"><code>SetKickOnZipline(...)</code></h3>
+<h3 id="setforcepanicswim"><code>SetForcePanicSwim(...)</code></h3>
+<h3 id="forceusemountedweapon"><code>ForceUseMountedWeapon(...)</code></h3>
+<h3 id="restrictedrpgfeatureenabled"><code>RestrictedRpgFeatureEnabled(...)</code></h3>
+<h3 id="additempawnid-itemid-ammount"><code>AddItem(pawnID, itemID, ammount)</code></h3>
+<h3 id="hassilentweapon"><code>HasSilentWeapon(...)</code></h3>
+<h3 id="checkpawnweaponinventorybyname"><code>CheckPawnWeaponInventoryByName(...)</code></h3>
+<h3 id="detachanchorwithname"><code>DetachAnchorWithName(...)</code></h3>
+<h3 id="ispawnalive"><code>IsPawnAlive(...)</code></h3>
+<h3 id="setpmsvalueangle"><code>SetPMSValueAngle(...)</code></h3>
+<h3 id="revertoverriddenwolfskin"><code>RevertOverriddenWolfskin(...)</code></h3>
+<h3 id="loadinventorypack"><code>LoadInventoryPack(...)</code></h3>
+<h3 id="transfertitemfromstashtoinventory"><code>TransfertItemFromStashToInventory(...)</code></h3>
+<h3 id="detachfromgrapple"><code>DetachFromGrapple(...)</code></h3>
+<h3 id="getpawnhealthratio"><code>GetPawnHealthRatio(...)</code></h3>
+<h3 id="isgunsforhire"><code>IsGunsForHire(...)</code></h3>
+<h3 id="pushstatemachine"><code>PushStateMachine(...)</code></h3>
+<h3 id="holsteritem"><code>HolsterItem(...)</code></h3>
+<h3 id="deploywingsuit"><code>DeployWingsuit(...)</code></h3>
+<h3 id="setpawninragdoll"><code>SetPawnInRagDoll(...)</code></h3>
+<h3 id="forceplayanimation"><code>ForcePlayAnimation(...)</code></h3>
+<h3 id="ispawndead"><code>IsPawnDead(...)</code></h3>
+<h3 id="isgunsforhirearchetypeinroster"><code>IsGunsForHireArchetypeInRoster(...)</code></h3>
+<h3 id="forgetammoinweaponclip"><code>ForgetAmmoInWeaponClip(...)</code></h3>
+<h3 id="killpawnpawnid"><code>KillPawn(pawnID, ?)</code></h3>
+<p>Kills the given pawn.</p>
+<h3 id="setcurrenttimedirection"><code>SetCurrentTimeDirection(...)</code></h3>
+<h3 id="stoptodestroyparticle"><code>StopToDestroyParticle(...)</code></h3>
+<h3 id="shutdowngosm"><code>ShutdownGOSM(...)</code></h3>
+<h3 id="unequipwolfskinoverride"><code>UnequipWolfskinOverride(...)</code></h3>
+<h3 id="isgunsforhirearchetypeinsquad"><code>IsGunsForHireArchetypeInSquad(...)</code></h3>
+<h3 id="additemtostash"><code>AddItemToStash(...)</code></h3>
+<h3 id="getpreviouspawnvehicle"><code>GetPreviousPawnVehicle(...)</code></h3>
+<h3 id="setbeautifier"><code>SetBeautifier(...)</code></h3>
+<h3 id="attachanchorwithnamefrompos"><code>AttachAnchorWithNameFromPos(...)</code></h3>
+<h3 id="getbodypartdir"><code>GetBodyPartDir(...)</code></h3>
+<h3 id="getitemquantity"><code>GetItemQuantity(...)</code></h3>
+<h3 id="refillpocketedequippableammo"><code>RefillPocketedEquippableAmmo(...)</code></h3>
+<h3 id="setreticlespeed"><code>SetReticleSpeed(...)</code></h3>
+<h3 id="checkpawnweaponinventorybydescriptorid"><code>CheckPawnWeaponInventoryByDescriptorId(...)</code></h3>
+<h3 id="clearrestricteditemlist"><code>ClearRestrictedItemList(...)</code></h3>
+<h3 id="addrestricteditemfilter"><code>AddRestrictedItemFilter(...)</code></h3>
+<h3 id="isanimationloop"><code>IsAnimationLoop(...)</code></h3>
+<h3 id="drawitem"><code>DrawItem(...)</code></h3>
+<h3 id="getbodypartpos"><code>GetBodyPartPos(...)</code></h3>
+<h3 id="damagepawn"><code>DamagePawn(...)</code></h3>
+<h3 id="giveskillpoints"><code>GiveSkillPoints(...)</code></h3>
+<h3 id="setautodraw"><code>SetAutoDraw(...)</code></h3>
+<h3 id="overriderpgitemskin"><code>OverrideRpgItemSkin(...)</code></h3>
+<h3 id="pushbeautifier"><code>PushBeautifier(...)</code></h3>
+<h3 id="getpawnwingsuit"><code>GetPawnWingsuit(...)</code></h3>
+<h3 id="rpginventory_addlootpool"><code>RpgInventory_AddLootPool(...)</code></h3>
+<h3 id="sendgosmsignal"><code>SendGosmSignal(...)</code></h3>
+<h3 id="removeblackboardfact"><code>RemoveBlackBoardFact(...)</code></h3>
+<h3 id="addrpglootrollable"><code>AddRpgLootRollable(...)</code></h3>
+<h3 id="healcorehealth"><code>HealCoreHealth(...)</code></h3>
+<h3 id="setequippeditemvisibility"><code>SetEquippedItemVisibility(...)</code></h3>
+<h3 id="getanimboundtime"><code>GetAnimBoundTime(...)</code></h3>
+<h3 id="getpawnstance"><code>GetPawnStance(...)</code></h3>
+<h3 id="checkpawnweaponinventorybycategory"><code>CheckPawnWeaponInventoryByCategory(...)</code></h3>
+<h3 id="setnoweaponmodepawnid-enabled-0"><code>SetNoWeaponMode(pawnID, enabled, 0)</code></h3>
+<h3 id="getrpginventoryitemquantity"><code>GetRpgInventoryItemQuantity(...)</code></h3>
+<h3 id="getequippeditemid"><code>GetEquippedItemID(...)</code></h3>
+<h3 id="getpawnvehicleseat"><code>GetPawnVehicleSeat(...)</code></h3>
+<h3 id="removecriticalhealth"><code>RemoveCriticalHealth(...)</code></h3>
+<h3 id="removepawnfromzipline"><code>RemovePawnFromZipline(...)</code></h3>
+<h3 id="sethealthregenenabled"><code>SetHealthRegenEnabled(...)</code></h3>
+<h3 id="writeblackboardbool"><code>WriteBlackBoardBool(...)</code></h3>
+<h3 id="getbodypartmatrix"><code>GetBodyPartMatrix(...)</code></h3>
+<h3 id="skipnextbinocularoutrofade"><code>SkipNextBinocularOutroFade(...)</code></h3>
+<h3 id="isanimationsupportsbackward"><code>IsAnimationSupportsBackward(...)</code></h3>
+<h3 id="addproceduraleffector"><code>AddProceduralEffector(...)</code></h3>
+<h3 id="ispawnonzipline"><code>IsPawnOnZipline(...)</code></h3>
+<h3 id="getpawnvehicle"><code>GetPawnVehicle(...)</code></h3>
+<h3 id="overridewolfskin"><code>OverrideWolfskin(...)</code></h3>
+<h3 id="setweaponinspectdisabled"><code>SetWeaponInspectDisabled(...)</code></h3>
+<h3 id="setdamagecappingonhealthratio"><code>SetDamageCappingOnHealthRatio(...)</code></h3>
+<h3 id="forcepawnbailoutofvehicle"><code>ForcePawnBailoutOfVehicle(...)</code></h3>
+<h3 id="equipwolfskinoverride"><code>EquipWolfskinOverride(...)</code></h3>
+<h3 id="setnoweaponmodeonremoteplayer"><code>SetNoWeaponModeOnRemotePlayer(...)</code></h3>
+<h3 id="setpmsvaluefloat"><code>SetPMSValueFloat(...)</code></h3>
+<h3 id="setautohealthregen"><code>SetAutoHealthRegen(...)</code></h3>
+<h3 id="getbestmeleeweapon"><code>GetBestMeleeWeapon(...)</code></h3>
+<h3 id="unlockbeautifier"><code>UnlockBeautifier(...)</code></h3>
+<h3 id="setlastqteresult"><code>SetLastQTEResult(...)</code></h3>
+<h3 id="particlestopemitting"><code>ParticleStopEmitting(...)</code></h3>
+<h3 id="writeblackboardfloat"><code>WriteBlackBoardFloat(...)</code></h3>
+<h3 id="setmovebodycustominteractstring"><code>SetMoveBodyCustomInteractString(...)</code></h3>
+<h3 id="playanimation"><code>PlayAnimation(...)</code></h3>
+<h3 id="popstatemachine"><code>PopStateMachine(...)</code></h3>
+<h3 id="isgunsforhireinsquad"><code>IsGunsForHireInSquad(...)</code></h3>
+<h3 id="spawnparticle"><code>SpawnParticle(...)</code></h3>
+<h3 id="isgosmshutdown"><code>IsGOSMShutdown(...)</code></h3>
+<h3 id="healpawn"><code>HealPawn(...)</code></h3>
+<h3 id="attachanchor"><code>AttachAnchor(...)</code></h3>
+<h3 id="lockuniquegunsforhire"><code>LockUniqueGunsForHire(...)</code></h3>
+<h3 id="setparticlevisible"><code>SetParticleVisible(...)</code></h3>
+<h3 id="draw"><code>Draw(...)</code></h3>
+<h3 id="rpginventory_setrpgcompanionstatus"><code>RpgInventory_SetRpgCompanionStatus(...)</code></h3>
+<h3 id="unlockuniquegunsforhire"><code>UnlockUniqueGunsForHire(...)</code></h3>
+<h3 id="setpawnhealthpawnid-0-health"><code>SetPawnHealth(pawnID, 0, health)</code></h3>
+<p>Sets the health of the given pawn.</p>
+<h3 id="getpawnhealth"><code>GetPawnHealth(...)</code></h3>
+<h3 id="addgunsforhirefromarchetype"><code>AddGunsForHireFromArchetype(...)</code></h3>
+<h3 id="unloadwolfskinoverride"><code>UnloadWolfskinOverride(...)</code></h3>
+<h3 id="addrestricteditem"><code>AddRestrictedItem(...)</code></h3>
+<h3 id="getcurrentmovename"><code>GetCurrentMoveName(...)</code></h3>
+<h3 id="setoxygenmaskdrain"><code>SetOxygenMaskDrain(...)</code></h3>
+<h3 id="overridegadgetsocketselection"><code>OverrideGadgetSocketSelection(...)</code></h3>
+<h3 id="getcurrentanimname"><code>GetCurrentAnimName(...)</code></h3>
+<h3 id="particlestartemitting"><code>ParticleStartEmitting(...)</code></h3>
+<h3 id="spawnparticleonclient"><code>SpawnParticleOnClient(...)</code></h3>
+<h3 id="checkpawnweaponinventorybyclass"><code>CheckPawnWeaponInventoryByClass(...)</code></h3>
+<h3 id="preventpawnfromdetachingfromzipline"><code>PreventPawnFromDetachingFromZipline(...)</code></h3>
+<h3 id="setnearz"><code>SetNearZ(...)</code></h3>
+<h3 id="additemsfromlootgroup"><code>AddItemsFromLootGroup(...)</code></h3>
+<h3 id="setmissionbombmarkeruserpawn"><code>SetMissionBombMarkerUserPawn(...)</code></h3>
+<h3 id="addprotectedlootdbitem"><code>AddProtectedLootDbItem(...)</code></h3>
+<h3 id="extinguishfirepawnid-1"><code>ExtinguishFire(pawnID, 1)</code></h3>
+<p>Extinguishes the fire on the given pawn.</p>
+<h3 id="sethighaltitudeoxygendrain"><code>SetHighAltitudeOxygenDrain(...)</code></h3>
+<h3 id="setpawnstance"><code>SetPawnStance(...)</code></h3>
+<h3 id="isgunsforhireinroster"><code>IsGunsForHireInRoster(...)</code></h3>
+<h3 id="removecriticalhealthforallplayers"><code>RemoveCriticalHealthForAllPlayers(...)</code></h3>
+<h3 id="setcanmovebody"><code>SetCanMoveBody(...)</code></h3>
+<h3 id="getpawnmaxhealth"><code>GetPawnMaxHealth(...)</code></h3>
+<h3 id="setpmsvalueenum"><code>SetPMSValueEnum(...)</code></h3>
+<h3 id="getanimduration"><code>GetAnimDuration(...)</code></h3>
+<h3 id="setusable"><code>SetUsable(...)</code></h3>
+<h3 id="getreticlescreenpos"><code>GetReticleScreenPos(...)</code></h3>
+<h3 id="hassilentweaponequipped"><code>HasSilentWeaponEquipped(...)</code></h3>
+<h3 id="givereputationtoplayer"><code>GiveReputationToPlayer(...)</code></h3>
+<h3 id="damagepawnwithdetail"><code>DamagePawnWithDetail(...)</code></h3>
+<h3 id="getpawnvehicletype"><code>GetPawnVehicleType(...)</code></h3>
+<h3 id="enableweaponbreaking"><code>EnableWeaponBreaking(...)</code></h3>
+<h3 id="setpmsvaluebool"><code>SetPMSValueBool(...)</code></h3>
+<h3 id="ispawndown"><code>IsPawnDown(...)</code></h3>
+<h3 id="setinqte"><code>SetInQTE(...)</code></h3>
+<h3 id="removeallinventorypawnid-1"><code>RemoveAllInventory(pawnID, 1)</code></h3>
+<h3 id="setitemquantity"><code>SetItemQuantity(...)</code></h3>
+<h3 id="removeprotectedlootdbitem"><code>RemoveProtectedLootDbItem(...)</code></h3>
+<h3 id="ispawnheadunderwater"><code>IsPawnHeadUnderwater(...)</code></h3>
+<h3 id="getweaponclassfromname"><code>GetWeaponClassFromName(...)</code></h3>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../CAPI_NPC/" class="md-footer__link md-footer__link--prev" aria-label="Previous: NPC" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              NPC
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../CAPI_Player/" class="md-footer__link md-footer__link--next" aria-label="Next: Player" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Player
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.top"], "search": "../../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>
