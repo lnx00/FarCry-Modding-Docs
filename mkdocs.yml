@@ -1,4 +1,7 @@
 site_name: Far Cry Docs
+repo_url: https://github.com/lnx00/FarCry-Modding-Docs
+repo_name: FarCry Modding Docs
+edit_uri: https://github.com/lnx00/FarCry-Modding-Docs/edit/main/docs/
 theme:
   name: material
   palette:
