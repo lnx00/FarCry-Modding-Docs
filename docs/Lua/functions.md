@@ -1015,7 +1015,7 @@ Clears the global heat value.
 
 ### `CScriptCallbackSystem_GetInstance()`
 
-Returns the global instance of the [ScriptCallbackSystem](CScriptCallbackSystem.md).
+Returns the global instance of the [CScriptCallbackSystem](Classes/CScriptCallbackSystem.md).
 
 ### `CTerrain_GetInstance(...)`
 
